@@ -36,7 +36,8 @@ SOURCES = [
      "feed": "https://one.yoso.one/rss.xml"},
     {"key": "kuro", "name": "Kuro", "kanji": "黒", "site": "https://kuro.yoso.one/",
      "feed": "https://kuro.yoso.one/feed.xml",
-     "thumb": ("/img/full/", "/img/thumb/")},   # smaller copies for the magazine
+     "thumb": ("/img/full/", "/img/thumb/"),    # smaller copies for the magazine
+     "strip_title": r"\s+[—–-]\s+\S*\d\S*$"},  # drop the file name: '夜 Night — R0000576' -> '夜 Night'
     {"key": "shinsei", "name": "Shinsei", "kanji": "心", "site": "https://shinsei.yoso.one/",
      "works": "https://shinsei.yoso.one/assets/works.js",
      "works_page": "https://shinsei.yoso.one/works.html"},
@@ -121,6 +122,8 @@ def read_feed(src, data):
                 date = parsedate_to_datetime(it.findtext("pubDate"))
             except (TypeError, ValueError):
                 date = None
+        if src.get("strip_title"):
+            title = re.sub(src["strip_title"], "", title).strip() or title
         found.append({
             "id": (it.findtext("guid") or link).strip(),
             "title": title,
@@ -199,6 +202,12 @@ def gather(local):
             if p["source"] == key and uid not in seen:
                 p["gone"] = True
         print(f"  {src['name']}: {len(pieces)} piece(s), {new} new")
+    # Tidy titles already in the archive too (On only: the sites themselves are untouched).
+    for src in SOURCES:
+        if src.get("strip_title"):
+            for p in archive.values():
+                if p["source"] == src["key"]:
+                    p["title"] = re.sub(src["strip_title"], "", p["title"]).strip() or p["title"]
     return archive
 
 

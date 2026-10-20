@@ -1,11 +1,11 @@
 /* Made by build.py: do not edit by hand. */
 window.ON_SOURCES = [{"key": "vault", "name": "The Vault", "kanji": "一", "site": "https://one.yoso.one/"}, {"key": "kuro", "name": "Kuro", "kanji": "黒", "site": "https://kuro.yoso.one/"}, {"key": "shinsei", "name": "Shinsei", "kanji": "心", "site": "https://shinsei.yoso.one/"}, {"key": "river", "name": "River", "kanji": "川", "site": "https://river.yoso.one/"}];
-window.ON_UPDATED = "2026-10-20T22:05:07+09:00";
+window.ON_UPDATED = "2026-10-20T22:08:16+09:00";
 window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021965",
 "source": "kuro",
-"title": "夜 Night — _R021965",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r021965",
 "summary": "夜 Night · _R021965 · Ricoh GR II · 14 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021965.jpg",
@@ -17,7 +17,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001178",
 "source": "kuro",
-"title": "夜 Night — R0001178",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0001178",
 "summary": "夜 Night · R0001178 · Ricoh GR III · 10 May 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001178.jpg",
@@ -29,7 +29,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000806",
 "source": "kuro",
-"title": "夜 Night — R0000806",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0000806",
 "summary": "夜 Night · R0000806 · Ricoh GR III · 28 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000806.jpg",
@@ -41,7 +41,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000810",
 "source": "kuro",
-"title": "夜 Night — R0000810",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0000810",
 "summary": "夜 Night · R0000810 · Ricoh GR III · 28 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000810.jpg",
@@ -53,7 +53,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000815",
 "source": "kuro",
-"title": "夜 Night — R0000815",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0000815",
 "summary": "夜 Night · R0000815 · Ricoh GR III · 28 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000815.jpg",
@@ -65,7 +65,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000816",
 "source": "kuro",
-"title": "夜 Night — R0000816",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0000816",
 "summary": "夜 Night · R0000816 · Ricoh GR III · 28 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000816.jpg",
@@ -77,7 +77,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000817",
 "source": "kuro",
-"title": "夜 Night — R0000817",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0000817",
 "summary": "夜 Night · R0000817 · Ricoh GR III · 28 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000817.jpg",
@@ -89,7 +89,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001301",
 "source": "kuro",
-"title": "夜 Night — R0001301",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0001301",
 "summary": "夜 Night · R0001301 · Ricoh GR III · 4 June 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001301.jpg",
@@ -101,7 +101,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001302",
 "source": "kuro",
-"title": "夜 Night — R0001302",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0001302",
 "summary": "夜 Night · R0001302 · Ricoh GR III · 4 June 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001302.jpg",
@@ -113,7 +113,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001348",
 "source": "kuro",
-"title": "夜 Night — R0001348",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0001348",
 "summary": "夜 Night · R0001348 · Ricoh GR III · 18 June 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001348.jpg",
@@ -125,7 +125,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001349",
 "source": "kuro",
-"title": "夜 Night — R0001349",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0001349",
 "summary": "夜 Night · R0001349 · Ricoh GR III · 18 June 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001349.jpg",
@@ -137,7 +137,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001350",
 "source": "kuro",
-"title": "夜 Night — R0001350",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0001350",
 "summary": "夜 Night · R0001350 · Ricoh GR III · 18 June 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001350.jpg",
@@ -149,7 +149,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021619",
 "source": "kuro",
-"title": "電車 Train — _R021619",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r021619",
 "summary": "電車 Train · _R021619 · Ricoh GR II · 12 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021619.jpg",
@@ -161,7 +161,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021620",
 "source": "kuro",
-"title": "電車 Train — _R021620",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r021620",
 "summary": "電車 Train · _R021620 · Ricoh GR II · 12 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021620.jpg",
@@ -173,7 +173,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021621",
 "source": "kuro",
-"title": "電車 Train — _R021621",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r021621",
 "summary": "電車 Train · _R021621 · Ricoh GR II · 12 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021621.jpg",
@@ -185,7 +185,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r022923",
 "source": "kuro",
-"title": "電車 Train — _R022923",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r022923",
 "summary": "電車 Train · _R022923 · Ricoh GR II · 9 April 2020",
 "image": "https://kuro.yoso.one/img/thumb/r022923.jpg",
@@ -197,7 +197,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023917",
 "source": "kuro",
-"title": "電車 Train — _R023917",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r023917",
 "summary": "電車 Train · _R023917 · Ricoh GR II · 20 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023917.jpg",
@@ -209,7 +209,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021609",
 "source": "kuro",
-"title": "電車 Train — _R021609",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r021609",
 "summary": "電車 Train · _R021609 · Ricoh GR II · 12 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021609.jpg",
@@ -221,7 +221,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023966",
 "source": "kuro",
-"title": "電車 Train — _R023966",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r023966",
 "summary": "電車 Train · _R023966 · Ricoh GR II · 22 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023966.jpg",
@@ -233,7 +233,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025182",
 "source": "kuro",
-"title": "街 Street — _R025182",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025182",
 "summary": "街 Street · _R025182 · Ricoh GR II · 11 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025182.jpg",
@@ -245,7 +245,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025183",
 "source": "kuro",
-"title": "街 Street — _R025183",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025183",
 "summary": "街 Street · _R025183 · Ricoh GR II · 11 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025183.jpg",
@@ -257,7 +257,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025184",
 "source": "kuro",
-"title": "街 Street — _R025184",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025184",
 "summary": "街 Street · _R025184 · Ricoh GR II · 11 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025184.jpg",
@@ -269,7 +269,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025187",
 "source": "kuro",
-"title": "街 Street — _R025187",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025187",
 "summary": "街 Street · _R025187 · Ricoh GR II · 11 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025187.jpg",
@@ -281,7 +281,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025033",
 "source": "kuro",
-"title": "街 Street — _R025033",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025033",
 "summary": "街 Street · _R025033 · Ricoh GR II · 19 May 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025033.jpg",
@@ -293,7 +293,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000384",
 "source": "kuro",
-"title": "街 Street — R0000384",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r0000384",
 "summary": "街 Street · R0000384 · Ricoh GR III · 5 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000384.jpg",
@@ -305,7 +305,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000385",
 "source": "kuro",
-"title": "街 Street — R0000385",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r0000385",
 "summary": "街 Street · R0000385 · Ricoh GR III · 5 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000385.jpg",
@@ -317,7 +317,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001174",
 "source": "kuro",
-"title": "街 Street — R0001174",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r0001174",
 "summary": "街 Street · R0001174 · Ricoh GR III · 10 May 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001174.jpg",
@@ -329,7 +329,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001175",
 "source": "kuro",
-"title": "街 Street — R0001175",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r0001175",
 "summary": "街 Street · R0001175 · Ricoh GR III · 10 May 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001175.jpg",
@@ -341,7 +341,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001177",
 "source": "kuro",
-"title": "街 Street — R0001177",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r0001177",
 "summary": "街 Street · R0001177 · Ricoh GR III · 10 May 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001177.jpg",
@@ -353,7 +353,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024865",
 "source": "kuro",
-"title": "街 Street — _R024865",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r024865",
 "summary": "街 Street · _R024865 · Ricoh GR II · 14 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024865.jpg",
@@ -365,7 +365,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024162",
 "source": "kuro",
-"title": "街 Street — _R024162",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r024162",
 "summary": "街 Street · _R024162 · Ricoh GR II · 20 September 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024162.jpg",
@@ -377,7 +377,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024841",
 "source": "kuro",
-"title": "街 Street — _R024841",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r024841",
 "summary": "街 Street · _R024841 · Ricoh GR II · 9 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024841.jpg",
@@ -389,7 +389,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024843",
 "source": "kuro",
-"title": "街 Street — _R024843",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r024843",
 "summary": "街 Street · _R024843 · Ricoh GR II · 9 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024843.jpg",
@@ -401,7 +401,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024844",
 "source": "kuro",
-"title": "街 Street — _R024844",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r024844",
 "summary": "街 Street · _R024844 · Ricoh GR II · 9 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024844.jpg",
@@ -413,7 +413,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021956",
 "source": "kuro",
-"title": "人 People — _R021956",
+"title": "人 People",
 "link": "https://kuro.yoso.one/#f-r021956",
 "summary": "人 People · _R021956 · Ricoh GR II · 14 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021956.jpg",
@@ -425,7 +425,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000693",
 "source": "kuro",
-"title": "人 People — R0000693",
+"title": "人 People",
 "link": "https://kuro.yoso.one/#f-r0000693",
 "summary": "人 People · R0000693 · Ricoh GR III · 25 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000693.jpg",
@@ -437,7 +437,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000407",
 "source": "kuro",
-"title": "人 People — R0000407",
+"title": "人 People",
 "link": "https://kuro.yoso.one/#f-r0000407",
 "summary": "人 People · R0000407 · Ricoh GR III · 6 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000407.jpg",
@@ -449,7 +449,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024299",
 "source": "kuro",
-"title": "人 People — _R024299",
+"title": "人 People",
 "link": "https://kuro.yoso.one/#f-r024299",
 "summary": "人 People · _R024299 · Ricoh GR II · 7 November 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024299.jpg",
@@ -461,7 +461,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024303",
 "source": "kuro",
-"title": "人 People — _R024303",
+"title": "人 People",
 "link": "https://kuro.yoso.one/#f-r024303",
 "summary": "人 People · _R024303 · Ricoh GR II · 9 November 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024303.jpg",
@@ -473,7 +473,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023061",
 "source": "kuro",
-"title": "人 People — _R023061",
+"title": "人 People",
 "link": "https://kuro.yoso.one/#f-r023061",
 "summary": "人 People · _R023061 · Ricoh GR II · 25 May 2020",
 "image": "https://kuro.yoso.one/img/thumb/r023061.jpg",
@@ -485,7 +485,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024695",
 "source": "kuro",
-"title": "人 People — _R024695",
+"title": "人 People",
 "link": "https://kuro.yoso.one/#f-r024695",
 "summary": "人 People · _R024695 · Ricoh GR II · 3 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024695.jpg",
@@ -497,7 +497,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025173",
 "source": "kuro",
-"title": "人 People — _R025173",
+"title": "人 People",
 "link": "https://kuro.yoso.one/#f-r025173",
 "summary": "人 People · _R025173 · Ricoh GR II · 11 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025173.jpg",
@@ -509,7 +509,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025429",
 "source": "kuro",
-"title": "人 People — _R025429",
+"title": "人 People",
 "link": "https://kuro.yoso.one/#f-r025429",
 "summary": "人 People · _R025429 · Ricoh GR II · 21 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025429.jpg",
@@ -521,7 +521,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000170",
 "source": "kuro",
-"title": "顔 Faces — R0000170",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r0000170",
 "summary": "顔 Faces · R0000170 · Ricoh GR III · 25 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000170.jpg",
@@ -533,7 +533,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001142",
 "source": "kuro",
-"title": "顔 Faces — R0001142",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r0001142",
 "summary": "顔 Faces · R0001142 · Ricoh GR III · 20 April 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001142.jpg",
@@ -545,7 +545,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001143",
 "source": "kuro",
-"title": "顔 Faces — R0001143",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r0001143",
 "summary": "顔 Faces · R0001143 · Ricoh GR III · 20 April 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001143.jpg",
@@ -557,7 +557,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001258",
 "source": "kuro",
-"title": "顔 Faces — R0001258",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r0001258",
 "summary": "顔 Faces · R0001258 · Ricoh GR III · 1 June 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001258.jpg",
@@ -569,7 +569,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000718",
 "source": "kuro",
-"title": "顔 Faces — R0000718",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r0000718",
 "summary": "顔 Faces · R0000718 · Ricoh GR III · 26 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000718.jpg",
@@ -581,7 +581,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000706",
 "source": "kuro",
-"title": "顔 Faces — R0000706",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r0000706",
 "summary": "顔 Faces · R0000706 · Ricoh GR III · 26 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000706.jpg",
@@ -593,7 +593,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001112",
 "source": "kuro",
-"title": "顔 Faces — R0001112",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r0001112",
 "summary": "顔 Faces · R0001112 · Ricoh GR III · 11 April 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001112.jpg",
@@ -605,7 +605,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024976",
 "source": "kuro",
-"title": "顔 Faces — _R024976",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r024976",
 "summary": "顔 Faces · _R024976 · Ricoh GR II · 22 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024976.jpg",
@@ -617,7 +617,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024977",
 "source": "kuro",
-"title": "顔 Faces — _R024977",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r024977",
 "summary": "顔 Faces · _R024977 · Ricoh GR II · 22 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024977.jpg",
@@ -629,7 +629,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024978",
 "source": "kuro",
-"title": "顔 Faces — _R024978",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r024978",
 "summary": "顔 Faces · _R024978 · Ricoh GR II · 22 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024978.jpg",
@@ -641,7 +641,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024981",
 "source": "kuro",
-"title": "顔 Faces — _R024981",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r024981",
 "summary": "顔 Faces · _R024981 · Ricoh GR II · 22 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024981.jpg",
@@ -653,7 +653,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025032",
 "source": "kuro",
-"title": "顔 Faces — _R025032",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r025032",
 "summary": "顔 Faces · _R025032 · Ricoh GR II · 19 May 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025032.jpg",
@@ -665,7 +665,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025395",
 "source": "kuro",
-"title": "顔 Faces — _R025395",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r025395",
 "summary": "顔 Faces · _R025395 · Ricoh GR II · 18 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025395.jpg",
@@ -677,7 +677,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025471",
 "source": "kuro",
-"title": "顔 Faces — _R025471",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r025471",
 "summary": "顔 Faces · _R025471 · Ricoh GR II · 26 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025471.jpg",
@@ -689,7 +689,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025472",
 "source": "kuro",
-"title": "顔 Faces — _R025472",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r025472",
 "summary": "顔 Faces · _R025472 · Ricoh GR II · 26 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025472.jpg",
@@ -701,7 +701,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025537",
 "source": "kuro",
-"title": "顔 Faces — _R025537",
+"title": "顔 Faces",
 "link": "https://kuro.yoso.one/#f-r025537",
 "summary": "顔 Faces · _R025537 · Ricoh GR II · 28 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025537.jpg",
@@ -713,7 +713,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000262",
 "source": "kuro",
-"title": "神 Kami — R0000262",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000262",
 "summary": "神 Kami · R0000262 · Ricoh GR III · 27 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000262.jpg",
@@ -725,7 +725,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000105",
 "source": "kuro",
-"title": "神 Kami — R0000105",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000105",
 "summary": "神 Kami · R0000105 · Ricoh GR III · 23 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000105.jpg",
@@ -737,7 +737,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000267",
 "source": "kuro",
-"title": "神 Kami — R0000267",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000267",
 "summary": "神 Kami · R0000267 · Ricoh GR III · 27 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000267.jpg",
@@ -749,7 +749,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000268",
 "source": "kuro",
-"title": "神 Kami — R0000268",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000268",
 "summary": "神 Kami · R0000268 · Ricoh GR III · 27 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000268.jpg",
@@ -761,7 +761,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000269",
 "source": "kuro",
-"title": "神 Kami — R0000269",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000269",
 "summary": "神 Kami · R0000269 · Ricoh GR III · 27 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000269.jpg",
@@ -773,7 +773,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000276",
 "source": "kuro",
-"title": "神 Kami — R0000276",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000276",
 "summary": "神 Kami · R0000276 · Ricoh GR III · 27 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000276.jpg",
@@ -785,7 +785,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000277",
 "source": "kuro",
-"title": "神 Kami — R0000277",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000277",
 "summary": "神 Kami · R0000277 · Ricoh GR III · 27 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000277.jpg",
@@ -797,7 +797,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000270",
 "source": "kuro",
-"title": "神 Kami — R0000270",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000270",
 "summary": "神 Kami · R0000270 · Ricoh GR III · 27 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000270.jpg",
@@ -809,7 +809,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000278",
 "source": "kuro",
-"title": "神 Kami — R0000278",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000278",
 "summary": "神 Kami · R0000278 · Ricoh GR III · 27 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000278.jpg",
@@ -821,7 +821,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000279",
 "source": "kuro",
-"title": "神 Kami — R0000279",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000279",
 "summary": "神 Kami · R0000279 · Ricoh GR III · 27 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000279.jpg",
@@ -833,7 +833,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000368",
 "source": "kuro",
-"title": "神 Kami — R0000368",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000368",
 "summary": "神 Kami · R0000368 · Ricoh GR III · 3 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000368.jpg",
@@ -845,7 +845,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000939",
 "source": "kuro",
-"title": "神 Kami — R0000939",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000939",
 "summary": "神 Kami · R0000939 · Ricoh GR III · 2 February 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000939.jpg",
@@ -857,7 +857,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000940",
 "source": "kuro",
-"title": "神 Kami — R0000940",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r0000940",
 "summary": "神 Kami · R0000940 · Ricoh GR III · 2 February 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000940.jpg",
@@ -869,7 +869,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024453",
 "source": "kuro",
-"title": "神 Kami — _R024453",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r024453",
 "summary": "神 Kami · _R024453 · Ricoh GR II · 1 January 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024453.jpg",
@@ -881,7 +881,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024454",
 "source": "kuro",
-"title": "神 Kami — _R024454",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r024454",
 "summary": "神 Kami · _R024454 · Ricoh GR II · 1 January 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024454.jpg",
@@ -893,7 +893,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024455",
 "source": "kuro",
-"title": "神 Kami — _R024455",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r024455",
 "summary": "神 Kami · _R024455 · Ricoh GR II · 1 January 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024455.jpg",
@@ -905,7 +905,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024456",
 "source": "kuro",
-"title": "神 Kami — _R024456",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r024456",
 "summary": "神 Kami · _R024456 · Ricoh GR II · 1 January 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024456.jpg",
@@ -917,7 +917,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024457",
 "source": "kuro",
-"title": "神 Kami — _R024457",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r024457",
 "summary": "神 Kami · _R024457 · Ricoh GR II · 1 January 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024457.jpg",
@@ -929,7 +929,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024458",
 "source": "kuro",
-"title": "神 Kami — _R024458",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r024458",
 "summary": "神 Kami · _R024458 · Ricoh GR II · 1 January 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024458.jpg",
@@ -941,7 +941,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025490",
 "source": "kuro",
-"title": "神 Kami — _R025490",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r025490",
 "summary": "神 Kami · _R025490 · Ricoh GR II · 27 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025490.jpg",
@@ -953,7 +953,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021585",
 "source": "kuro",
-"title": "神 Kami — _R021585",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r021585",
 "summary": "神 Kami · _R021585 · Ricoh GR II · 12 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021585.jpg",
@@ -965,7 +965,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023862",
 "source": "kuro",
-"title": "神 Kami — _R023862",
+"title": "神 Kami",
 "link": "https://kuro.yoso.one/#f-r023862",
 "summary": "神 Kami · _R023862 · Ricoh GR II · 16 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023862.jpg",
@@ -977,7 +977,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024801",
 "source": "kuro",
-"title": "影 Shadow — _R024801",
+"title": "影 Shadow",
 "link": "https://kuro.yoso.one/#f-r024801",
 "summary": "影 Shadow · _R024801 · Ricoh GR II · 6 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024801.jpg",
@@ -989,7 +989,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024802",
 "source": "kuro",
-"title": "影 Shadow — _R024802",
+"title": "影 Shadow",
 "link": "https://kuro.yoso.one/#f-r024802",
 "summary": "影 Shadow · _R024802 · Ricoh GR II · 6 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024802.jpg",
@@ -1001,7 +1001,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024804",
 "source": "kuro",
-"title": "影 Shadow — _R024804",
+"title": "影 Shadow",
 "link": "https://kuro.yoso.one/#f-r024804",
 "summary": "影 Shadow · _R024804 · Ricoh GR II · 6 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024804.jpg",
@@ -1013,7 +1013,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025100",
 "source": "kuro",
-"title": "影 Shadow — _R025100",
+"title": "影 Shadow",
 "link": "https://kuro.yoso.one/#f-r025100",
 "summary": "影 Shadow · _R025100 · Ricoh GR II · 17 July 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025100.jpg",
@@ -1025,7 +1025,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025101",
 "source": "kuro",
-"title": "影 Shadow — _R025101",
+"title": "影 Shadow",
 "link": "https://kuro.yoso.one/#f-r025101",
 "summary": "影 Shadow · _R025101 · Ricoh GR II · 17 July 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025101.jpg",
@@ -1037,7 +1037,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025102",
 "source": "kuro",
-"title": "影 Shadow — _R025102",
+"title": "影 Shadow",
 "link": "https://kuro.yoso.one/#f-r025102",
 "summary": "影 Shadow · _R025102 · Ricoh GR II · 17 July 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025102.jpg",
@@ -1049,7 +1049,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023951",
 "source": "kuro",
-"title": "水 Water — _R023951",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r023951",
 "summary": "水 Water · _R023951 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023951.jpg",
@@ -1061,7 +1061,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023952",
 "source": "kuro",
-"title": "水 Water — _R023952",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r023952",
 "summary": "水 Water · _R023952 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023952.jpg",
@@ -1073,7 +1073,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023954",
 "source": "kuro",
-"title": "水 Water — _R023954",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r023954",
 "summary": "水 Water · _R023954 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023954.jpg",
@@ -1085,7 +1085,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023958",
 "source": "kuro",
-"title": "水 Water — _R023958",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r023958",
 "summary": "水 Water · _R023958 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023958.jpg",
@@ -1097,7 +1097,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023957",
 "source": "kuro",
-"title": "水 Water — _R023957",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r023957",
 "summary": "水 Water · _R023957 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023957.jpg",
@@ -1109,7 +1109,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000141",
 "source": "kuro",
-"title": "水 Water — R0000141",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r0000141",
 "summary": "水 Water · R0000141 · Ricoh GR III · 23 December 2022",
 "image": "https://kuro.yoso.one/img/thumb/r0000141.jpg",
@@ -1121,7 +1121,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000976",
 "source": "kuro",
-"title": "水 Water — R0000976",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r0000976",
 "summary": "水 Water · R0000976 · Ricoh GR III · 15 February 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000976.jpg",
@@ -1133,7 +1133,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024739",
 "source": "kuro",
-"title": "水 Water — _R024739",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r024739",
 "summary": "水 Water · _R024739 · Ricoh GR II · 4 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024739.jpg",
@@ -1145,7 +1145,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000508",
 "source": "kuro",
-"title": "火 Fire — R0000508",
+"title": "火 Fire",
 "link": "https://kuro.yoso.one/#f-r0000508",
 "summary": "火 Fire · R0000508 · Ricoh GR III · 11 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000508.jpg",
@@ -1157,7 +1157,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000509",
 "source": "kuro",
-"title": "火 Fire — R0000509",
+"title": "火 Fire",
 "link": "https://kuro.yoso.one/#f-r0000509",
 "summary": "火 Fire · R0000509 · Ricoh GR III · 11 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000509.jpg",
@@ -1169,7 +1169,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000510",
 "source": "kuro",
-"title": "火 Fire — R0000510",
+"title": "火 Fire",
 "link": "https://kuro.yoso.one/#f-r0000510",
 "summary": "火 Fire · R0000510 · Ricoh GR III · 11 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000510.jpg",
@@ -1181,7 +1181,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000929",
 "source": "kuro",
-"title": "火 Fire — R0000929",
+"title": "火 Fire",
 "link": "https://kuro.yoso.one/#f-r0000929",
 "summary": "火 Fire · R0000929 · Ricoh GR III · 2 February 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000929.jpg",
@@ -1193,7 +1193,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000930",
 "source": "kuro",
-"title": "火 Fire — R0000930",
+"title": "火 Fire",
 "link": "https://kuro.yoso.one/#f-r0000930",
 "summary": "火 Fire · R0000930 · Ricoh GR III · 2 February 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000930.jpg",
@@ -1205,7 +1205,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000932",
 "source": "kuro",
-"title": "火 Fire — R0000932",
+"title": "火 Fire",
 "link": "https://kuro.yoso.one/#f-r0000932",
 "summary": "火 Fire · R0000932 · Ricoh GR III · 2 February 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000932.jpg",
@@ -1217,7 +1217,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000933",
 "source": "kuro",
-"title": "火 Fire — R0000933",
+"title": "火 Fire",
 "link": "https://kuro.yoso.one/#f-r0000933",
 "summary": "火 Fire · R0000933 · Ricoh GR III · 2 February 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000933.jpg",
@@ -1229,7 +1229,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000934",
 "source": "kuro",
-"title": "火 Fire — R0000934",
+"title": "火 Fire",
 "link": "https://kuro.yoso.one/#f-r0000934",
 "summary": "火 Fire · R0000934 · Ricoh GR III · 2 February 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000934.jpg",
@@ -1241,7 +1241,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023934",
 "source": "kuro",
-"title": "猫 Cat — _R023934",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r023934",
 "summary": "猫 Cat · _R023934 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023934.jpg",
@@ -1253,7 +1253,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024131",
 "source": "kuro",
-"title": "猫 Cat — _R024131",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024131",
 "summary": "猫 Cat · _R024131 · Ricoh GR II · 18 September 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024131.jpg",
@@ -1265,7 +1265,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024132",
 "source": "kuro",
-"title": "猫 Cat — _R024132",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024132",
 "summary": "猫 Cat · _R024132 · Ricoh GR II · 18 September 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024132.jpg",
@@ -1277,7 +1277,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024133",
 "source": "kuro",
-"title": "猫 Cat — _R024133",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024133",
 "summary": "猫 Cat · _R024133 · Ricoh GR II · 18 September 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024133.jpg",
@@ -1289,7 +1289,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024134",
 "source": "kuro",
-"title": "猫 Cat — _R024134",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024134",
 "summary": "猫 Cat · _R024134 · Ricoh GR II · 18 September 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024134.jpg",
@@ -1301,7 +1301,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024135",
 "source": "kuro",
-"title": "猫 Cat — _R024135",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024135",
 "summary": "猫 Cat · _R024135 · Ricoh GR II · 18 September 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024135.jpg",
@@ -1313,7 +1313,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024136",
 "source": "kuro",
-"title": "猫 Cat — _R024136",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024136",
 "summary": "猫 Cat · _R024136 · Ricoh GR II · 18 September 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024136.jpg",
@@ -1325,7 +1325,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024137",
 "source": "kuro",
-"title": "猫 Cat — _R024137",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024137",
 "summary": "猫 Cat · _R024137 · Ricoh GR II · 18 September 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024137.jpg",
@@ -1337,7 +1337,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024138",
 "source": "kuro",
-"title": "猫 Cat — _R024138",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024138",
 "summary": "猫 Cat · _R024138 · Ricoh GR II · 18 September 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024138.jpg",
@@ -1349,7 +1349,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024139",
 "source": "kuro",
-"title": "猫 Cat — _R024139",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024139",
 "summary": "猫 Cat · _R024139 · Ricoh GR II · 18 September 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024139.jpg",
@@ -1361,7 +1361,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024140",
 "source": "kuro",
-"title": "猫 Cat — _R024140",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024140",
 "summary": "猫 Cat · _R024140 · Ricoh GR II · 18 September 2021",
 "image": "https://kuro.yoso.one/img/thumb/r024140.jpg",
@@ -1373,7 +1373,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0001331",
 "source": "kuro",
-"title": "猫 Cat — R0001331",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r0001331",
 "summary": "猫 Cat · R0001331 · Ricoh GR III · 16 June 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0001331.jpg",
@@ -1697,7 +1697,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000576",
 "source": "kuro",
-"title": "夜 Night — R0000576",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0000576",
 "summary": "夜 Night · R0000576 · Ricoh GR III · 17 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000576.jpg",
@@ -1709,7 +1709,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000613",
 "source": "kuro",
-"title": "夜 Night — R0000613",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0000613",
 "summary": "夜 Night · R0000613 · Ricoh GR III · 18 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000613.jpg",
@@ -1721,7 +1721,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000654",
 "source": "kuro",
-"title": "夜 Night — R0000654",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0000654",
 "summary": "夜 Night · R0000654 · Ricoh GR III · 24 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000654.jpg",
@@ -1733,7 +1733,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0000681",
 "source": "kuro",
-"title": "夜 Night — R0000681",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r0000681",
 "summary": "夜 Night · R0000681 · Ricoh GR III · 25 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000681.jpg",
@@ -1745,7 +1745,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025450",
 "source": "kuro",
-"title": "夜 Night — _R025450",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r025450",
 "summary": "夜 Night · _R025450 · Ricoh GR II · 22 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025450.jpg",
@@ -1757,7 +1757,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025455",
 "source": "kuro",
-"title": "夜 Night — _R025455",
+"title": "夜 Night",
 "link": "https://kuro.yoso.one/#f-r025455",
 "summary": "夜 Night · _R025455 · Ricoh GR II · 23 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025455.jpg",
@@ -1769,7 +1769,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021961",
 "source": "kuro",
-"title": "電車 Train — _R021961",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r021961",
 "summary": "電車 Train · _R021961 · Ricoh GR II · 14 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021961.jpg",
@@ -1781,7 +1781,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021962",
 "source": "kuro",
-"title": "電車 Train — _R021962",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r021962",
 "summary": "電車 Train · _R021962 · Ricoh GR II · 14 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021962.jpg",
@@ -1793,7 +1793,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021963",
 "source": "kuro",
-"title": "電車 Train — _R021963",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r021963",
 "summary": "電車 Train · _R021963 · Ricoh GR II · 14 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021963.jpg",
@@ -1805,7 +1805,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021973",
 "source": "kuro",
-"title": "電車 Train — _R021973",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r021973",
 "summary": "電車 Train · _R021973 · Ricoh GR II · 15 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021973.jpg",
@@ -1817,7 +1817,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021976",
 "source": "kuro",
-"title": "電車 Train — _R021976",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r021976",
 "summary": "電車 Train · _R021976 · Ricoh GR II · 15 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021976.jpg",
@@ -1829,7 +1829,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r021978",
 "source": "kuro",
-"title": "電車 Train — _R021978",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r021978",
 "summary": "電車 Train · _R021978 · Ricoh GR II · 15 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021978.jpg",
@@ -1841,7 +1841,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025128",
 "source": "kuro",
-"title": "電車 Train — _R025128",
+"title": "電車 Train",
 "link": "https://kuro.yoso.one/#f-r025128",
 "summary": "電車 Train · _R025128 · Ricoh GR II · 5 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025128.jpg",
@@ -1853,7 +1853,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025178",
 "source": "kuro",
-"title": "街 Street — _R025178",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025178",
 "summary": "街 Street · _R025178 · Ricoh GR II · 11 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025178.jpg",
@@ -1865,7 +1865,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025038",
 "source": "kuro",
-"title": "街 Street — _R025038",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025038",
 "summary": "街 Street · _R025038 · Ricoh GR II · 19 May 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025038.jpg",
@@ -1877,7 +1877,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024979",
 "source": "kuro",
-"title": "街 Street — _R024979",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r024979",
 "summary": "街 Street · _R024979 · Ricoh GR II · 22 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024979.jpg",
@@ -1889,7 +1889,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024980",
 "source": "kuro",
-"title": "街 Street — _R024980",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r024980",
 "summary": "街 Street · _R024980 · Ricoh GR II · 22 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024980.jpg",
@@ -1901,7 +1901,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025052",
 "source": "kuro",
-"title": "街 Street — _R025052",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025052",
 "summary": "街 Street · _R025052 · Ricoh GR II · 9 June 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025052.jpg",
@@ -1913,7 +1913,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025053",
 "source": "kuro",
-"title": "街 Street — _R025053",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025053",
 "summary": "街 Street · _R025053 · Ricoh GR II · 9 June 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025053.jpg",
@@ -1925,7 +1925,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025185",
 "source": "kuro",
-"title": "街 Street — _R025185",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025185",
 "summary": "街 Street · _R025185 · Ricoh GR II · 11 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025185.jpg",
@@ -1937,7 +1937,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025186",
 "source": "kuro",
-"title": "街 Street — _R025186",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025186",
 "summary": "街 Street · _R025186 · Ricoh GR II · 11 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025186.jpg",
@@ -1949,7 +1949,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025452",
 "source": "kuro",
-"title": "街 Street — _R025452",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025452",
 "summary": "街 Street · _R025452 · Ricoh GR II · 22 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025452.jpg",
@@ -1961,7 +1961,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025453",
 "source": "kuro",
-"title": "街 Street — _R025453",
+"title": "街 Street",
 "link": "https://kuro.yoso.one/#f-r025453",
 "summary": "街 Street · _R025453 · Ricoh GR II · 22 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025453.jpg",
@@ -1973,7 +1973,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0006178",
 "source": "kuro",
-"title": "影 Shadow — R0006178",
+"title": "影 Shadow",
 "link": "https://kuro.yoso.one/#f-r0006178",
 "summary": "影 Shadow · R0006178 · Ricoh GR III · 23 February 2026",
 "image": "https://kuro.yoso.one/img/thumb/r0006178.jpg",
@@ -1985,7 +1985,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0006180",
 "source": "kuro",
-"title": "影 Shadow — R0006180",
+"title": "影 Shadow",
 "link": "https://kuro.yoso.one/#f-r0006180",
 "summary": "影 Shadow · R0006180 · Ricoh GR III · 23 February 2026",
 "image": "https://kuro.yoso.one/img/thumb/r0006180.jpg",
@@ -1997,7 +1997,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r0006182",
 "source": "kuro",
-"title": "影 Shadow — R0006182",
+"title": "影 Shadow",
 "link": "https://kuro.yoso.one/#f-r0006182",
 "summary": "影 Shadow · R0006182 · Ricoh GR III · 23 February 2026",
 "image": "https://kuro.yoso.one/img/thumb/r0006182.jpg",
@@ -2009,7 +2009,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024803",
 "source": "kuro",
-"title": "影 Shadow — _R024803",
+"title": "影 Shadow",
 "link": "https://kuro.yoso.one/#f-r024803",
 "summary": "影 Shadow · _R024803 · Ricoh GR II · 6 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024803.jpg",
@@ -2021,7 +2021,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024854",
 "source": "kuro",
-"title": "水 Water — _R024854",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r024854",
 "summary": "水 Water · _R024854 · Ricoh GR II · 14 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024854.jpg",
@@ -2033,7 +2033,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024855",
 "source": "kuro",
-"title": "水 Water — _R024855",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r024855",
 "summary": "水 Water · _R024855 · Ricoh GR II · 14 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024855.jpg",
@@ -2045,7 +2045,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024856",
 "source": "kuro",
-"title": "水 Water — _R024856",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r024856",
 "summary": "水 Water · _R024856 · Ricoh GR II · 14 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024856.jpg",
@@ -2057,7 +2057,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024862",
 "source": "kuro",
-"title": "水 Water — _R024862",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r024862",
 "summary": "水 Water · _R024862 · Ricoh GR II · 14 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024862.jpg",
@@ -2069,7 +2069,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024880",
 "source": "kuro",
-"title": "水 Water — _R024880",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r024880",
 "summary": "水 Water · _R024880 · Ricoh GR II · 14 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024880.jpg",
@@ -2081,7 +2081,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023953",
 "source": "kuro",
-"title": "水 Water — _R023953",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r023953",
 "summary": "水 Water · _R023953 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023953.jpg",
@@ -2093,7 +2093,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023955",
 "source": "kuro",
-"title": "水 Water — _R023955",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r023955",
 "summary": "水 Water · _R023955 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023955.jpg",
@@ -2105,7 +2105,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023956",
 "source": "kuro",
-"title": "水 Water — _R023956",
+"title": "水 Water",
 "link": "https://kuro.yoso.one/#f-r023956",
 "summary": "水 Water · _R023956 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023956.jpg",
@@ -2117,7 +2117,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024689",
 "source": "kuro",
-"title": "猫 Cat — _R024689",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024689",
 "summary": "猫 Cat · _R024689 · Ricoh GR II · 3 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024689.jpg",
@@ -2129,7 +2129,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024690",
 "source": "kuro",
-"title": "猫 Cat — _R024690",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024690",
 "summary": "猫 Cat · _R024690 · Ricoh GR II · 3 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024690.jpg",
@@ -2141,7 +2141,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024691",
 "source": "kuro",
-"title": "猫 Cat — _R024691",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024691",
 "summary": "猫 Cat · _R024691 · Ricoh GR II · 3 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024691.jpg",
@@ -2153,7 +2153,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r024692",
 "source": "kuro",
-"title": "猫 Cat — _R024692",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r024692",
 "summary": "猫 Cat · _R024692 · Ricoh GR II · 3 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024692.jpg",
@@ -2165,7 +2165,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023923",
 "source": "kuro",
-"title": "猫 Cat — _R023923",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r023923",
 "summary": "猫 Cat · _R023923 · Ricoh GR II · 20 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023923.jpg",
@@ -2177,7 +2177,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r023924",
 "source": "kuro",
-"title": "猫 Cat — _R023924",
+"title": "猫 Cat",
 "link": "https://kuro.yoso.one/#f-r023924",
 "summary": "猫 Cat · _R023924 · Ricoh GR II · 20 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023924.jpg",
@@ -2189,7 +2189,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025243",
 "source": "kuro",
-"title": "花火 Fireworks — _R025243",
+"title": "花火 Fireworks",
 "link": "https://kuro.yoso.one/#f-r025243",
 "summary": "花火 Fireworks · _R025243 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025243.jpg",
@@ -2201,7 +2201,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025296",
 "source": "kuro",
-"title": "花火 Fireworks — _R025296",
+"title": "花火 Fireworks",
 "link": "https://kuro.yoso.one/#f-r025296",
 "summary": "花火 Fireworks · _R025296 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025296.jpg",
@@ -2213,7 +2213,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025300",
 "source": "kuro",
-"title": "花火 Fireworks — _R025300",
+"title": "花火 Fireworks",
 "link": "https://kuro.yoso.one/#f-r025300",
 "summary": "花火 Fireworks · _R025300 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025300.jpg",
@@ -2225,7 +2225,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025302",
 "source": "kuro",
-"title": "花火 Fireworks — _R025302",
+"title": "花火 Fireworks",
 "link": "https://kuro.yoso.one/#f-r025302",
 "summary": "花火 Fireworks · _R025302 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025302.jpg",
@@ -2237,7 +2237,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025308",
 "source": "kuro",
-"title": "花火 Fireworks — _R025308",
+"title": "花火 Fireworks",
 "link": "https://kuro.yoso.one/#f-r025308",
 "summary": "花火 Fireworks · _R025308 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025308.jpg",
@@ -2249,7 +2249,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025309",
 "source": "kuro",
-"title": "花火 Fireworks — _R025309",
+"title": "花火 Fireworks",
 "link": "https://kuro.yoso.one/#f-r025309",
 "summary": "花火 Fireworks · _R025309 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025309.jpg",
@@ -2261,7 +2261,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025310",
 "source": "kuro",
-"title": "花火 Fireworks — _R025310",
+"title": "花火 Fireworks",
 "link": "https://kuro.yoso.one/#f-r025310",
 "summary": "花火 Fireworks · _R025310 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025310.jpg",
@@ -2273,7 +2273,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025311",
 "source": "kuro",
-"title": "花火 Fireworks — _R025311",
+"title": "花火 Fireworks",
 "link": "https://kuro.yoso.one/#f-r025311",
 "summary": "花火 Fireworks · _R025311 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025311.jpg",
@@ -2285,7 +2285,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025312",
 "source": "kuro",
-"title": "花火 Fireworks — _R025312",
+"title": "花火 Fireworks",
 "link": "https://kuro.yoso.one/#f-r025312",
 "summary": "花火 Fireworks · _R025312 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025312.jpg",
@@ -2297,7 +2297,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025313",
 "source": "kuro",
-"title": "花火 Fireworks — _R025313",
+"title": "花火 Fireworks",
 "link": "https://kuro.yoso.one/#f-r025313",
 "summary": "花火 Fireworks · _R025313 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025313.jpg",
@@ -2309,7 +2309,7 @@ window.ON_ITEMS = [
 {
 "uid": "kuro:yosokuro-r025314",
 "source": "kuro",
-"title": "花火 Fireworks — _R025314",
+"title": "花火 Fireworks",
 "link": "https://kuro.yoso.one/#f-r025314",
 "summary": "花火 Fireworks · _R025314 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025314.jpg",
