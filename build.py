@@ -162,6 +162,10 @@ def read_works(src, data):
     return found
 
 
+def dump(archive):
+    return json.dumps(archive, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
+
+
 def gather(local):
     archive = json.loads(ARCHIVE.read_text(encoding="utf-8")) if ARCHIVE.exists() else {}
     reached = set()
@@ -197,8 +201,7 @@ def gather(local):
 
 def write(archive):
     ARCHIVE.parent.mkdir(exist_ok=True)
-    ARCHIVE.write_text(json.dumps(archive, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
-                       encoding="utf-8")
+    ARCHIVE.write_text(dump(archive), encoding="utf-8")
     items = sorted((dict(p, uid=uid) for uid, p in archive.items()),
                    key=lambda p: (p["date"], p["uid"]), reverse=True)
     public = [{k: p[k] for k in ("uid", "source", "title", "link", "summary", "image", "alt", "date", "gone")}
@@ -254,7 +257,12 @@ def main():
     args = ap.parse_args()
     local = dict(x.split("=", 1) for x in args.local)
     print("Gathering:")
-    write(gather(local))
+    before = ARCHIVE.read_text(encoding="utf-8") if ARCHIVE.exists() else ""
+    archive = gather(local)
+    if dump(archive) == before and (HERE / "assets" / "items.js").exists() and (HERE / "feed.xml").exists():
+        print("Nothing new: the files are left as they were.")
+        return
+    write(archive)
 
 
 if __name__ == "__main__":
