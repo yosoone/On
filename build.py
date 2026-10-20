@@ -112,6 +112,7 @@ def read_feed(src, data):
             image = enc.get("url", "")
         img2, alt2 = first_image(desc)
         image, alt = image or img2, alt2
+        full = image                      # the large copy, for On's viewer
         if image and src.get("thumb"):
             image = image.replace(*src["thumb"])
         date = None
@@ -126,6 +127,7 @@ def read_feed(src, data):
             "link": https_only(link),
             "summary": shorten(plain(desc)),
             "image": https_only(image),
+            "full": https_only(full),
             "alt": alt or title,
             "date": iso(date) if date else None,
         })
@@ -156,6 +158,7 @@ def read_works(src, data):
             "link": src["works_page"],
             "summary": shorten(", ".join(x for x in (year, medium) if x)),
             "image": src["site"] + "images/" + image,
+            "full": src["site"] + "images/" + image,
             "alt": title + (", " + medium if medium else ""),
             "date": None,          # works have no dates: the day On first saw it is used
         })
@@ -204,7 +207,7 @@ def write(archive):
     ARCHIVE.write_text(dump(archive), encoding="utf-8")
     items = sorted((dict(p, uid=uid) for uid, p in archive.items()),
                    key=lambda p: (p["date"], p["uid"]), reverse=True)
-    public = [{k: p[k] for k in ("uid", "source", "title", "link", "summary", "image", "alt", "date", "gone")}
+    public = [{k: p.get(k, "") for k in ("uid", "source", "title", "link", "summary", "image", "full", "alt", "date", "gone")}
               for p in items]
     sources = [{k: s[k] for k in ("key", "name", "kanji", "site")} for s in SOURCES]
     js = ("/* Made by build.py: do not edit by hand. */\n"

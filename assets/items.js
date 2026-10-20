@@ -1,6 +1,6 @@
 /* Made by build.py: do not edit by hand. */
 window.ON_SOURCES = [{"key": "vault", "name": "The Vault", "kanji": "一", "site": "https://one.yoso.one/"}, {"key": "kuro", "name": "Kuro", "kanji": "黒", "site": "https://kuro.yoso.one/"}, {"key": "shinsei", "name": "Shinsei", "kanji": "心", "site": "https://shinsei.yoso.one/"}, {"key": "river", "name": "River", "kanji": "川", "site": "https://river.yoso.one/"}];
-window.ON_UPDATED = "2026-10-20T14:20:03+09:00";
+window.ON_UPDATED = "2026-10-20T14:31:56+09:00";
 window.ON_ITEMS = [
 {
 "uid": "river:river-t0",
@@ -9,6 +9,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t0",
 "summary": "Before reaching the shore,\nin the quiet sea of abstraction;\nSeize the mind.",
 "image": "",
+"full": "",
 "alt": "Before reaching the shore",
 "date": "2026-10-20T13:24:50+09:00",
 "gone": false
@@ -20,6 +21,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t1",
 "summary": "To feel with opened eyes,\nto listen with the heart,\nto speak with truth.",
 "image": "",
+"full": "",
 "alt": "To feel with opened eyes",
 "date": "2026-10-20T13:24:49+09:00",
 "gone": false
@@ -31,6 +33,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t2",
 "summary": "Wind’s Natural Soul…\nLeading me to the unknown…\nTranscendental Flow.",
 "image": "",
+"full": "",
 "alt": "Wind’s Natural Soul",
 "date": "2026-10-20T13:24:48+09:00",
 "gone": false
@@ -42,6 +45,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t3",
 "summary": "Breathe in…\nBreathe out…\nThe energy that connects all forms…\nInfinite chains of chemical reactions…\nTrillions of cells living within…\nWhat am I?",
 "image": "",
+"full": "",
 "alt": "Breathe in",
 "date": "2026-10-20T13:24:47+09:00",
 "gone": false
@@ -53,6 +57,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t4",
 "summary": "Kind loving love,\nKind loving love,\nKind loving love.",
 "image": "",
+"full": "",
 "alt": "Kind loving love",
 "date": "2026-10-20T13:24:46+09:00",
 "gone": false
@@ -64,6 +69,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t5",
 "summary": "Submissiveness,\nalien to the shining soul,\nbreathing union is.",
 "image": "",
+"full": "",
 "alt": "Submissiveness",
 "date": "2026-10-20T13:24:45+09:00",
 "gone": false
@@ -75,6 +81,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t6",
 "summary": "I surrender to the flow…\nReaching the depth of my heart…\nUnion’s Embrace.",
 "image": "",
+"full": "",
 "alt": "I surrender to the flow",
 "date": "2026-10-20T13:24:44+09:00",
 "gone": false
@@ -86,6 +93,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t7",
 "summary": "Spring Energy,\nBlessing our hearts with promising light.\nEach blossom, a vow of harmony.\nWith gratitude, I honour your transience.",
 "image": "",
+"full": "",
 "alt": "Spring Energy",
 "date": "2026-10-20T13:24:43+09:00",
 "gone": false
@@ -97,6 +105,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t17",
 "summary": "Awakening mind…\nThat which is conscious…\nFor the good of sentience.",
 "image": "",
+"full": "",
 "alt": "Awakening Mind",
 "date": "2026-10-20T13:24:42+09:00",
 "gone": false
@@ -108,6 +117,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t18",
 "summary": "Present, mindful now.\nPeaceful heart, a quiet mind.\nHarmony’s embrace.",
 "image": "",
+"full": "",
 "alt": "Present, mindful now",
 "date": "2026-10-20T13:24:41+09:00",
 "gone": false
@@ -119,6 +129,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t19",
 "summary": "Being is beyond knowledge,\nbeing is integrity,\nbeing is the totality.\nThe totality of your experiences,\nThe sacred energy that unites past and future to the present moment!",
 "image": "",
+"full": "",
 "alt": "Being is beyond knowledge",
 "date": "2026-10-20T13:24:40+09:00",
 "gone": false
@@ -130,6 +141,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t20",
 "summary": "Hands in prayer,\nI bow respectfully to each cell in my body,\nand to the life in you.",
 "image": "",
+"full": "",
 "alt": "To each cell",
 "date": "2026-10-20T13:24:39+09:00",
 "gone": false
@@ -141,6 +153,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t21",
 "summary": "Heal yourself to heal others,\nHeal others to heal yourself.",
 "image": "",
+"full": "",
 "alt": "Heal yourself to heal others",
 "date": "2026-10-20T13:24:38+09:00",
 "gone": false
@@ -152,6 +165,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t22",
 "summary": "First Love, Then Form.",
 "image": "",
+"full": "",
 "alt": "First Love, Then Form",
 "date": "2026-10-20T13:24:37+09:00",
 "gone": false
@@ -163,6 +177,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t23",
 "summary": "There is no greater shock in life than birth,\nFighting for survival,\nDeath is release,",
 "image": "",
+"full": "",
 "alt": "There is no greater shock in life than birth",
 "date": "2026-10-20T13:24:36+09:00",
 "gone": false
@@ -174,6 +189,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t24",
 "summary": "Life itself...\nIs death itself...\nFull circle,\nBalance,\nDance...\nTransfer of energy...\nConsciousness...\nSurvival...",
 "image": "",
+"full": "",
 "alt": "Life itself",
 "date": "2026-10-20T13:24:35+09:00",
 "gone": false
@@ -185,6 +201,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t25",
 "summary": "In modern times,\nWe acquire knowledge,\nbelieving that it is the truth,\nonly to realize that it is only part of it!\nLife itself is knowledge!\nWithin Life itself resides the knowledge!\nThe multitude of Life forms that…",
 "image": "",
+"full": "",
 "alt": "In modern times",
 "date": "2026-10-20T13:24:34+09:00",
 "gone": false
@@ -196,6 +213,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t26",
 "summary": "End of Summer Full moon,\nBright in the East…\nI could feel the cold wind in the morning rise…\nSummer afternoon…\nFeeling the Rain coming when you set your light…\nIt took me half a century to recognize, that both the Sun…",
 "image": "",
+"full": "",
 "alt": "End of Summer Full moon",
 "date": "2026-10-20T13:24:33+09:00",
 "gone": false
@@ -207,6 +225,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t27",
 "summary": "Being One.\nBecoming one.\nmicrocosm and Macrocosm.\nOne",
 "image": "",
+"full": "",
 "alt": "Being One",
 "date": "2026-10-20T13:24:32+09:00",
 "gone": false
@@ -218,6 +237,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t28",
 "summary": "With each petal in the wind,\nI vow to dedicate myself to prosperity and harmony for sentient life.",
 "image": "",
+"full": "",
 "alt": "With each petal in the wind",
 "date": "2026-10-20T13:24:31+09:00",
 "gone": false
@@ -229,6 +249,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t29",
 "summary": "Like a petal in the wind,\nI surrender to the flow...",
 "image": "",
+"full": "",
 "alt": "Like a petal in the wind",
 "date": "2026-10-20T13:24:30+09:00",
 "gone": false
@@ -240,6 +261,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t30",
 "summary": "Do not love Love,\nBe love,\nLove.",
 "image": "",
+"full": "",
 "alt": "Do not love Love",
 "date": "2026-10-20T13:24:29+09:00",
 "gone": false
@@ -251,6 +273,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t31",
 "summary": "The spring awakes,\nThe Golden Heart is Here!\nPure Counsciousness.",
 "image": "",
+"full": "",
 "alt": "The spring awakes",
 "date": "2026-10-20T13:24:28+09:00",
 "gone": false
@@ -262,6 +285,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t32",
 "summary": "Your Mind is your home",
 "image": "",
+"full": "",
 "alt": "Your Mind is your home",
 "date": "2026-10-20T13:24:27+09:00",
 "gone": false
@@ -273,6 +297,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t33",
 "summary": "With each blossom,\nI vow to dedicate myself to prosperity and harmony for sentient life.",
 "image": "",
+"full": "",
 "alt": "With each blossom",
 "date": "2026-10-20T13:24:26+09:00",
 "gone": false
@@ -284,6 +309,7 @@ window.ON_ITEMS = [
 "link": "https://river.yoso.one/#t38",
 "summary": "Thank you for always being by my side.\nWith you, my heart flows like a quiet river.",
 "image": "",
+"full": "",
 "alt": "A quiet river",
 "date": "2026-10-20T13:24:25+09:00",
 "gone": false
@@ -295,6 +321,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r0000576",
 "summary": "夜 Night · R0000576 · Ricoh GR III · 17 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000576.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000576.jpg",
 "alt": "Night, frame R0000576",
 "date": "2026-10-20T09:00:00+09:00",
 "gone": false
@@ -306,6 +333,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r0000613",
 "summary": "夜 Night · R0000613 · Ricoh GR III · 18 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000613.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000613.jpg",
 "alt": "Night, frame R0000613",
 "date": "2026-10-20T08:59:59+09:00",
 "gone": false
@@ -317,6 +345,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r0000654",
 "summary": "夜 Night · R0000654 · Ricoh GR III · 24 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000654.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000654.jpg",
 "alt": "Night, frame R0000654",
 "date": "2026-10-20T08:59:58+09:00",
 "gone": false
@@ -328,6 +357,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r0000681",
 "summary": "夜 Night · R0000681 · Ricoh GR III · 25 January 2023",
 "image": "https://kuro.yoso.one/img/thumb/r0000681.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000681.jpg",
 "alt": "Night, frame R0000681",
 "date": "2026-10-20T08:59:57+09:00",
 "gone": false
@@ -339,6 +369,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025450",
 "summary": "夜 Night · _R025450 · Ricoh GR II · 22 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025450.jpg",
+"full": "https://kuro.yoso.one/img/full/r025450.jpg",
 "alt": "Night, frame _R025450",
 "date": "2026-10-20T08:59:56+09:00",
 "gone": false
@@ -350,6 +381,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025455",
 "summary": "夜 Night · _R025455 · Ricoh GR II · 23 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025455.jpg",
+"full": "https://kuro.yoso.one/img/full/r025455.jpg",
 "alt": "Night, frame _R025455",
 "date": "2026-10-20T08:59:55+09:00",
 "gone": false
@@ -361,6 +393,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r021961",
 "summary": "電車 Train · _R021961 · Ricoh GR II · 14 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021961.jpg",
+"full": "https://kuro.yoso.one/img/full/r021961.jpg",
 "alt": "Train, frame _R021961",
 "date": "2026-10-20T08:59:54+09:00",
 "gone": false
@@ -372,6 +405,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r021962",
 "summary": "電車 Train · _R021962 · Ricoh GR II · 14 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021962.jpg",
+"full": "https://kuro.yoso.one/img/full/r021962.jpg",
 "alt": "Train, frame _R021962",
 "date": "2026-10-20T08:59:53+09:00",
 "gone": false
@@ -383,6 +417,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r021963",
 "summary": "電車 Train · _R021963 · Ricoh GR II · 14 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021963.jpg",
+"full": "https://kuro.yoso.one/img/full/r021963.jpg",
 "alt": "Train, frame _R021963",
 "date": "2026-10-20T08:59:52+09:00",
 "gone": false
@@ -394,6 +429,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r021973",
 "summary": "電車 Train · _R021973 · Ricoh GR II · 15 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021973.jpg",
+"full": "https://kuro.yoso.one/img/full/r021973.jpg",
 "alt": "Train, frame _R021973",
 "date": "2026-10-20T08:59:51+09:00",
 "gone": false
@@ -405,6 +441,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r021976",
 "summary": "電車 Train · _R021976 · Ricoh GR II · 15 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021976.jpg",
+"full": "https://kuro.yoso.one/img/full/r021976.jpg",
 "alt": "Train, frame _R021976",
 "date": "2026-10-20T08:59:50+09:00",
 "gone": false
@@ -416,6 +453,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r021978",
 "summary": "電車 Train · _R021978 · Ricoh GR II · 15 February 2020",
 "image": "https://kuro.yoso.one/img/thumb/r021978.jpg",
+"full": "https://kuro.yoso.one/img/full/r021978.jpg",
 "alt": "Train, frame _R021978",
 "date": "2026-10-20T08:59:49+09:00",
 "gone": false
@@ -427,6 +465,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025128",
 "summary": "電車 Train · _R025128 · Ricoh GR II · 5 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025128.jpg",
+"full": "https://kuro.yoso.one/img/full/r025128.jpg",
 "alt": "Train, frame _R025128",
 "date": "2026-10-20T08:59:48+09:00",
 "gone": false
@@ -438,6 +477,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025178",
 "summary": "街 Street · _R025178 · Ricoh GR II · 11 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025178.jpg",
+"full": "https://kuro.yoso.one/img/full/r025178.jpg",
 "alt": "Street, frame _R025178",
 "date": "2026-10-20T08:59:47+09:00",
 "gone": false
@@ -449,6 +489,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025038",
 "summary": "街 Street · _R025038 · Ricoh GR II · 19 May 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025038.jpg",
+"full": "https://kuro.yoso.one/img/full/r025038.jpg",
 "alt": "Street, frame _R025038",
 "date": "2026-10-20T08:59:46+09:00",
 "gone": false
@@ -460,6 +501,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024979",
 "summary": "街 Street · _R024979 · Ricoh GR II · 22 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024979.jpg",
+"full": "https://kuro.yoso.one/img/full/r024979.jpg",
 "alt": "Street, frame _R024979",
 "date": "2026-10-20T08:59:45+09:00",
 "gone": false
@@ -471,6 +513,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024980",
 "summary": "街 Street · _R024980 · Ricoh GR II · 22 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024980.jpg",
+"full": "https://kuro.yoso.one/img/full/r024980.jpg",
 "alt": "Street, frame _R024980",
 "date": "2026-10-20T08:59:44+09:00",
 "gone": false
@@ -482,6 +525,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025052",
 "summary": "街 Street · _R025052 · Ricoh GR II · 9 June 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025052.jpg",
+"full": "https://kuro.yoso.one/img/full/r025052.jpg",
 "alt": "Street, frame _R025052",
 "date": "2026-10-20T08:59:43+09:00",
 "gone": false
@@ -493,6 +537,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025053",
 "summary": "街 Street · _R025053 · Ricoh GR II · 9 June 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025053.jpg",
+"full": "https://kuro.yoso.one/img/full/r025053.jpg",
 "alt": "Street, frame _R025053",
 "date": "2026-10-20T08:59:42+09:00",
 "gone": false
@@ -504,6 +549,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025185",
 "summary": "街 Street · _R025185 · Ricoh GR II · 11 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025185.jpg",
+"full": "https://kuro.yoso.one/img/full/r025185.jpg",
 "alt": "Street, frame _R025185",
 "date": "2026-10-20T08:59:41+09:00",
 "gone": false
@@ -515,6 +561,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025186",
 "summary": "街 Street · _R025186 · Ricoh GR II · 11 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025186.jpg",
+"full": "https://kuro.yoso.one/img/full/r025186.jpg",
 "alt": "Street, frame _R025186",
 "date": "2026-10-20T08:59:40+09:00",
 "gone": false
@@ -526,6 +573,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025452",
 "summary": "街 Street · _R025452 · Ricoh GR II · 22 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025452.jpg",
+"full": "https://kuro.yoso.one/img/full/r025452.jpg",
 "alt": "Street, frame _R025452",
 "date": "2026-10-20T08:59:39+09:00",
 "gone": false
@@ -537,6 +585,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025453",
 "summary": "街 Street · _R025453 · Ricoh GR II · 22 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025453.jpg",
+"full": "https://kuro.yoso.one/img/full/r025453.jpg",
 "alt": "Street, frame _R025453",
 "date": "2026-10-20T08:59:38+09:00",
 "gone": false
@@ -548,6 +597,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r0006178",
 "summary": "影 Shadow · R0006178 · Ricoh GR III · 23 February 2026",
 "image": "https://kuro.yoso.one/img/thumb/r0006178.jpg",
+"full": "https://kuro.yoso.one/img/full/r0006178.jpg",
 "alt": "Shadow, frame R0006178",
 "date": "2026-10-20T08:59:37+09:00",
 "gone": false
@@ -559,6 +609,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r0006180",
 "summary": "影 Shadow · R0006180 · Ricoh GR III · 23 February 2026",
 "image": "https://kuro.yoso.one/img/thumb/r0006180.jpg",
+"full": "https://kuro.yoso.one/img/full/r0006180.jpg",
 "alt": "Shadow, frame R0006180",
 "date": "2026-10-20T08:59:36+09:00",
 "gone": false
@@ -570,6 +621,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r0006182",
 "summary": "影 Shadow · R0006182 · Ricoh GR III · 23 February 2026",
 "image": "https://kuro.yoso.one/img/thumb/r0006182.jpg",
+"full": "https://kuro.yoso.one/img/full/r0006182.jpg",
 "alt": "Shadow, frame R0006182",
 "date": "2026-10-20T08:59:35+09:00",
 "gone": false
@@ -581,6 +633,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024803",
 "summary": "影 Shadow · _R024803 · Ricoh GR II · 6 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024803.jpg",
+"full": "https://kuro.yoso.one/img/full/r024803.jpg",
 "alt": "Shadow, frame _R024803",
 "date": "2026-10-20T08:59:34+09:00",
 "gone": false
@@ -592,6 +645,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024854",
 "summary": "水 Water · _R024854 · Ricoh GR II · 14 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024854.jpg",
+"full": "https://kuro.yoso.one/img/full/r024854.jpg",
 "alt": "Water, frame _R024854",
 "date": "2026-10-20T08:59:33+09:00",
 "gone": false
@@ -603,6 +657,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024855",
 "summary": "水 Water · _R024855 · Ricoh GR II · 14 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024855.jpg",
+"full": "https://kuro.yoso.one/img/full/r024855.jpg",
 "alt": "Water, frame _R024855",
 "date": "2026-10-20T08:59:32+09:00",
 "gone": false
@@ -614,6 +669,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024856",
 "summary": "水 Water · _R024856 · Ricoh GR II · 14 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024856.jpg",
+"full": "https://kuro.yoso.one/img/full/r024856.jpg",
 "alt": "Water, frame _R024856",
 "date": "2026-10-20T08:59:31+09:00",
 "gone": false
@@ -625,6 +681,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024862",
 "summary": "水 Water · _R024862 · Ricoh GR II · 14 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024862.jpg",
+"full": "https://kuro.yoso.one/img/full/r024862.jpg",
 "alt": "Water, frame _R024862",
 "date": "2026-10-20T08:59:30+09:00",
 "gone": false
@@ -636,6 +693,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024880",
 "summary": "水 Water · _R024880 · Ricoh GR II · 14 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024880.jpg",
+"full": "https://kuro.yoso.one/img/full/r024880.jpg",
 "alt": "Water, frame _R024880",
 "date": "2026-10-20T08:59:29+09:00",
 "gone": false
@@ -647,6 +705,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r023953",
 "summary": "水 Water · _R023953 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023953.jpg",
+"full": "https://kuro.yoso.one/img/full/r023953.jpg",
 "alt": "Water, frame _R023953",
 "date": "2026-10-20T08:59:28+09:00",
 "gone": false
@@ -658,6 +717,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r023955",
 "summary": "水 Water · _R023955 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023955.jpg",
+"full": "https://kuro.yoso.one/img/full/r023955.jpg",
 "alt": "Water, frame _R023955",
 "date": "2026-10-20T08:59:27+09:00",
 "gone": false
@@ -669,6 +729,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r023956",
 "summary": "水 Water · _R023956 · Ricoh GR II · 21 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023956.jpg",
+"full": "https://kuro.yoso.one/img/full/r023956.jpg",
 "alt": "Water, frame _R023956",
 "date": "2026-10-20T08:59:26+09:00",
 "gone": false
@@ -680,6 +741,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024689",
 "summary": "猫 Cat · _R024689 · Ricoh GR II · 3 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024689.jpg",
+"full": "https://kuro.yoso.one/img/full/r024689.jpg",
 "alt": "Cat, frame _R024689",
 "date": "2026-10-20T08:59:25+09:00",
 "gone": false
@@ -691,6 +753,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024690",
 "summary": "猫 Cat · _R024690 · Ricoh GR II · 3 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024690.jpg",
+"full": "https://kuro.yoso.one/img/full/r024690.jpg",
 "alt": "Cat, frame _R024690",
 "date": "2026-10-20T08:59:24+09:00",
 "gone": false
@@ -702,6 +765,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024691",
 "summary": "猫 Cat · _R024691 · Ricoh GR II · 3 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024691.jpg",
+"full": "https://kuro.yoso.one/img/full/r024691.jpg",
 "alt": "Cat, frame _R024691",
 "date": "2026-10-20T08:59:23+09:00",
 "gone": false
@@ -713,6 +777,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r024692",
 "summary": "猫 Cat · _R024692 · Ricoh GR II · 3 April 2022",
 "image": "https://kuro.yoso.one/img/thumb/r024692.jpg",
+"full": "https://kuro.yoso.one/img/full/r024692.jpg",
 "alt": "Cat, frame _R024692",
 "date": "2026-10-20T08:59:22+09:00",
 "gone": false
@@ -724,6 +789,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r023923",
 "summary": "猫 Cat · _R023923 · Ricoh GR II · 20 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023923.jpg",
+"full": "https://kuro.yoso.one/img/full/r023923.jpg",
 "alt": "Cat, frame _R023923",
 "date": "2026-10-20T08:59:21+09:00",
 "gone": false
@@ -735,6 +801,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r023924",
 "summary": "猫 Cat · _R023924 · Ricoh GR II · 20 August 2021",
 "image": "https://kuro.yoso.one/img/thumb/r023924.jpg",
+"full": "https://kuro.yoso.one/img/full/r023924.jpg",
 "alt": "Cat, frame _R023924",
 "date": "2026-10-20T08:59:20+09:00",
 "gone": false
@@ -746,6 +813,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025243",
 "summary": "花火 Fireworks · _R025243 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025243.jpg",
+"full": "https://kuro.yoso.one/img/full/r025243.jpg",
 "alt": "Fireworks, frame _R025243",
 "date": "2026-10-20T08:59:19+09:00",
 "gone": false
@@ -757,6 +825,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025296",
 "summary": "花火 Fireworks · _R025296 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025296.jpg",
+"full": "https://kuro.yoso.one/img/full/r025296.jpg",
 "alt": "Fireworks, frame _R025296",
 "date": "2026-10-20T08:59:18+09:00",
 "gone": false
@@ -768,6 +837,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025300",
 "summary": "花火 Fireworks · _R025300 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025300.jpg",
+"full": "https://kuro.yoso.one/img/full/r025300.jpg",
 "alt": "Fireworks, frame _R025300",
 "date": "2026-10-20T08:59:17+09:00",
 "gone": false
@@ -779,6 +849,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025302",
 "summary": "花火 Fireworks · _R025302 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025302.jpg",
+"full": "https://kuro.yoso.one/img/full/r025302.jpg",
 "alt": "Fireworks, frame _R025302",
 "date": "2026-10-20T08:59:16+09:00",
 "gone": false
@@ -790,6 +861,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025308",
 "summary": "花火 Fireworks · _R025308 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025308.jpg",
+"full": "https://kuro.yoso.one/img/full/r025308.jpg",
 "alt": "Fireworks, frame _R025308",
 "date": "2026-10-20T08:59:15+09:00",
 "gone": false
@@ -801,6 +873,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025309",
 "summary": "花火 Fireworks · _R025309 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025309.jpg",
+"full": "https://kuro.yoso.one/img/full/r025309.jpg",
 "alt": "Fireworks, frame _R025309",
 "date": "2026-10-20T08:59:14+09:00",
 "gone": false
@@ -812,6 +885,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025310",
 "summary": "花火 Fireworks · _R025310 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025310.jpg",
+"full": "https://kuro.yoso.one/img/full/r025310.jpg",
 "alt": "Fireworks, frame _R025310",
 "date": "2026-10-20T08:59:13+09:00",
 "gone": false
@@ -823,6 +897,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025311",
 "summary": "花火 Fireworks · _R025311 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025311.jpg",
+"full": "https://kuro.yoso.one/img/full/r025311.jpg",
 "alt": "Fireworks, frame _R025311",
 "date": "2026-10-20T08:59:12+09:00",
 "gone": false
@@ -834,6 +909,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025312",
 "summary": "花火 Fireworks · _R025312 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025312.jpg",
+"full": "https://kuro.yoso.one/img/full/r025312.jpg",
 "alt": "Fireworks, frame _R025312",
 "date": "2026-10-20T08:59:11+09:00",
 "gone": false
@@ -845,6 +921,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025313",
 "summary": "花火 Fireworks · _R025313 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025313.jpg",
+"full": "https://kuro.yoso.one/img/full/r025313.jpg",
 "alt": "Fireworks, frame _R025313",
 "date": "2026-10-20T08:59:10+09:00",
 "gone": false
@@ -856,6 +933,7 @@ window.ON_ITEMS = [
 "link": "https://kuro.yoso.one/#f-r025314",
 "summary": "花火 Fireworks · _R025314 · Ricoh GR II · 14 August 2022",
 "image": "https://kuro.yoso.one/img/thumb/r025314.jpg",
+"full": "https://kuro.yoso.one/img/full/r025314.jpg",
 "alt": "Fireworks, frame _R025314",
 "date": "2026-10-20T08:59:09+09:00",
 "gone": false
