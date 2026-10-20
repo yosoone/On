@@ -62,8 +62,10 @@
       f.appendChild(img);
       a.appendChild(f);
     }
-    a.appendChild(el("h3", null, it.title));
-    if (it.summary && it.summary !== it.title) a.appendChild(el("p", "piece-summary", it.summary));
+    // River's texts show only the verse; their title is kept for screen readers.
+    var river = it.source === "river";
+    a.appendChild(el("h3", river ? "visually-hidden" : null, it.title));
+    if (it.summary && (river || it.summary !== it.title)) a.appendChild(el("p", "piece-summary", it.summary));
     a.appendChild(el("span", "piece-more", !it.source ? "Open the link"
       : it.gone ? "No longer on " + s.name
       : it.image ? "View larger"
