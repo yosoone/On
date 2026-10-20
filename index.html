@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" data-page="home">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>On</title>
+<meta name="description" content="On: a magazine gathering new work from the Yoso sites: notes, photographs, paintings and short texts.">
+<meta property="og:title" content="On">
+<meta property="og:url" content="https://on.yoso.one/">
+<link rel="alternate" type="application/rss+xml" title="On" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="family-mark" href="https://hub.yoso.one"><img src="images/yoso-mark.png" alt="Yoso" width="48" height="48"></a>
+<main class="page">
+  <header class="masthead">
+    <div class="kicker"><span>ON.YOSO.ONE · 宮崎</span><span>THE STREAM</span></div>
+    <h1 class="title"><a href="./">On</a></h1>
+    <p class="lede"><strong>A magazine gathered from the Yoso sites.</strong> Notes from The Vault, photographs from Kuro, paintings from Shinsei and short texts from River, collected here as they appear, with an issue now and then.</p>
+  </header>
+
+  <section aria-labelledby="issue-h">
+    <div class="section-head"><h2 class="label" id="issue-h">Latest issue</h2><a class="updated" href="issues.html">All issues →</a></div>
+    <div id="latest-issue"><p class="empty-note">The first issue is in preparation. Until then, the stream below fills itself.</p></div>
+  </section>
+
+  <section aria-labelledby="stream-h">
+    <div class="section-head"><h2 class="label" id="stream-h">The stream</h2><p class="updated" id="updated"></p></div>
+    <ul class="filters" id="filters" aria-label="Show work from"></ul>
+    <p class="empty-note" id="stream-note" aria-live="polite"></p>
+    <ul class="stream" id="stream"><li class="empty-note">The stream needs JavaScript; each site can also be visited from <a href="https://hub.yoso.one">the hub</a>.</li></ul>
+    <div class="more-row" id="more-row"></div>
+  </section>
+
+  <section aria-labelledby="follow-h">
+    <div class="section-head"><h2 class="label" id="follow-h">Follow along</h2></div>
+    <div class="follow">
+      <div id="mailing-list">
+        <h3>Mailing list</h3>
+        <p>Each issue of On arrives as a letter. No schedule, no noise.</p>
+        <!-- Mailing list: one Buttondown list for all sites; the hidden tag records which site the sign-up came from. -->
+        <form class="list-form" action="https://buttondown.com/api/emails/embed-subscribe/yoso" method="post" target="_blank">
+          <label for="list-email">Email address</label>
+          <input id="list-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+          <input type="hidden" name="tag" value="on">
+          <input type="hidden" name="embed" value="1">
+          <button class="btn" type="submit">Subscribe</button>
+          <p class="list-note">Sent through Buttondown. You&rsquo;ll get an email to confirm, and every letter has an unsubscribe link.</p>
+        </form>
+      </div>
+      <div>
+        <h3>RSS</h3>
+        <p>Everything in the stream, in your feed reader.</p>
+        <p><a class="feed-link" href="feed.xml">on.yoso.one/feed.xml</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 <a class="hub-link" href="https://hub.yoso.one">Yoso</a>. All works and images are the artist&rsquo;s own.</p>
+    <nav aria-label="On"><a href="./">Stream</a><a href="issues.html">Issues</a></nav>
+  </footer>
+</main>
+<script src="assets/items.js"></script>
+<script src="assets/issues.js"></script>
+<script src="assets/on.js"></script>
+</body>
+</html>
