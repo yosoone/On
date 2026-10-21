@@ -2180,7 +2180,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t0",
   "source": "river",
-  "summary": "Before reaching the shore,\nin the quiet sea of abstraction;\nSeize the mind.",
+  "summary": "Before reaching the shore,\nin the quiet sea of abstraction;\nseize the mind.",
   "title": "Before reaching the shore"
  },
  "river:river-t1": {
@@ -2227,7 +2227,7 @@
   "date": "2026-10-20T13:24:40+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
-  "gone": false,
+  "gone": true,
   "id": "river-t19",
   "image": "",
   "link": "https://river.yoso.one/#t19",
@@ -2245,7 +2245,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t2",
   "source": "river",
-  "summary": "Wind’s Natural Soul…\nLeading me to the unknown…\nTranscendental Flow.",
+  "summary": "Wind’s natural soul…\nLeading me into the unknown…\nTranscendental flow.",
   "title": "Wind’s Natural Soul"
  },
  "river:river-t20": {
@@ -2271,7 +2271,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t21",
   "source": "river",
-  "summary": "Heal yourself to heal others,\nHeal others to heal yourself.",
+  "summary": "Heal yourself to heal others,\nheal others to heal yourself.",
   "title": "Heal yourself to heal others"
  },
  "river:river-t22": {
@@ -2284,7 +2284,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t22",
   "source": "river",
-  "summary": "First Love, Then Form.",
+  "summary": "First love, then form.",
   "title": "First Love, Then Form"
  },
  "river:river-t23": {
@@ -2297,11 +2297,11 @@
   "image": "",
   "link": "https://river.yoso.one/#t23",
   "source": "river",
-  "summary": "There is no greater shock in life than birth,\nFighting for survival,\nDeath is release,",
+  "summary": "There is no greater shock in life than birth,\nunable to survive alone,\nwe believe in independence.\nDeath is clemency.",
   "title": "There is no greater shock in life than birth"
  },
  "river:river-t24": {
-  "alt": "Life itself",
+  "alt": "Existence itself",
   "date": "2026-10-20T13:24:35+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
@@ -2310,8 +2310,8 @@
   "image": "",
   "link": "https://river.yoso.one/#t24",
   "source": "river",
-  "summary": "Life itself...\nIs death itself...\nFull circle,\nBalance,\nDance...\nTransfer of energy...\nConsciousness...\nSurvival...",
-  "title": "Life itself"
+  "summary": "Existence itself…\nis death in its essence…\nThere is no presence without breath.",
+  "title": "Existence itself"
  },
  "river:river-t25": {
   "alt": "In modern times",
@@ -2323,7 +2323,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t25",
   "source": "river",
-  "summary": "In modern times,\nWe acquire knowledge,\nbelieving that it is the truth,\nonly to realize that it is only part of it!\nLife itself is knowledge!\nWithin Life itself resides the knowledge!\nThe multitude of Life forms that…",
+  "summary": "In modern times,\nseeking distractions,\nwe acquire knowledge,\nrevealing truth,\nfearing our instincts.",
   "title": "In modern times"
  },
  "river:river-t26": {
@@ -2349,7 +2349,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t27",
   "source": "river",
-  "summary": "Being One.\nBecoming one.\nmicrocosm and Macrocosm.\nOne",
+  "summary": "Being One.\nBecoming One.\nOne.",
   "title": "Being One"
  },
  "river:river-t28": {
@@ -2370,7 +2370,7 @@
   "date": "2026-10-20T13:24:30+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
-  "gone": false,
+  "gone": true,
   "id": "river-t29",
   "image": "",
   "link": "https://river.yoso.one/#t29",
@@ -2401,7 +2401,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t30",
   "source": "river",
-  "summary": "Do not love Love,\nBe love,\nLove.",
+  "summary": "Do not love Love,\nbe love,\nlove.",
   "title": "Do not love Love"
  },
  "river:river-t31": {
@@ -2414,7 +2414,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t31",
   "source": "river",
-  "summary": "The spring awakes,\nThe Golden Heart is Here!\nPure Counsciousness.",
+  "summary": "The spring awakes,\nThe Golden Heart is here!\nPure Consciousness.",
   "title": "The spring awakes"
  },
  "river:river-t32": {
@@ -2427,7 +2427,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t32",
   "source": "river",
-  "summary": "Your Mind is your home",
+  "summary": "Your mind is your home.\nBring it light,\nbring it air,\nbring it love.",
   "title": "Your Mind is your home"
  },
  "river:river-t33": {
@@ -2482,6 +2482,19 @@
   "summary": "Submissiveness,\nalien to the shining soul,\nbreathing union is.",
   "title": "Submissiveness"
  },
+ "river:river-t50": {
+  "alt": "Eternal wisdom",
+  "date": "2026-10-21T17:26:48+09:00",
+  "first_seen": "2026-10-21T20:54:55+09:00",
+  "full": "",
+  "gone": false,
+  "id": "river-t50",
+  "image": "",
+  "link": "https://river.yoso.one/#t50",
+  "source": "river",
+  "summary": "Within life itself lies the knowledge!\nEternal wisdom,\nif only we listened.",
+  "title": "Eternal wisdom"
+ },
  "river:river-t6": {
   "alt": "I surrender to the flow",
   "date": "2026-10-20T13:24:44+09:00",
@@ -2492,7 +2505,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t6",
   "source": "river",
-  "summary": "I surrender to the flow…\nReaching the depth of my heart…\nUnion’s Embrace.",
+  "summary": "I surrender to the flow…\nReaching the depths of my heart…\nUnion’s Embrace.",
   "title": "I surrender to the flow"
  },
  "river:river-t7": {
@@ -2505,7 +2518,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t7",
   "source": "river",
-  "summary": "Spring Energy,\nBlessing our hearts with promising light.\nEach blossom, a vow of harmony.\nWith gratitude, I honour your transience.",
+  "summary": "Spring Energy,\nBlessing our hearts with auspicious light.\nEach blossom, a vow of harmony.\nWith gratitude, I honour your transience.",
   "title": "Spring Energy"
  }
 }
