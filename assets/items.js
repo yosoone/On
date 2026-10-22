@@ -1,13 +1,97 @@
 /* Made by build.py: do not edit by hand. */
 window.ON_SOURCES = [{"key": "vault", "name": "The Vault", "kanji": "一", "site": "https://one.yoso.one/"}, {"key": "kuro", "name": "Kuro", "kanji": "黒", "site": "https://kuro.yoso.one/"}, {"key": "shinsei", "name": "Shinsei", "kanji": "心", "site": "https://shinsei.yoso.one/"}, {"key": "river", "name": "River", "kanji": "川", "site": "https://river.yoso.one/"}];
-window.ON_UPDATED = "2026-10-21T20:54:55+09:00";
+window.ON_UPDATED = "2026-10-22T20:57:36+09:00";
 window.ON_ITEMS = [
+{
+"uid": "river:river-t69",
+"source": "river",
+"title": "With each blossom",
+"link": "https://river.yoso.one/#t69",
+"summary": "With each blossom,\nI vow to dedicate myself to prosperity and harmony for sentient life.",
+"image": "",
+"full": "",
+"alt": "With each blossom",
+"date": "2026-10-22T16:22:10+09:00",
+"gone": false
+},
+{
+"uid": "river:river-t64",
+"source": "river",
+"title": "Thank you for always being by my side",
+"link": "https://river.yoso.one/#t64",
+"summary": "Thank you for always being by my side.\nWith you, my heart flows like a tranquil river.",
+"image": "",
+"full": "",
+"alt": "Thank you for always being by my side",
+"date": "2026-10-22T16:22:07+09:00",
+"gone": false
+},
+{
+"uid": "river:river-t54",
+"source": "river",
+"title": "Finally, a voice",
+"link": "https://river.yoso.one/#t54",
+"summary": "Finally, a voice.\nAll is Light,\nTo those who awake.",
+"image": "",
+"full": "",
+"alt": "Finally, a voice",
+"date": "2026-10-22T16:21:58+09:00",
+"gone": false
+},
+{
+"uid": "river:river-t55",
+"source": "river",
+"title": "Do not judge your experiences",
+"link": "https://river.yoso.one/#t55",
+"summary": "Do not judge your experiences,\nunion of presence, past and future;\nAll there is is now.",
+"image": "",
+"full": "",
+"alt": "Do not judge your experiences",
+"date": "2026-10-22T16:21:57+09:00",
+"gone": false
+},
+{
+"uid": "river:river-t102",
+"source": "river",
+"title": "There is a time in the day",
+"link": "https://river.yoso.one/#t102",
+"summary": "There is a time in the day,\nwhen the sun watches the moon;\nWhat is the time?",
+"image": "",
+"full": "",
+"alt": "There is a time in the day",
+"date": "2026-10-22T16:21:55+09:00",
+"gone": false
+},
+{
+"uid": "river:river-t19",
+"source": "river",
+"title": "Beyond Knowledge",
+"link": "https://river.yoso.one/#t19",
+"summary": "Before knowledge, integrity,\nBefore judgement,\nAwakening.",
+"image": "",
+"full": "",
+"alt": "Beyond Knowledge",
+"date": "2026-10-22T16:21:54+09:00",
+"gone": false
+},
+{
+"uid": "river:river-t106",
+"source": "river",
+"title": "The light reveals the shadows of the ego",
+"link": "https://river.yoso.one/#t106",
+"summary": "The light reveals the shadows of the ego.",
+"image": "",
+"full": "",
+"alt": "The light reveals the shadows of the ego",
+"date": "2026-10-22T16:21:52+09:00",
+"gone": false
+},
 {
 "uid": "river:river-t50",
 "source": "river",
 "title": "Eternal wisdom",
 "link": "https://river.yoso.one/#t50",
-"summary": "Within life itself lies the knowledge!\nEternal wisdom,\nif only we listened.",
+"summary": "Life itself is the knowledge!\nEternal wisdom,\nif only we listened.",
 "image": "",
 "full": "",
 "alt": "Eternal wisdom",
@@ -1500,7 +1584,7 @@ window.ON_ITEMS = [
 "full": "",
 "alt": "Awakening Mind",
 "date": "2026-10-20T13:24:42+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "river:river-t18",
@@ -1513,18 +1597,6 @@ window.ON_ITEMS = [
 "alt": "Present, mindful now",
 "date": "2026-10-20T13:24:41+09:00",
 "gone": false
-},
-{
-"uid": "river:river-t19",
-"source": "river",
-"title": "Being is beyond knowledge",
-"link": "https://river.yoso.one/#t19",
-"summary": "Being is beyond knowledge,\nbeing is integrity,\nbeing is the totality.\nThe totality of your experiences,\nThe sacred energy that unites past and future to the present moment!",
-"image": "",
-"full": "",
-"alt": "Being is beyond knowledge",
-"date": "2026-10-20T13:24:40+09:00",
-"gone": true
 },
 {
 "uid": "river:river-t20",
@@ -1565,36 +1637,36 @@ window.ON_ITEMS = [
 {
 "uid": "river:river-t23",
 "source": "river",
-"title": "There is no greater shock in life than birth",
+"title": "Death is clemency",
 "link": "https://river.yoso.one/#t23",
-"summary": "There is no greater shock in life than birth,\nunable to survive alone,\nwe believe in independence.\nDeath is clemency.",
+"summary": "There is no greater shock in life than birth,\nunable to survive alone,\nwe invest in independence.",
 "image": "",
 "full": "",
-"alt": "There is no greater shock in life than birth",
+"alt": "Death is clemency",
 "date": "2026-10-20T13:24:36+09:00",
 "gone": false
 },
 {
 "uid": "river:river-t24",
 "source": "river",
-"title": "Existence itself",
+"title": "Life itself is death itself",
 "link": "https://river.yoso.one/#t24",
-"summary": "Existence itself…\nis death in its essence…\nThere is no presence without breath.",
+"summary": "Existence itself…\nresides with death…\nThere is no presence without breath.",
 "image": "",
 "full": "",
-"alt": "Existence itself",
+"alt": "Life itself is death itself",
 "date": "2026-10-20T13:24:35+09:00",
 "gone": false
 },
 {
 "uid": "river:river-t25",
 "source": "river",
-"title": "In modern times",
+"title": "Modern times",
 "link": "https://river.yoso.one/#t25",
-"summary": "In modern times,\nseeking distractions,\nwe acquire knowledge,\nrevealing truth,\nfearing our instincts.",
+"summary": "Scanning for knowledge,\nseeking distractions,\nfearing our instincts.",
 "image": "",
 "full": "",
-"alt": "In modern times",
+"alt": "Modern times",
 "date": "2026-10-20T13:24:34+09:00",
 "gone": false
 },
@@ -1603,7 +1675,7 @@ window.ON_ITEMS = [
 "source": "river",
 "title": "End of Summer Full moon",
 "link": "https://river.yoso.one/#t26",
-"summary": "End of Summer Full moon,\nBright in the East…\nI could feel the cold wind in the morning rise…\nSummer afternoon…\nFeeling the Rain coming when you set your light…\nIt took me half a century to recognize, that both the Sun…",
+"summary": "End of summer full moon,\nbright in the East…\nI could feel the cold morning wind rise…",
 "image": "",
 "full": "",
 "alt": "End of Summer Full moon",
@@ -1615,7 +1687,7 @@ window.ON_ITEMS = [
 "source": "river",
 "title": "Being One",
 "link": "https://river.yoso.one/#t27",
-"summary": "Being One.\nBecoming One.\nOne.",
+"summary": "Becoming One.\nBeing One.\nAlways One.",
 "image": "",
 "full": "",
 "alt": "Being One",
@@ -1632,7 +1704,7 @@ window.ON_ITEMS = [
 "full": "",
 "alt": "With each petal in the wind",
 "date": "2026-10-20T13:24:31+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "river:river-t29",
@@ -1663,7 +1735,7 @@ window.ON_ITEMS = [
 "source": "river",
 "title": "The spring awakes",
 "link": "https://river.yoso.one/#t31",
-"summary": "The spring awakes,\nThe Golden Heart is here!\nPure Consciousness.",
+"summary": "The spring awakens,\ngolden heart,\npure Consciousness.",
 "image": "",
 "full": "",
 "alt": "The spring awakes",
@@ -1673,24 +1745,24 @@ window.ON_ITEMS = [
 {
 "uid": "river:river-t32",
 "source": "river",
-"title": "Your Mind is your home",
+"title": "Your mind is your home",
 "link": "https://river.yoso.one/#t32",
-"summary": "Your mind is your home.\nBring it light,\nbring it air,\nbring it love.",
+"summary": "Your mind is your home.\nBring it light,\nbring it air,\nbring it love,\nbring it you.",
 "image": "",
 "full": "",
-"alt": "Your Mind is your home",
+"alt": "Your mind is your home",
 "date": "2026-10-20T13:24:27+09:00",
 "gone": false
 },
 {
 "uid": "river:river-t33",
 "source": "river",
-"title": "With each blossom",
+"title": "I Dedicate my breath",
 "link": "https://river.yoso.one/#t33",
-"summary": "With each blossom,\nI vow to dedicate myself to prosperity and harmony for sentient life.",
+"summary": "I dedicate my breath\nto harmony.",
 "image": "",
 "full": "",
-"alt": "With each blossom",
+"alt": "I Dedicate my breath",
 "date": "2026-10-20T13:24:26+09:00",
 "gone": false
 },
@@ -1704,7 +1776,7 @@ window.ON_ITEMS = [
 "full": "",
 "alt": "A quiet river",
 "date": "2026-10-20T13:24:25+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r0000576",

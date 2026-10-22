@@ -2196,12 +2196,38 @@
   "summary": "To feel with opened eyes,\nto listen with the heart,\nto speak with truth.",
   "title": "To feel with opened eyes"
  },
+ "river:river-t102": {
+  "alt": "There is a time in the day",
+  "date": "2026-10-22T16:21:55+09:00",
+  "first_seen": "2026-10-22T20:57:36+09:00",
+  "full": "",
+  "gone": false,
+  "id": "river-t102",
+  "image": "",
+  "link": "https://river.yoso.one/#t102",
+  "source": "river",
+  "summary": "There is a time in the day,\nwhen the sun watches the moon;\nWhat is the time?",
+  "title": "There is a time in the day"
+ },
+ "river:river-t106": {
+  "alt": "The light reveals the shadows of the ego",
+  "date": "2026-10-22T16:21:52+09:00",
+  "first_seen": "2026-10-22T20:57:36+09:00",
+  "full": "",
+  "gone": false,
+  "id": "river-t106",
+  "image": "",
+  "link": "https://river.yoso.one/#t106",
+  "source": "river",
+  "summary": "The light reveals the shadows of the ego.",
+  "title": "The light reveals the shadows of the ego"
+ },
  "river:river-t17": {
   "alt": "Awakening Mind",
   "date": "2026-10-20T13:24:42+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
-  "gone": false,
+  "gone": true,
   "id": "river-t17",
   "image": "",
   "link": "https://river.yoso.one/#t17",
@@ -2223,17 +2249,17 @@
   "title": "Present, mindful now"
  },
  "river:river-t19": {
-  "alt": "Being is beyond knowledge",
-  "date": "2026-10-20T13:24:40+09:00",
+  "alt": "Beyond Knowledge",
+  "date": "2026-10-22T16:21:54+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
-  "gone": true,
+  "gone": false,
   "id": "river-t19",
   "image": "",
   "link": "https://river.yoso.one/#t19",
   "source": "river",
-  "summary": "Being is beyond knowledge,\nbeing is integrity,\nbeing is the totality.\nThe totality of your experiences,\nThe sacred energy that unites past and future to the present moment!",
-  "title": "Being is beyond knowledge"
+  "summary": "Before knowledge, integrity,\nBefore judgement,\nAwakening.",
+  "title": "Beyond Knowledge"
  },
  "river:river-t2": {
   "alt": "Wind’s Natural Soul",
@@ -2288,7 +2314,7 @@
   "title": "First Love, Then Form"
  },
  "river:river-t23": {
-  "alt": "There is no greater shock in life than birth",
+  "alt": "Death is clemency",
   "date": "2026-10-20T13:24:36+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
@@ -2297,11 +2323,11 @@
   "image": "",
   "link": "https://river.yoso.one/#t23",
   "source": "river",
-  "summary": "There is no greater shock in life than birth,\nunable to survive alone,\nwe believe in independence.\nDeath is clemency.",
-  "title": "There is no greater shock in life than birth"
+  "summary": "There is no greater shock in life than birth,\nunable to survive alone,\nwe invest in independence.",
+  "title": "Death is clemency"
  },
  "river:river-t24": {
-  "alt": "Existence itself",
+  "alt": "Life itself is death itself",
   "date": "2026-10-20T13:24:35+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
@@ -2310,11 +2336,11 @@
   "image": "",
   "link": "https://river.yoso.one/#t24",
   "source": "river",
-  "summary": "Existence itself…\nis death in its essence…\nThere is no presence without breath.",
-  "title": "Existence itself"
+  "summary": "Existence itself…\nresides with death…\nThere is no presence without breath.",
+  "title": "Life itself is death itself"
  },
  "river:river-t25": {
-  "alt": "In modern times",
+  "alt": "Modern times",
   "date": "2026-10-20T13:24:34+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
@@ -2323,8 +2349,8 @@
   "image": "",
   "link": "https://river.yoso.one/#t25",
   "source": "river",
-  "summary": "In modern times,\nseeking distractions,\nwe acquire knowledge,\nrevealing truth,\nfearing our instincts.",
-  "title": "In modern times"
+  "summary": "Scanning for knowledge,\nseeking distractions,\nfearing our instincts.",
+  "title": "Modern times"
  },
  "river:river-t26": {
   "alt": "End of Summer Full moon",
@@ -2336,7 +2362,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t26",
   "source": "river",
-  "summary": "End of Summer Full moon,\nBright in the East…\nI could feel the cold wind in the morning rise…\nSummer afternoon…\nFeeling the Rain coming when you set your light…\nIt took me half a century to recognize, that both the Sun…",
+  "summary": "End of summer full moon,\nbright in the East…\nI could feel the cold morning wind rise…",
   "title": "End of Summer Full moon"
  },
  "river:river-t27": {
@@ -2349,7 +2375,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t27",
   "source": "river",
-  "summary": "Being One.\nBecoming One.\nOne.",
+  "summary": "Becoming One.\nBeing One.\nAlways One.",
   "title": "Being One"
  },
  "river:river-t28": {
@@ -2357,7 +2383,7 @@
   "date": "2026-10-20T13:24:31+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
-  "gone": false,
+  "gone": true,
   "id": "river-t28",
   "image": "",
   "link": "https://river.yoso.one/#t28",
@@ -2414,11 +2440,11 @@
   "image": "",
   "link": "https://river.yoso.one/#t31",
   "source": "river",
-  "summary": "The spring awakes,\nThe Golden Heart is here!\nPure Consciousness.",
+  "summary": "The spring awakens,\ngolden heart,\npure Consciousness.",
   "title": "The spring awakes"
  },
  "river:river-t32": {
-  "alt": "Your Mind is your home",
+  "alt": "Your mind is your home",
   "date": "2026-10-20T13:24:27+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
@@ -2427,11 +2453,11 @@
   "image": "",
   "link": "https://river.yoso.one/#t32",
   "source": "river",
-  "summary": "Your mind is your home.\nBring it light,\nbring it air,\nbring it love.",
-  "title": "Your Mind is your home"
+  "summary": "Your mind is your home.\nBring it light,\nbring it air,\nbring it love,\nbring it you.",
+  "title": "Your mind is your home"
  },
  "river:river-t33": {
-  "alt": "With each blossom",
+  "alt": "I Dedicate my breath",
   "date": "2026-10-20T13:24:26+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
@@ -2440,15 +2466,15 @@
   "image": "",
   "link": "https://river.yoso.one/#t33",
   "source": "river",
-  "summary": "With each blossom,\nI vow to dedicate myself to prosperity and harmony for sentient life.",
-  "title": "With each blossom"
+  "summary": "I dedicate my breath\nto harmony.",
+  "title": "I Dedicate my breath"
  },
  "river:river-t38": {
   "alt": "A quiet river",
   "date": "2026-10-20T13:24:25+09:00",
   "first_seen": "2026-10-20T14:02:33+09:00",
   "full": "",
-  "gone": false,
+  "gone": true,
   "id": "river-t38",
   "image": "",
   "link": "https://river.yoso.one/#t38",
@@ -2492,8 +2518,34 @@
   "image": "",
   "link": "https://river.yoso.one/#t50",
   "source": "river",
-  "summary": "Within life itself lies the knowledge!\nEternal wisdom,\nif only we listened.",
+  "summary": "Life itself is the knowledge!\nEternal wisdom,\nif only we listened.",
   "title": "Eternal wisdom"
+ },
+ "river:river-t54": {
+  "alt": "Finally, a voice",
+  "date": "2026-10-22T16:21:58+09:00",
+  "first_seen": "2026-10-22T20:57:36+09:00",
+  "full": "",
+  "gone": false,
+  "id": "river-t54",
+  "image": "",
+  "link": "https://river.yoso.one/#t54",
+  "source": "river",
+  "summary": "Finally, a voice.\nAll is Light,\nTo those who awake.",
+  "title": "Finally, a voice"
+ },
+ "river:river-t55": {
+  "alt": "Do not judge your experiences",
+  "date": "2026-10-22T16:21:57+09:00",
+  "first_seen": "2026-10-22T20:57:36+09:00",
+  "full": "",
+  "gone": false,
+  "id": "river-t55",
+  "image": "",
+  "link": "https://river.yoso.one/#t55",
+  "source": "river",
+  "summary": "Do not judge your experiences,\nunion of presence, past and future;\nAll there is is now.",
+  "title": "Do not judge your experiences"
  },
  "river:river-t6": {
   "alt": "I surrender to the flow",
@@ -2507,6 +2559,32 @@
   "source": "river",
   "summary": "I surrender to the flow…\nReaching the depths of my heart…\nUnion’s Embrace.",
   "title": "I surrender to the flow"
+ },
+ "river:river-t64": {
+  "alt": "Thank you for always being by my side",
+  "date": "2026-10-22T16:22:07+09:00",
+  "first_seen": "2026-10-22T20:57:36+09:00",
+  "full": "",
+  "gone": false,
+  "id": "river-t64",
+  "image": "",
+  "link": "https://river.yoso.one/#t64",
+  "source": "river",
+  "summary": "Thank you for always being by my side.\nWith you, my heart flows like a tranquil river.",
+  "title": "Thank you for always being by my side"
+ },
+ "river:river-t69": {
+  "alt": "With each blossom",
+  "date": "2026-10-22T16:22:10+09:00",
+  "first_seen": "2026-10-22T20:57:36+09:00",
+  "full": "",
+  "gone": false,
+  "id": "river-t69",
+  "image": "",
+  "link": "https://river.yoso.one/#t69",
+  "source": "river",
+  "summary": "With each blossom,\nI vow to dedicate myself to prosperity and harmony for sentient life.",
+  "title": "With each blossom"
  },
  "river:river-t7": {
   "alt": "Spring Energy",
