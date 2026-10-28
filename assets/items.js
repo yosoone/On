@@ -1,7 +1,271 @@
 /* Made by build.py: do not edit by hand. */
 window.ON_SOURCES = [{"key": "vault", "name": "The Vault", "kanji": "一", "site": "https://one.yoso.one/"}, {"key": "kuro", "name": "Kuro", "kanji": "黒", "site": "https://kuro.yoso.one/"}, {"key": "shinsei", "name": "Shinsei", "kanji": "心", "site": "https://shinsei.yoso.one/"}, {"key": "river", "name": "River", "kanji": "川", "site": "https://river.yoso.one/"}];
-window.ON_UPDATED = "2026-10-27T14:10:32+09:00";
+window.ON_UPDATED = "2026-10-28T21:59:59+09:00";
 window.ON_ITEMS = [
+{
+"uid": "kuro:yosokuro-r0000725",
+"source": "kuro",
+"title": "夜 Night",
+"link": "https://kuro.yoso.one/#f-r0000725",
+"summary": "夜 Night · R0000725 · Ricoh GR III · 26 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000725.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000725.jpg",
+"alt": "Night, frame R0000725",
+"date": "2026-10-28T17:45:00+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000786",
+"source": "kuro",
+"title": "夜 Night",
+"link": "https://kuro.yoso.one/#f-r0000786",
+"summary": "夜 Night · R0000786 · Ricoh GR III · 28 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000786.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000786.jpg",
+"alt": "Night, frame R0000786",
+"date": "2026-10-28T17:44:59+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000845",
+"source": "kuro",
+"title": "街 Street",
+"link": "https://kuro.yoso.one/#f-r0000845",
+"summary": "街 Street · R0000845 · Ricoh GR III · 28 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000845.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000845.jpg",
+"alt": "Street, frame R0000845",
+"date": "2026-10-28T17:44:58+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000755",
+"source": "kuro",
+"title": "街 Street",
+"link": "https://kuro.yoso.one/#f-r0000755",
+"summary": "街 Street · R0000755 · Ricoh GR III · 26 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000755.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000755.jpg",
+"alt": "Street, frame R0000755",
+"date": "2026-10-28T17:44:57+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000727",
+"source": "kuro",
+"title": "街 Street",
+"link": "https://kuro.yoso.one/#f-r0000727",
+"summary": "街 Street · R0000727 · Ricoh GR III · 26 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000727.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000727.jpg",
+"alt": "Street, frame R0000727",
+"date": "2026-10-28T17:44:56+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000492",
+"source": "kuro",
+"title": "字 Words",
+"link": "https://kuro.yoso.one/#f-r0000492",
+"summary": "字 Words · R0000492 · Ricoh GR III · 11 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000492.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000492.jpg",
+"alt": "Words, frame R0000492",
+"date": "2026-10-28T17:44:55+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000679",
+"source": "kuro",
+"title": "字 Words",
+"link": "https://kuro.yoso.one/#f-r0000679",
+"summary": "字 Words · R0000679 · Ricoh GR III · 24 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000679.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000679.jpg",
+"alt": "Words, frame R0000679",
+"date": "2026-10-28T17:44:54+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000702",
+"source": "kuro",
+"title": "字 Words",
+"link": "https://kuro.yoso.one/#f-r0000702",
+"summary": "字 Words · R0000702 · Ricoh GR III · 25 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000702.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000702.jpg",
+"alt": "Words, frame R0000702",
+"date": "2026-10-28T17:44:53+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000983",
+"source": "kuro",
+"title": "字 Words",
+"link": "https://kuro.yoso.one/#f-r0000983",
+"summary": "字 Words · R0000983 · Ricoh GR III · 16 February 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000983.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000983.jpg",
+"alt": "Words, frame R0000983",
+"date": "2026-10-28T17:44:52+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0001318",
+"source": "kuro",
+"title": "字 Words",
+"link": "https://kuro.yoso.one/#f-r0001318",
+"summary": "字 Words · R0001318 · Ricoh GR III · 13 June 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0001318.jpg",
+"full": "https://kuro.yoso.one/img/full/r0001318.jpg",
+"alt": "Words, frame R0001318",
+"date": "2026-10-28T17:44:51+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000764",
+"source": "kuro",
+"title": "字 Words",
+"link": "https://kuro.yoso.one/#f-r0000764",
+"summary": "字 Words · R0000764 · Ricoh GR III · 27 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000764.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000764.jpg",
+"alt": "Words, frame R0000764",
+"date": "2026-10-28T17:44:50+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000773",
+"source": "kuro",
+"title": "字 Words",
+"link": "https://kuro.yoso.one/#f-r0000773",
+"summary": "字 Words · R0000773 · Ricoh GR III · 28 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000773.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000773.jpg",
+"alt": "Words, frame R0000773",
+"date": "2026-10-28T17:44:49+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000705",
+"source": "kuro",
+"title": "字 Words",
+"link": "https://kuro.yoso.one/#f-r0000705",
+"summary": "字 Words · R0000705 · Ricoh GR III · 26 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000705.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000705.jpg",
+"alt": "Words, frame R0000705",
+"date": "2026-10-28T17:44:48+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000572",
+"source": "kuro",
+"title": "顔 Faces",
+"link": "https://kuro.yoso.one/#f-r0000572",
+"summary": "顔 Faces · R0000572 · Ricoh GR III · 15 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000572.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000572.jpg",
+"alt": "Faces, frame R0000572",
+"date": "2026-10-28T17:44:47+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000572-2",
+"source": "kuro",
+"title": "顔 Faces",
+"link": "https://kuro.yoso.one/#f-r0000572-2",
+"summary": "顔 Faces · R0000572-2 · Ricoh GR III · 15 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000572-2.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000572-2.jpg",
+"alt": "Faces, frame R0000572-2",
+"date": "2026-10-28T17:44:46+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000572-3",
+"source": "kuro",
+"title": "顔 Faces",
+"link": "https://kuro.yoso.one/#f-r0000572-3",
+"summary": "顔 Faces · R0000572-3 · Ricoh GR III · 15 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000572-3.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000572-3.jpg",
+"alt": "Faces, frame R0000572-3",
+"date": "2026-10-28T17:44:45+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000846",
+"source": "kuro",
+"title": "顔 Faces",
+"link": "https://kuro.yoso.one/#f-r0000846",
+"summary": "顔 Faces · R0000846 · Ricoh GR III · 28 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000846.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000846.jpg",
+"alt": "Faces, frame R0000846",
+"date": "2026-10-28T17:44:44+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0000489",
+"source": "kuro",
+"title": "顔 Faces",
+"link": "https://kuro.yoso.one/#f-r0000489",
+"summary": "顔 Faces · R0000489 · Ricoh GR III · 11 January 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0000489.jpg",
+"full": "https://kuro.yoso.one/img/full/r0000489.jpg",
+"alt": "Faces, frame R0000489",
+"date": "2026-10-28T17:44:43+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r024259",
+"source": "kuro",
+"title": "顔 Faces",
+"link": "https://kuro.yoso.one/#f-r024259",
+"summary": "顔 Faces · _R024259 · Ricoh GR II · 30 October 2021",
+"image": "https://kuro.yoso.one/img/thumb/r024259.jpg",
+"full": "https://kuro.yoso.one/img/full/r024259.jpg",
+"alt": "Faces, frame _R024259",
+"date": "2026-10-28T17:44:42+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0001081",
+"source": "kuro",
+"title": "猫 Cat",
+"link": "https://kuro.yoso.one/#f-r0001081",
+"summary": "猫 Cat · R0001081 · Ricoh GR III · 7 April 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0001081.jpg",
+"full": "https://kuro.yoso.one/img/full/r0001081.jpg",
+"alt": "Cat, frame R0001081",
+"date": "2026-10-28T17:44:41+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r0001084",
+"source": "kuro",
+"title": "猫 Cat",
+"link": "https://kuro.yoso.one/#f-r0001084",
+"summary": "猫 Cat · R0001084 · Ricoh GR III · 7 April 2023",
+"image": "https://kuro.yoso.one/img/thumb/r0001084.jpg",
+"full": "https://kuro.yoso.one/img/full/r0001084.jpg",
+"alt": "Cat, frame R0001084",
+"date": "2026-10-28T17:44:40+09:00",
+"gone": false
+},
+{
+"uid": "kuro:yosokuro-r025298",
+"source": "kuro",
+"title": "花火 Fireworks",
+"link": "https://kuro.yoso.one/#f-r025298",
+"summary": "花火 Fireworks · _R025298 · Ricoh GR II · 14 August 2022",
+"image": "https://kuro.yoso.one/img/thumb/r025298.jpg",
+"full": "https://kuro.yoso.one/img/full/r025298.jpg",
+"alt": "Fireworks, frame _R025298",
+"date": "2026-10-28T17:44:39+09:00",
+"gone": false
+},
 {
 "uid": "river:river-t111",
 "source": "river",
@@ -600,7 +864,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r024299.jpg",
 "alt": "People, frame _R024299",
 "date": "2026-10-20T21:44:23+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r024303",
@@ -624,7 +888,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r023061.jpg",
 "alt": "People, frame _R023061",
 "date": "2026-10-20T21:44:21+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r024695",
@@ -732,7 +996,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r0000706.jpg",
 "alt": "Faces, frame R0000706",
 "date": "2026-10-20T21:44:12+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r0001112",
@@ -744,7 +1008,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r0001112.jpg",
 "alt": "Faces, frame R0001112",
 "date": "2026-10-20T21:44:11+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r024976",
@@ -816,7 +1080,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r025395.jpg",
 "alt": "Faces, frame _R025395",
 "date": "2026-10-20T21:44:05+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r025471",
@@ -996,7 +1260,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r0000939.jpg",
 "alt": "Kami, frame R0000939",
 "date": "2026-10-20T21:43:50+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r0000940",
@@ -1008,7 +1272,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r0000940.jpg",
 "alt": "Kami, frame R0000940",
 "date": "2026-10-20T21:43:49+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r024453",
@@ -1020,7 +1284,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r024453.jpg",
 "alt": "Kami, frame _R024453",
 "date": "2026-10-20T21:43:48+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r024454",
@@ -1248,7 +1512,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r023957.jpg",
 "alt": "Water, frame _R023957",
 "date": "2026-10-20T21:43:29+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r0000141",
@@ -1308,7 +1572,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r0000509.jpg",
 "alt": "Fire, frame R0000509",
 "date": "2026-10-20T21:43:24+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r0000510",
@@ -1320,7 +1584,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r0000510.jpg",
 "alt": "Fire, frame R0000510",
 "date": "2026-10-20T21:43:23+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r0000929",
@@ -1524,7 +1788,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r0001331.jpg",
 "alt": "Cat, frame R0001331",
 "date": "2026-10-20T21:43:06+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "river:river-t0",
@@ -1848,7 +2112,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r0000613.jpg",
 "alt": "Night, frame R0000613",
 "date": "2026-10-20T08:59:59+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r0000654",
@@ -1860,7 +2124,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r0000654.jpg",
 "alt": "Night, frame R0000654",
 "date": "2026-10-20T08:59:58+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r0000681",
@@ -1872,7 +2136,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r0000681.jpg",
 "alt": "Night, frame R0000681",
 "date": "2026-10-20T08:59:57+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r025450",
@@ -2304,7 +2568,7 @@ window.ON_ITEMS = [
 "full": "https://kuro.yoso.one/img/full/r023923.jpg",
 "alt": "Cat, frame _R023923",
 "date": "2026-10-20T08:59:21+09:00",
-"gone": false
+"gone": true
 },
 {
 "uid": "kuro:yosokuro-r023924",
