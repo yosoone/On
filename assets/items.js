@@ -1,5 +1,5 @@
 /* Made by build.py: do not edit by hand. */
-window.ON_SOURCES = [{"key": "vault", "name": "The Vault", "kanji": "一", "site": "https://one.yoso.one/"}, {"key": "kuro", "name": "Kuro", "kanji": "黒", "site": "https://kuro.yoso.one/"}, {"key": "shinsei", "name": "Shinsei", "kanji": "心", "site": "https://shinsei.yoso.one/"}, {"key": "river", "name": "River", "kanji": "川", "site": "https://river.yoso.one/"}];
+window.ON_SOURCES = [{"key": "vault", "name": "One", "kanji": "一", "site": "https://one.yoso.one/"}, {"key": "kuro", "name": "Kuro", "kanji": "黒", "site": "https://kuro.yoso.one/"}, {"key": "shinsei", "name": "Shinsei", "kanji": "心", "site": "https://shinsei.yoso.one/"}, {"key": "river", "name": "River", "kanji": "川", "site": "https://river.yoso.one/"}];
 window.ON_UPDATED = "2026-10-28T21:59:59+09:00";
 window.ON_ITEMS = [
 {

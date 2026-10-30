@@ -27,7 +27,7 @@
   //     date: "2026-10-29",
   //     text: "First line,\nsecond line.\n\nA new stanza.",
   //     sign: "Yoso\nMiyazaki, Japan.",
-  //     more: { label: "Drafts on The Vault", link: "https://one.yoso.one/..." }
+  //     more: { label: "Drafts on One", link: "https://one.yoso.one/..." }
   //   },
 
   \n starts a new line; \n\n leaves a blank line between stanzas. 'more' is
@@ -62,7 +62,7 @@ window.ON_ISSUES = [
         date: "2026-10-29",
         text: "Touching you with my eyes,\nreveals a void filled by desire.\nIs it what I have been seeking?\nThe incertitude of temptation.\n\nThere is no you or I, a living memory.\nAll that is left are pure sensations,\na fire within, resonance of an echo that burned with desire.\n\nSeeking release, surrender, flowing feelings, embrace,\nthe loss of past pleasures; there is more than one path to ecstasy.\n\nWhen lust and love dissolve, it is you that I\nsee. It was always you, peeking in the darkness. A void.\n\nWhat is your name,\nwhat is your face?\nDo you even know love?",
         sign: "Yoso\nMiyazaki, Japan.",
-        more: { label: "Drafts and handwritten notes on The Vault", link: "https://one.yoso.one/Writings/Touching+You+With+My+Eyes" }
+        more: { label: "Drafts and handwritten notes on One", link: "https://one.yoso.one/Writings/Touching+You+With+My+Eyes" }
       },
       "https://river.yoso.one/#t113",
       "https://kuro.yoso.one/#f-r0000725",

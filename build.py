@@ -32,7 +32,7 @@ from xml.sax.saxutils import escape as xml_escape
 
 # ---- the sites On gathers from ----
 SOURCES = [
-    {"key": "vault", "name": "The Vault", "kanji": "一", "site": "https://one.yoso.one/",
+    {"key": "vault", "name": "One", "kanji": "一", "site": "https://one.yoso.one/",
      "feed": "https://one.yoso.one/rss.xml"},
     {"key": "kuro", "name": "Kuro", "kanji": "黒", "site": "https://kuro.yoso.one/",
      "feed": "https://kuro.yoso.one/feed.xml",
