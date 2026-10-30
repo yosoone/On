@@ -34,14 +34,33 @@ Sites it reads (set at the top of `build.py`):
 
 - `index.html`: the front page, always the latest issue. Its 'This moon so far' section fills itself with new work dated between the issue's `opens` and `closes`; 'Moons ago' holds work from the same moon in earlier years
 - `stream.html`: the whole stream, by site
+- `moons.html`: the year of moons, one old lunar year per page (`moons.html?y=2027`), with a **Print** button for one A4 landscape sheet
 - `issues.html`, `issue.html`: the list of issues and a single issue (`issue.html?n=1`)
 - Texts chosen for an issue are kept in the vault, one folder per issue: `Writings/On/` (see `_ On Issues.md` there)
 - `assets/issues.js`: **your list of issues**, the one file you edit
 - `assets/items.js`, `feed.xml`, `data/archive.json`: made by `build.py`; do not edit by hand
 - `assets/on.js`, `assets/site.css`: how the pages are drawn and styled
 - `build.py`: the gatherer
+- `assets/moons.js`: the moon calendar data, made by `moons.py`; do not edit by hand
+- `assets/moon.js`: draws 'Tonight's moon' on the front page and the year of moons
+- `moons.py`: works out the moons, the old months, the 24 solar terms and the 72 *kō* (see below)
 - `setup/publish.yml`: the GitHub workflow (see below)
 - `check.py`, `robots.txt`, `CNAME`, `.nojekyll`: shared with the other Yoso sites
+
+## The moon calendar
+
+The front page opens with **Tonight's moon**: the old date (for example 長月 二十日), the moon's age and phase, the named night where there is one, the solar term and *kō* in force, and the next new moon, then this lunar month as a row of moons with today marked. **The year of moons** (`moons.html`) shows a whole old lunar year, from 睦月 Mutsuki to 師走 Shiwasu, and prints on one A4 landscape sheet.
+
+Everything is in Japan time. Each moon is drawn as it looks at 9 pm, waxing on the right. Months begin on the day of the new moon and take their number from the principal solar term that falls in them; a month without one is a leap month (閏月). A month's name links to its issue when an issue in `issues.js` has the same `opens` date.
+
+`assets/moons.js` covers the old lunar years 2026 to 2030. To extend it, change `LAST` at the top of `moons.py`, then:
+
+```
+pip install ephem
+python3 moons.py
+```
+
+The dates were checked against the National Astronomical Observatory of Japan's 暦要項 for 2026 and 2027 (new and full moons to the minute, all 24 solar terms on the same day).
 
 ## Setting it up on GitHub (once)
 

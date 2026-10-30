@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" data-page="moons">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>On: the year of moons</title>
+<meta name="description" content="On: a magazine gathering new work from the Yoso sites: notes, photographs, paintings and short texts.">
+<meta property="og:title" content="On: the year of moons">
+<meta property="og:url" content="https://on.yoso.one/moons.html">
+<link rel="alternate" type="application/rss+xml" title="On" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="family-mark" href="https://hub.yoso.one"><img src="images/yoso-mark.png" alt="Yoso" width="48" height="48"></a>
+<main class="page">
+  <header class="masthead">
+    <div class="kicker"><span>ON.YOSO.ONE · 宮崎</span><span>MOONS</span></div>
+    <h1 class="title"><a href="./">On</a></h1>
+  </header>
+
+  <section aria-labelledby="year-title">
+    <div class="section-head"><h2 class="label" id="year-title">The year of moons</h2><a class="updated" href="./">This moon →</a></div>
+    <p class="year-intro">On follows the old lunisolar calendar, <span class="k">旧暦</span> kyūreki: each issue opens at a new moon and takes the old name of its month. <span id="year-span"></span></p>
+    <div class="more-row year-nav" id="year-nav"></div>
+    <div id="year-of-moons"><p class="empty-note">The moon calendar needs JavaScript.</p></div>
+    <div class="year-key">
+      <p class="print-key">On follows the old lunisolar calendar, <span class="k">旧暦</span> kyūreki: each issue opens at a new moon and takes the old name of its month. Each moon is drawn as it looks at 9 pm in Japan, waxing on the right; the number under it is the date, and a kanji marks the first day of a solar term.</p>
+      <p>Each moon is drawn as it looks at 9 pm in Japan, waxing on the right. The small number above it is the night of the lunar month; the date below is the day it falls on. A kanji under a date marks the first day of one of the 24 solar terms. Touch or point at a night for its phase, its <i>kō</i> and the times of the new moon, quarters and full moon. A month&rsquo;s name links to its issue once that issue is out.</p>
+      <p>Months begin on the day of the new moon, Japan time, and take their number from the principal solar term that falls in them; a month without one is a leap month (<span class="k">閏月</span> urūzuki). Calculated for On from the positions of the sun and moon. Where a new moon or solar term falls close to midnight, a printed calendar may differ by a day.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="follow-h">
+    <div class="section-head"><h2 class="label" id="follow-h">Follow along</h2></div>
+    <div class="follow">
+      <div id="mailing-list">
+        <h3>Mailing list</h3>
+        <p>Each issue of On arrives as a letter, one at each new moon.</p>
+        <!-- Mailing list: one Buttondown list for all Yoso sites; readers choose their newsletters, each one a tag. -->
+        <form class="list-form" action="https://buttondown.com/api/emails/embed-subscribe/yoso" method="post" target="_blank">
+          <label for="list-email">Email address</label>
+          <input id="list-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+          <!-- Newsletter choice: each ticked box becomes a Buttondown tag. Shown after the email step by assets/list-choice.js. -->
+          <fieldset class="list-choice" data-list-choice>
+            <legend>Which newsletters would you like?</legend>
+            <label class="lc-box"><input type="checkbox" name="tag" value="one"><span><span class="lc-name">One</span><span class="lc-desc">Notes, essays and research from one.yoso.one</span></span></label>
+            <label class="lc-box"><input type="checkbox" name="tag" value="yosokuro"><span><span class="lc-name">Yosokuro</span><span class="lc-desc">Black-and-white photographs of Japan</span></span></label>
+            <label class="lc-box"><input type="checkbox" name="tag" value="shinsei"><span><span class="lc-name">Shinsei</span><span class="lc-desc">New paintings, scrolls and exhibitions</span></span></label>
+            <label class="lc-box"><input type="checkbox" name="tag" value="river"><span><span class="lc-name">River</span><span class="lc-desc">New short texts</span></span></label>
+            <label class="lc-box"><input type="checkbox" name="tag" value="on" checked><span><span class="lc-name">On</span><span class="lc-desc">Each numbered issue of the magazine</span></span></label>
+          </fieldset>
+          <input type="hidden" name="embed" value="1">
+          <button class="btn" type="submit">Subscribe</button>
+          <p class="list-note">Sent through Buttondown. You&rsquo;ll get an email to confirm, and every letter has an unsubscribe link.</p>
+        </form>
+      </div>
+      <div>
+        <h3>RSS</h3>
+        <p>Everything in the stream, in your feed reader.</p>
+        <p><a class="feed-link" href="feed.xml">on.yoso.one/feed.xml</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 <a class="hub-link" href="https://hub.yoso.one">Yoso</a>. Yoso&rsquo;s works are the artist&rsquo;s own; older works are credited where they appear.</p>
+    <nav aria-label="On"><a href="./">This moon</a><a href="stream.html">Stream</a><a href="issues.html">Issues</a><a href="moons.html">Moons</a><span class="version" data-version>Beta 0.12</span></nav>
+  </footer>
+</main>
+<script src="assets/issues.js"></script>
+<script src="assets/moons.js"></script>
+<script src="assets/moon.js"></script>
+<script src="assets/list-choice.js" defer></script>
+<script src="assets/stats.js" defer></script>
+</body>
+</html>
