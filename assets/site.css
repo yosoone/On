@@ -132,6 +132,16 @@ a.issue-feature:hover { background: var(--wash); padding-inline: 0.8rem; }
 }
 .piece.text h3 { font-size: 0.95rem; font-family: var(--f-mono); font-weight: 400; letter-spacing: 0.04em; color: var(--ink-soft); }
 .piece.gone .piece-more { color: var(--ink-soft); }
+/* A text written into the issue itself: full width, the whole poem, a link at the foot */
+.piece.feature { grid-column: 1 / -1; }
+.piece.feature .piece-body {
+  display: flex; flex-direction: column; gap: 0.7rem; max-width: 40rem;
+  border-top: 1px solid var(--rule); padding-top: 0.9rem;
+}
+.piece.feature .feature-title { font-family: var(--f-display); font-weight: 700; font-size: 1.5rem; line-height: 1.25; margin: 0; color: var(--ink); letter-spacing: 0; }
+.piece.feature .piece-sign { margin: 0; font-family: var(--f-display); color: var(--ink-soft); white-space: pre-line; padding-left: 1rem; }
+.piece.feature a.piece-more { display: inline; height: auto; border-top: 0; padding-top: 0; text-decoration: underline; text-underline-offset: 3px; align-self: flex-start; }
+.piece.feature a.piece-more:hover { color: var(--ink); }
 
 .more-row { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2rem; }
 .btn {

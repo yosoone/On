@@ -78,8 +78,32 @@
     return "issue.html?n=" + encodeURIComponent(issue.number);
   }
 
+  // A piece written straight into the issue (an object in issues.js, not a link):
+  // the full text lives in the edition, with an optional link for readers who want more.
+  function inlinePiece(p, i) {
+    var li = el("li", "piece text feature");
+    li.dataset.uid = "issue:" + i;
+    var box = el("div", "piece-body");
+    var meta = el("span", "piece-meta");
+    meta.appendChild(el("span", null, "In this issue"));
+    var d = date(p.date);
+    if (d) meta.appendChild(el("span", null, "· " + d));
+    box.appendChild(meta);
+    box.appendChild(el("h3", "feature-title", p.title));
+    box.appendChild(el("p", "piece-summary", p.text));
+    if (p.sign) box.appendChild(el("p", "piece-sign", p.sign));
+    if (p.more && p.more.link) {
+      var a = el("a", "piece-more", (p.more.label || "Read more") + " →");
+      a.href = p.more.link;
+      box.appendChild(a);
+    }
+    li.appendChild(box);
+    return li;
+  }
+
   function issuePieces(issue) {
-    return (issue.pieces || []).map(function (ref) {
+    return (issue.pieces || []).map(function (ref, i) {
+      if (ref && typeof ref === "object") return Object.assign({ inline: true, index: i }, ref);
       return byLink[ref] || byUid[ref] || {
         uid: ref, source: "", title: ref, link: ref, summary: "Not found in On's archive: check this link in issues.js.",
         image: "", alt: "", date: "", gone: true
@@ -200,6 +224,12 @@
     var md = ["# On, No. " + is.number + (is.title ? ": " + is.title : ""), ""];
     if (is.intro) md.push(is.intro, "");
     pieces.forEach(function (it) {
+      if (it.inline) {
+        md.push("## " + it.title, "", it.text.split("\n").join("  \n"), "");
+        if (it.sign) md.push(it.sign.split("\n").join("  \n"), "");
+        if (it.more && it.more.link) md.push("[" + (it.more.label || "Read more") + "](" + it.more.link + ")", "");
+        return;
+      }
       var s = source[it.source];
       if (!s) return;          // a link On could not find stays out of the letter
       md.push("## [" + it.title + "](" + it.link + ")", "");
@@ -231,7 +261,9 @@
       el("h2", "issue-title", is.title || "Issue " + is.number));
     if (is.intro) head.appendChild(el("p", "issue-intro", is.intro));
     var pieces = issuePieces(is);
-    list.replaceChildren.apply(list, pieces.map(piece));
+    list.replaceChildren.apply(list, pieces.map(function (it) {
+      return it.inline ? inlinePiece(it, it.index) : piece(it);
+    }));
 
     var text = letter(is, pieces);
     var area = document.getElementById("letter-text");
