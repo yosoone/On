@@ -75,13 +75,12 @@ window.ON_ISSUES = [
     past: [
       {
         label: "Moons ago",
-        when: "長月, 1694",
-        title: "Matsuo Bashō",
-        original: "所思\n此道や行人なしに秋の暮",
-        text: "Kono michi ya\nyuku hito nashi ni\naki no kure\n\nMy thoughts:\nthis road —\nno one going along it,\nautumn dusk.",
-        credit: "Written in the ninth month of Genroku 7 (1694), the month before Bashō died. Text as printed in 泥足編『其便』 (1694). English version for On.",
-        more: { label: "Source: Fujita Shin'ichi, Kansai University", link: "https://kansai-u.repo.nii.ac.jp/record/5031/files/KU-1100-20180301-16.pdf" }
+        when: "葉月, 5 October 2025",
+        title: "Hyperactive Ants",
+        text: "Chasing, Chasing, Chasing...\nDream Hunter..\nAre you getting ready for the winter?",
+        sign: "Yoso"
       },
+      { ref: "https://kuro.yoso.one/#f-r024259", note: "長月, 30 October 2021" },
       {
         label: "Moons ago",
         when: "c. 1857",
@@ -93,7 +92,15 @@ window.ON_ISSUES = [
         credit: "From One Hundred Famous Views of Edo. The Metropolitan Museum of Art, New York, public domain (JP646).",
         more: { label: "On The Met's site", link: "https://www.metmuseum.org/art/collection/search/37096" }
       },
-      { ref: "https://kuro.yoso.one/#f-r024259", note: "長月, 30 October 2021" }
+      {
+        label: "Moons ago",
+        when: "長月, 1694",
+        title: "Matsuo Bashō",
+        original: "所思\n此道や行人なしに秋の暮",
+        text: "Kono michi ya\nyuku hito nashi ni\naki no kure\n\nMy thoughts:\nthis road —\nno one going along it,\nautumn dusk.",
+        credit: "Written in the ninth month of Genroku 7 (1694), the month before Bashō died. Text as printed in 泥足編『其便』 (1694). English version for On.",
+        more: { label: "Source: Fujita Shin'ichi, Kansai University", link: "https://kansai-u.repo.nii.ac.jp/record/5031/files/KU-1100-20180301-16.pdf" }
+      }
     ]
   }
 ];
