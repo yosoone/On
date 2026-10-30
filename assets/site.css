@@ -416,3 +416,71 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
   --moon-lit: var(--ink-soft); --moon-dark: color-mix(in srgb, var(--ink) 13%, transparent); --moon-rim: transparent;
 }
 .piece-moon .moon { width: 13px; height: 13px; }
+
+/* The printed issue: an A5 booklet, made with make-pdf.py or the browser's Print.
+   Cover (masthead, title, introduction), then the pieces one after another, then
+   'This moon so far' and 'Moons ago' each from a new page, and a colophon. */
+.print-link, .colophon { display: none; }
+@media print {
+  @page a5 { size: A5; margin: 15mm 13mm 17mm; }
+  @page a5:first { margin-top: 12mm; }
+  html[data-page="issue"] body, html[data-page="current"] body { page: a5; font-size: 9.5pt; line-height: 1.55; }
+  html:is([data-page="issue"], [data-page="current"]) {
+    --paper: #fff; --ink: #1E2124; --ink-soft: #55595D; --rule: #C9C7C0; --ai: #2F4B63; --wash: #F1F0EC;
+    color-scheme: light;
+  }
+  html:is([data-page="issue"], [data-page="current"]) :is(
+    .lede, .mast-moon, .section-head .updated, .letter, section[aria-labelledby="follow-h"],
+    footer, .piece-more, .issue-pdf-row, .piece-moon) { display: none !important; }
+  html:is([data-page="issue"], [data-page="current"]) .page { display: block; padding: 0; max-width: none; }
+  html:is([data-page="issue"], [data-page="current"]) .family-mark { margin: 0 auto 10mm; width: 11mm; }
+  html:is([data-page="issue"], [data-page="current"]) .family-mark img { width: 11mm; height: 11mm; }
+
+  /* Cover */
+  html:is([data-page="issue"], [data-page="current"]) .masthead { border-bottom: 0.6pt solid var(--ink); padding-bottom: 5mm; gap: 3mm; }
+  html:is([data-page="issue"], [data-page="current"]) .kicker { font-size: 6.5pt; }
+  html:is([data-page="issue"], [data-page="current"]) .mast-row { display: block; }
+  html:is([data-page="issue"], [data-page="current"]) .title { font-size: 64pt; }
+  html:is([data-page="issue"], [data-page="current"]) .masthead + section > .section-head { margin: 8mm 0 3mm; }
+  html:is([data-page="issue"], [data-page="current"]) .issue-feature { border: 0; padding: 0; gap: 4mm; break-after: page; }
+  html:is([data-page="issue"], [data-page="current"]) .issue-no { font-size: 8pt; }
+  html:is([data-page="issue"], [data-page="current"]) .issue-title { font-size: 22pt; }
+  html:is([data-page="issue"], [data-page="current"]) .issue-intro { color: var(--ink); font-size: 10pt; line-height: 1.65; max-width: none; text-wrap: pretty; }
+
+  /* Sections and labels */
+  html:is([data-page="issue"], [data-page="current"]) section { margin: 0; }
+  html:is([data-page="issue"], [data-page="current"]) #moon-section,
+  html:is([data-page="issue"], [data-page="current"]) #past-section { break-before: page; }
+  html:is([data-page="issue"], [data-page="current"]) .section-head { margin: 0 0 2mm; }
+  html:is([data-page="issue"], [data-page="current"]) .label { font-size: 6.5pt; }
+  html:is([data-page="issue"], [data-page="current"]) .empty-note { font-size: 8pt; margin-bottom: 4mm; }
+
+  /* Pieces: one column, each kept whole on its page */
+  html:is([data-page="issue"], [data-page="current"]) .stream { display: block; margin: 0 !important; }
+  html:is([data-page="issue"], [data-page="current"]) .piece { break-inside: avoid; margin: 0 0 6mm; }
+  html:is([data-page="issue"], [data-page="current"]) .piece a,
+  html:is([data-page="issue"], [data-page="current"]) .piece.inline .piece-body { display: flex; height: auto; gap: 2mm; padding-top: 3mm; border-top: 0.5pt solid var(--rule); }
+  html:is([data-page="issue"], [data-page="current"]) .piece-meta { font-size: 6.5pt; }
+  html:is([data-page="issue"], [data-page="current"]) .piece-meta .k { font-size: 9pt; }
+  html:is([data-page="issue"], [data-page="current"]) .piece-img { aspect-ratio: auto; background: none; overflow: visible; }
+  html:is([data-page="issue"], [data-page="current"]) .piece-img img { width: 100%; height: auto; max-height: 105mm; object-fit: contain; object-position: left center; transform: none !important; }
+  html:is([data-page="issue"], [data-page="current"]) .piece h3,
+  html:is([data-page="issue"], [data-page="current"]) .piece.inline .feature-title { font-size: 11pt; }
+  html:is([data-page="issue"], [data-page="current"]) .piece-summary { font-size: 8.5pt; line-height: 1.5; }
+  html:is([data-page="issue"], [data-page="current"]) .piece.text .piece-summary { font-size: 10pt; line-height: 1.7; padding-left: 4mm; border-left-width: 1pt; }
+  html:is([data-page="issue"], [data-page="current"]) .piece-original { font-size: 10pt; line-height: 1.7; }
+  html:is([data-page="issue"], [data-page="current"]) .piece-credit { font-size: 7pt; }
+  html:is([data-page="issue"], [data-page="current"]) .piece.inline .piece-sign { padding-left: 4mm; font-size: 9pt; }
+  /* The written-in feature (a long poem) opens its own page and may run on */
+  html:is([data-page="issue"], [data-page="current"]) .piece.feature { break-inside: auto; margin-bottom: 0; break-after: page; }
+  html:is([data-page="issue"], [data-page="current"]) .piece.feature .piece-body { border-top: 0; padding-top: 0; max-width: none; }
+  html:is([data-page="issue"], [data-page="current"]) .piece.feature .feature-title { font-size: 16pt; margin-bottom: 3mm; }
+  html:is([data-page="issue"], [data-page="current"]) .piece.feature .piece-summary { font-size: 10.5pt; line-height: 1.8; orphans: 3; widows: 3; }
+  html:is([data-page="issue"], [data-page="current"]) .print-link { display: block; font-family: var(--f-mono); font-size: 6.5pt; color: var(--ai); overflow-wrap: anywhere; }
+
+  /* Colophon: the last page */
+  html:is([data-page="issue"], [data-page="current"]) .colophon { display: grid; gap: 2mm; break-before: page; padding-top: 4mm; border-top: 0.6pt solid var(--ink); font-size: 8pt; color: var(--ink-soft); }
+  html:is([data-page="issue"], [data-page="current"]) .colophon p { margin: 0; }
+  html:is([data-page="issue"], [data-page="current"]) .colophon-t { font-family: var(--f-display); font-weight: 700; font-size: 11pt; color: var(--ink); }
+  html:is([data-page="issue"], [data-page="current"]) #issue { margin-top: 0; }
+}

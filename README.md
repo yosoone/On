@@ -41,6 +41,7 @@ Sites it reads (set at the top of `build.py`):
 - `assets/items.js`, `feed.xml`, `data/archive.json`: made by `build.py`; do not edit by hand
 - `assets/on.js`, `assets/site.css`: how the pages are drawn and styled
 - `build.py`: the gatherer
+- `make-pdf.py`: makes an issue's printed edition (A5 PDF) in `issues/`; see 'The printed issue' below
 - `assets/moons.js`: the moon calendar data, made by `moons.py`; do not edit by hand
 - `assets/moon.js`: draws the moon widget and the year of moons
 - `moons.py`: works out the moons, the old months, the 24 solar terms and the 72 *kō* (see below)
@@ -61,6 +62,28 @@ python3 moons.py
 ```
 
 The dates were checked against the National Astronomical Observatory of Japan's 暦要項 for 2026 and 2027 (new and full moons to the minute, all 24 solar terms on the same day).
+
+## The printed issue (PDF)
+
+Each issue can be downloaded as a printed edition: an A5 PDF with a cover (the masthead, the issue's title and introduction), the pieces one after another, 'This moon so far' and 'Moons ago' each from a new page, and a colophon at the end. Links are written out under each piece, so the paper copy still says where everything lives. The look comes from the print styles at the end of `assets/site.css`, so pressing Print on any issue page in a browser gives the same layout.
+
+**When the issue closes** (the day before the next new moon), in this folder:
+
+```
+python3 make-pdf.py        # the latest issue; or  python3 make-pdf.py 0  for No. 0
+python3 release.py "Printed issue No. 0"
+```
+
+`make-pdf.py` saves the PDF in `issues/` (for example `issues/on-00-nagatsuki-beta.pdf`) and, the first time, adds `pdf: "issues/…pdf",` to that issue in `assets/issues.js`, which puts a **Download the printed issue (PDF, A5)** button on the issue page and a link in the letter. Running it again replaces the file. It uses the large copy of each photograph, shrunk to about 300 dpi for A5, and sets the PDF's title and author.
+
+It needs, once:
+
+```
+pip3 install playwright pypdf pillow
+python3 -m playwright install chromium
+```
+
+and the internet, since the photographs and fonts come from the other Yoso sites and Google Fonts. It lists any picture that did not load.
 
 ## Setting it up on GitHub (once)
 

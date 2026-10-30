@@ -32,6 +32,12 @@
     return d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Tokyo" });
   }
 
+  // A link written out for the printed edition (shown only on paper)
+  function printLink(url) {
+    var short = String(url || "").replace(/^https?:\/\//, "").replace(/\/$/, "");
+    return el("span", "print-link", short);
+  }
+
   // The moon on the night of a piece's date (moon.js), at the end of its date line
   function moonOf(meta, stamp) {
     var b = window.OnMoon && window.OnMoon.badge(stamp);
@@ -64,6 +70,7 @@
       var f = el("span", "piece-img");
       var img = el("img");
       img.src = it.image;
+      if (it.full) img.dataset.full = it.full;  // the printed issue uses the large copy
       img.alt = it.alt || it.title;
       img.loading = "lazy";
       img.decoding = "async";
@@ -78,6 +85,7 @@
       : it.gone ? "No longer on " + s.name
       : it.image ? "View larger"
       : "Read on " + s.name + " →"));
+    if (it.source && !it.gone) a.appendChild(printLink(it.link));
     li.appendChild(a);
     return li;
   }
@@ -118,6 +126,9 @@
       var a = el("a", "piece-more", (p.more.label || "Read more") + " →");
       a.href = p.more.link;
       box.appendChild(a);
+      box.appendChild(printLink(p.more.link));
+    } else if (p.link) {
+      box.appendChild(printLink(p.link));
     }
     li.appendChild(box);
     return li;
@@ -273,6 +284,7 @@
       past.forEach(add);
     }
     md.push("---", "", "Read this issue online: " + SITE + issueLink(is));
+    if (is.pdf) md.push("", "The printed issue (PDF, A5): " + SITE + is.pdf);
     return md.join("\n");
   }
 
@@ -296,6 +308,24 @@
       el("span", "issue-no", "No. " + is.number + (is.date ? " · " + date(is.date) : "")),
       el("h2", "issue-title", is.title || "Issue " + is.number));
     if (is.intro) head.appendChild(el("p", "issue-intro", is.intro));
+    // The printed issue: a PDF made by make-pdf.py, linked once it exists
+    if (is.pdf) {
+      var dl = el("a", "btn quiet issue-pdf", "Download the printed issue (PDF, A5)");
+      dl.href = is.pdf;
+      dl.setAttribute("download", "");
+      var row = el("div", "more-row issue-pdf-row");
+      row.appendChild(dl);
+      head.appendChild(row);
+    }
+    // The last page of the printed issue
+    var colo = el("div", "colophon");
+    colo.appendChild(el("p", "colophon-t", "On, No. " + is.number + (is.title ? " · " + is.title : "")));
+    colo.appendChild(el("p", null, [is.opens && is.closes ? "This moon: " + date(is.opens) + " to " + date(is.closes) + "." : "",
+      "Read it online at " + SITE.replace(/^https:\/\//, "") + issueLink(is) + "."].filter(Boolean).join(" ")));
+    colo.appendChild(el("p", null, "Gathered from the Yoso sites: One, Kuro, Shinsei and River. Yoso\u2019s works are the artist\u2019s own; older works are credited where they appear."));
+    colo.appendChild(el("p", null, "Yoso · Miyazaki, Japan · hub.yoso.one"));
+    var foot = document.querySelector("main.page > footer");
+    if (foot) foot.parentNode.insertBefore(colo, foot); else root.appendChild(colo);
     function draw(ul, arr) {
       ul.replaceChildren.apply(ul, arr.map(function (it) {
         return it.inline ? inlinePiece(it, it.index) : piece(it);
@@ -457,6 +487,11 @@
       }
     };
   })();
+
+  // When printing, load every picture first (lazy ones would print blank)
+  window.addEventListener("beforeprint", function () {
+    document.querySelectorAll('img[loading="lazy"]').forEach(function (i) { i.loading = "eager"; });
+  });
 
   var page = document.documentElement.getAttribute("data-page");
   if (page === "home" || page === "stream") home();
