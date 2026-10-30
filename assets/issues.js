@@ -25,4 +25,19 @@
   // },
 */
 window.ON_ISSUES = [
+  {
+    number: 0,
+    title: "長月 Nagatsuki · Beta",
+    date: "2026-10-30",
+    intro: "A beta issue. From now on, On follows the moon: each issue opens at a new moon and takes the old name of its month. This is 長月 Nagatsuki, the ninth month, which opened at the new moon on 11 October. Frost descended with 霜降 Sōkō on 23 October, and the almanac says brief light rain falls now and then. In Miyazaki, the ants are still at work. No. 1, 神無月 Kannazuki, opens at the new moon on 9 November.",
+    pieces: [
+      "https://river.yoso.one/#t113",
+      "https://kuro.yoso.one/#f-r0000725",
+      "https://river.yoso.one/#t102",
+      "https://kuro.yoso.one/#f-r024801",
+      "https://river.yoso.one/#t111",
+      "https://kuro.yoso.one/#f-r0000141",
+      "https://river.yoso.one/#t114"
+    ]
+  }
 ];
