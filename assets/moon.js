@@ -1,4 +1,4 @@
-/* On: the moon calendar. Draws 'Tonight's moon' on the front page and the year of moons
+/* On: the moon calendar. Draws the moon widget on the front page and the year of moons
    (moons.html) from moons.js, in Japan time. Nothing here needs editing for a new year:
    run moons.py to extend moons.js. */
 (function () {
@@ -251,57 +251,69 @@
     return ol;
   }
 
-  /* ---------- front page: tonight's moon and this month ---------- */
-  function tonight(box) {
+  /* ---------- the moon as a widget: small, medium or large ---------- */
+  function widget(box, size) {
     var today = todayJST();
     var mi = monthOf(today);
-    if (mi < 0 || today >= MONTHS[MONTHS.length - 1].next.slice(0, 10)) { box.closest("section").hidden = true; return; }
+    if (mi < 0 || today >= MONTHS[MONTHS.length - 1].next.slice(0, 10)) { box.hidden = true; return; }
     var m = MONTHS[mi], idx = Math.round((Date.parse(today) - Date.parse(m.start)) / 864e5), n = idx + 1;
     var e = m.el[idx], name = monthName(m);
-    var noon = Date.parse(today + "T12:00:00+09:00"), nm = Date.parse(m.nm + ":00+09:00");
-    var age = ((noon - nm) / 864e5);
-    if (age < 0) age += 29.53;
-
-    var head = el("div", "tonight");
-    head.appendChild(moon(e, 112));
-    var t = el("div", "tonight-text");
-    var h = el("p", "tonight-date");
-    h.appendChild(el("span", null, name.k + " " + kanjiNum(n) + "日"));
-    t.appendChild(h);
-    t.appendChild(el("p", "tonight-meta", name.r + ", night " + n + " · " + fullDate(today)));
     var night = NIGHTS[n] || (n === m.days ? ["晦", "Misoka", "the last night of the month"] : null);
-    var line = "Moon age " + age.toFixed(1) + " · " + phaseName(e) + " · " + Math.round(lit(e) * 100) + "% lit";
-    if (dateOf(m.full) === today) line += " · full at " + timeOf(m.full);
-    t.appendChild(el("p", "tonight-line", line));
-    if (night) {
-      var pn = el("p", "tonight-line");
-      pn.appendChild(el("span", "k", night[0]));
-      pn.appendChild(document.createTextNode(" " + night[1] + ", " + night[2]));
-      t.appendChild(pn);
+    var toNew = Math.round((Date.parse(dateOf(m.next)) - Date.parse(today)) / 864e5);
+    var ko = kouOn(today), ki = ko.cur ? ko.cur[1] : null;
+
+    var w = el("a", "moon-widget");
+    w.href = "moons.html";
+    w.dataset.size = size;
+    var words = ["Tonight's moon", name.k + " " + kanjiNum(n) + "日", name.r + ", night " + n, phaseName(e), Math.round(lit(e) * 100) + "% lit"];
+    if (night) words.push(night[0] + " " + night[1]);
+    if (ki != null) words.push(SEKKI[Math.floor(ki / 3)][0] + " " + SEKKI[Math.floor(ki / 3)][1], KOU[ki][0] + " " + KOU[ki][1]);
+    words.push("new moon in " + toNew + (toNew === 1 ? " day" : " days"), "the year of moons");
+    w.setAttribute("aria-label", words.join(", "));
+
+    var top = el("span", "mw-kicker");
+    top.appendChild(el("span", null, "今宵 TONIGHT"));
+    if (size !== "small") top.appendChild(el("span", null, fullDate(today).toUpperCase()));
+    var mn = moon(e, size === "small" ? 72 : 104);
+    var date = el("span", "mw-date", name.k + " " + kanjiNum(n) + "日");
+    var sub = el("span", "mw-sub", size === "small"
+      ? Math.round(lit(e) * 100) + "% · " + phaseName(e).replace(" moon", "")
+      : name.r + " · night " + n + " · " + Math.round(lit(e) * 100) + "%");
+
+    if (size === "small") {
+      w.append(top, mn, date, sub);
+    } else {
+      var txt = el("span", "mw-text");
+      txt.append(date, sub);
+      if (night) {
+        var nl = el("span", "mw-line");
+        nl.appendChild(el("span", "k", night[0]));
+        nl.appendChild(document.createTextNode(" " + night[1]));
+        txt.appendChild(nl);
+      }
+      if (ki != null) {
+        var sl = el("span", "mw-line");
+        sl.appendChild(el("span", "k", SEKKI[Math.floor(ki / 3)][0] + " · " + KOU[ki][0]));
+        sl.appendChild(document.createTextNode(" " + KOU[ki][2]));
+        txt.appendChild(sl);
+      }
+      txt.appendChild(el("span", "mw-next", "New moon in " + toNew + (toNew === 1 ? " day" : " days") + " · " + parseInt(m.next.slice(8, 10), 10) + " " + shortMonth(m.next)));
+      var body = el("span", "mw-body");
+      body.append(mn, txt);
+      w.append(top, body);
+      if (size === "large") {
+        var row = el("span", "mw-row");
+        for (var i = 0; i < m.days; i++) {
+          var c = el("span", "mw-night" + (i === idx ? " today" : ""));
+          c.appendChild(moon(m.el[i], 14));
+          row.appendChild(c);
+        }
+        w.appendChild(row);
+      }
     }
-    var ko = kouOn(today);
-    if (ko.cur) {
-      var ki = ko.cur[1], sk = SEKKI[Math.floor(ki / 3)];
-      var ps = el("p", "tonight-line");
-      ps.appendChild(el("span", "k", sk[0]));
-      ps.appendChild(document.createTextNode(" " + sk[1] + ", " + sk[2] + " · "));
-      ps.appendChild(el("span", "k", KOU[ki][0]));
-      ps.appendChild(document.createTextNode(" " + KOU[ki][1] + ", " + KOU[ki][2] + (ko.next ? ", to " + longDate(addDays(ko.next[0], -1)) : "")));
-      t.appendChild(ps);
-    }
-    var nx = MONTHS[mi + 1];
-    if (nx) {
-      var nn = monthName(nx), is = issueFor(nx);
-      var pnx = el("p", "tonight-next");
-      pnx.appendChild(document.createTextNode("Next new moon: " + longDate(dateOf(m.next)) + " at " + timeOf(m.next) + ", opening "));
-      pnx.appendChild(el("span", "k", nn.k));
-      pnx.appendChild(document.createTextNode(" " + nn.r + (is ? " and No. " + is.number : " and the next issue") + "."));
-      t.appendChild(pnx);
-    }
-    head.appendChild(t);
-    var cap = el("p", "nights-cap", name.k + " " + name.r + " · " + longDate(m.start) + " to " + fullDate(addDays(m.start, m.days - 1)));
-    box.replaceChildren(head, cap, nights(m, today));
+    box.replaceChildren(w);
   }
+  window.OnMoon = { widget: widget };
 
   /* ---------- the year of moons ---------- */
   function year(box) {
@@ -362,8 +374,7 @@
     box.replaceChildren(list);
   }
 
-  var t = document.getElementById("tonight");
-  if (t) tonight(t);
+  document.querySelectorAll("[data-moon-widget]").forEach(function (b) { widget(b, b.getAttribute("data-moon-widget") || "medium"); });
   var y = document.getElementById("year-of-moons");
   if (y) year(y);
 })();

@@ -267,16 +267,7 @@ footer nav { display: flex; gap: 1.2rem; }
 .moon-lit { fill: var(--moon-lit); }
 .moon-rim { fill: none; stroke: var(--moon-rim); stroke-width: 0.6; }
 
-.tonight { display: flex; flex-wrap: wrap; gap: 1.2rem 1.8rem; align-items: center; }
-.tonight .moon { width: 112px; height: 112px; flex: none; }
-.tonight-text { flex: 1 1 18rem; display: grid; gap: 0.35rem; min-width: 0; }
-.tonight-text p { margin: 0; }
-.tonight-date { font-family: var(--f-display); font-weight: 700; font-size: clamp(1.8rem, 7vw, 2.6rem); line-height: 1.1; }
-.tonight-meta { font-family: var(--f-mono); font-size: 0.75rem; letter-spacing: 0.08em; color: var(--ai); }
-.tonight-line, .tonight-next { color: var(--ink-soft); font-size: 0.93rem; line-height: 1.55; }
-.tonight-next { color: var(--ink); }
-.moon-cal .k, .year-intro .k, .year-key .k { font-family: var(--f-display); color: var(--ink); }
-.nights-cap { margin: 1.8rem 0 0.6rem; font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--ink-soft); }
+.year-intro .k, .year-key .k { font-family: var(--f-display); color: var(--ink); }
 
 /* One lunar month: a row of nights (two rows on phones) */
 .nights {
@@ -365,3 +356,44 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
   html.moons-13 .ym-k { font-size: 10pt; }
   .moon-dark, .moon-lit { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
+
+/* Masthead: title and lede, with tonight's moon beside them on wide screens */
+.mast-row { display: grid; gap: 1.4rem; }
+.mast-main { display: grid; gap: 1rem; min-width: 0; }
+@media (min-width: 52rem) { .mast-row { grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 2.4rem; } }
+
+/* The moon as a widget: a small night-sky tile, in either page theme */
+.moon-widget {
+  --w-bg: #121416; --w-ink: #E4E2DB; --w-soft: #9A9C9C; --w-ai: #9FB6CB; --w-rule: #2C2F31;
+  --moon-lit: #E9E6DC; --moon-dark: #24282B; --moon-rim: #3A3E41;
+  box-sizing: border-box; display: grid; gap: 0.7rem; align-content: start;
+  padding: 1rem 1.1rem 1.1rem; border-radius: 22px;
+  background: radial-gradient(120% 90% at 20% 15%, #1C2024 0%, var(--w-bg) 60%);
+  color: var(--w-ink); text-decoration: none; border: 1px solid var(--w-rule);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.04) inset, 0 10px 30px -18px rgba(0,0,0,0.6);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.moon-widget:hover { transform: translateY(-2px); box-shadow: 0 1px 0 rgba(255,255,255,0.04) inset, 0 16px 34px -18px rgba(0,0,0,0.7); }
+.moon-widget:focus-visible { outline: 2px solid var(--ai); outline-offset: 3px; }
+.moon-widget .moon { filter: drop-shadow(0 0 10px rgba(233,230,220,0.18)); }
+.moon-widget .moon-rim { stroke-width: 0.4; }
+.mw-kicker { display: flex; justify-content: space-between; gap: 0.6rem; font-family: var(--f-mono); font-size: 0.62rem; letter-spacing: 0.12em; color: var(--w-soft); }
+.mw-date { font-family: var(--f-display); font-weight: 700; font-size: 1.35rem; line-height: 1.15; }
+.mw-sub, .mw-next { font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.04em; color: var(--w-ai); }
+.mw-line { font-size: 0.8rem; line-height: 1.45; color: var(--w-soft); }
+.mw-line .k { font-family: var(--f-display); color: var(--w-ink); }
+.mw-next { color: var(--w-soft); margin-top: 0.2rem; }
+.moon-widget[data-size="small"] { width: 11rem; aspect-ratio: 1; gap: 0.35rem; }
+.moon-widget[data-size="small"] .moon { width: 72px; height: 72px; margin: 0.15rem 0 0.2rem; }
+.moon-widget[data-size="small"] .mw-date { font-size: 1.15rem; }
+.mw-body { display: flex; gap: 1.1rem; align-items: center; }
+.mw-body .moon { width: 104px; height: 104px; flex: none; }
+.mw-text { display: grid; gap: 0.25rem; min-width: 0; }
+.moon-widget[data-size="medium"] { width: min(100%, 23rem); }
+.moon-widget[data-size="large"] { width: min(100%, 23rem); }
+.mw-row { display: grid; grid-template-columns: repeat(15, 1fr); gap: 0.35rem 0; padding-top: 0.75rem; border-top: 1px solid var(--w-rule); }
+.mw-night { display: flex; justify-content: center; padding: 2px 0; border-radius: 50%; }
+.mw-night .moon { width: 14px; height: 14px; filter: none; }
+.mw-night.today { box-shadow: 0 0 0 1px var(--w-ai); border-radius: 4px; }
+@media (max-width: 26rem) { .mw-body .moon { width: 84px; height: 84px; } .mw-body { gap: 0.9rem; } }
+@media (prefers-reduced-motion: reduce) { .moon-widget:hover { transform: none; } }

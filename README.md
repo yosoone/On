@@ -42,14 +42,14 @@ Sites it reads (set at the top of `build.py`):
 - `assets/on.js`, `assets/site.css`: how the pages are drawn and styled
 - `build.py`: the gatherer
 - `assets/moons.js`: the moon calendar data, made by `moons.py`; do not edit by hand
-- `assets/moon.js`: draws 'Tonight's moon' on the front page and the year of moons
+- `assets/moon.js`: draws the moon widget and the year of moons
 - `moons.py`: works out the moons, the old months, the 24 solar terms and the 72 *kō* (see below)
 - `setup/publish.yml`: the GitHub workflow (see below)
 - `check.py`, `robots.txt`, `CNAME`, `.nojekyll`: shared with the other Yoso sites
 
 ## The moon calendar
 
-The front page opens with **Tonight's moon**: the old date (for example 長月 二十日), the moon's age and phase, the named night where there is one, the solar term and *kō* in force, and the next new moon, then this lunar month as a row of moons with today marked. **The year of moons** (`moons.html`) shows a whole old lunar year, from 睦月 Mutsuki to 師走 Shiwasu, and prints on one A4 landscape sheet.
+The front page carries **tonight's moon** as a widget beside the title (below it on phones): the moon, the old date (for example 長月 二十日), the named night where there is one, the solar term and *kō* in force, and the days to the next new moon. It links to the year of moons. Any page can show it with `<div data-moon-widget="medium"></div>` (or `small`, `large`), loading `issues.js`, `moons.js` and `moon.js`. **The year of moons** (`moons.html`) shows a whole old lunar year, from 睦月 Mutsuki to 師走 Shiwasu, and prints on one A4 landscape sheet.
 
 Everything is in Japan time. Each moon is drawn as it looks at 9 pm, waxing on the right. Months begin on the day of the new moon and take their number from the principal solar term that falls in them; a month without one is a leap month (閏月). A month's name links to its issue when an issue in `issues.js` has the same `opens` date.
 
