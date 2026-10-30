@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-page="home">
+<html lang="en" data-page="current">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -17,22 +17,40 @@
 <a class="family-mark" href="https://hub.yoso.one"><img src="images/yoso-mark.png" alt="Yoso" width="48" height="48"></a>
 <main class="page">
   <header class="masthead">
-    <div class="kicker"><span>ON.YOSO.ONE · 宮崎</span><span>THE STREAM</span></div>
+    <div class="kicker"><span>ON.YOSO.ONE · 宮崎</span><span>THIS MOON</span></div>
     <h1 class="title"><a href="./">On</a></h1>
-    <p class="lede"><strong>A magazine gathered from the Yoso sites.</strong> Notes from The Vault, photographs from Kuro, paintings from Shinsei and short texts from River, collected here as they appear, with an issue now and then.</p>
+    <p class="lede"><strong>A magazine gathered from the Yoso sites, one issue at each new moon.</strong> Notes from The Vault, photographs from Kuro, paintings from Shinsei and short texts from River. The current issue fills in as new work appears during its moon.</p>
   </header>
 
-  <section aria-labelledby="issue-h">
-    <div class="section-head"><h2 class="label" id="issue-h">Latest issue</h2><a class="updated" href="issues.html">All issues →</a></div>
-    <div id="latest-issue"><p class="empty-note">The first issue is in preparation. Until then, the stream below fills itself.</p></div>
+  <section>
+    <div class="section-head"><h2 class="label">This moon&rsquo;s issue</h2><a class="updated" href="issues.html">All issues →</a></div>
+    <div class="issue-feature" id="issue-head"><h2 class="issue-title" id="issue-title">Loading the issue…</h2></div>
+    <ul class="stream" id="issue-pieces" style="margin-top:2rem"></ul>
+    <div id="issue"></div>
   </section>
 
-  <section aria-labelledby="stream-h">
-    <div class="section-head"><h2 class="label" id="stream-h">The stream</h2><p class="updated" id="updated"></p></div>
-    <ul class="filters" id="filters" aria-label="Show work from"></ul>
-    <p class="empty-note" id="stream-note" aria-live="polite"></p>
-    <ul class="stream" id="stream"><li class="empty-note">The stream needs JavaScript; each site can also be visited from <a href="https://hub.yoso.one">the hub</a>.</li></ul>
-    <div class="more-row" id="more-row"></div>
+  <section id="moon-section" aria-labelledby="moon-h" hidden>
+    <div class="section-head"><h2 class="label" id="moon-h">This moon so far</h2><a class="updated" href="stream.html">The whole stream →</a></div>
+    <p class="empty-note">New work from the sites since this issue&rsquo;s new moon, gathered as it appears.</p>
+    <ul class="stream" id="moon-pieces"></ul>
+  </section>
+
+  <section id="past-section" aria-labelledby="past-h" hidden>
+    <div class="section-head"><h2 class="label" id="past-h">Moons ago</h2></div>
+    <p class="empty-note">From the same moon in earlier years.</p>
+    <ul class="stream" id="past-pieces"></ul>
+  </section>
+
+  <section class="letter" id="letter" aria-labelledby="letter-h">
+    <h2 class="label" id="letter-h">As a letter</h2>
+    <p class="empty-note">This issue as text for the mailing list (Markdown, for Buttondown).</p>
+    <div class="more-row" style="margin-top:0"><button class="btn quiet" type="button" id="letter-copy">Copy the letter</button></div>
+    <p class="status" id="letter-status" aria-live="polite"></p>
+    <details>
+      <summary>Show the text</summary>
+      <label class="visually-hidden" for="letter-text">Letter text</label>
+      <textarea id="letter-text" readonly></textarea>
+    </details>
   </section>
 
   <section aria-labelledby="follow-h">
@@ -68,8 +86,8 @@
   </section>
 
   <footer>
-    <p>&copy; 2026 <a class="hub-link" href="https://hub.yoso.one">Yoso</a>. All works and images are the artist&rsquo;s own.</p>
-    <nav aria-label="On"><a href="./">Stream</a><a href="issues.html">Issues</a><span class="version" data-version>Beta 0.8</span></nav>
+    <p>&copy; 2026 <a class="hub-link" href="https://hub.yoso.one">Yoso</a>. Yoso&rsquo;s works are the artist&rsquo;s own; older works are credited where they appear.</p>
+    <nav aria-label="On"><a href="./">This moon</a><a href="stream.html">Stream</a><a href="issues.html">Issues</a><span class="version" data-version>Beta 0.9</span></nav>
   </footer>
 </main>
 <script src="assets/items.js"></script>

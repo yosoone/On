@@ -8,6 +8,7 @@
   var ISSUES = (window.ON_ISSUES || []).slice().sort(function (a, b) { return b.number - a.number; });
   var PER_SOURCE = 8;      // in the 'All' view, so no one site fills the page
   var PAGE = 24;           // pieces per 'Show more' when one site is chosen
+  var MOON_PER_SOURCE = 6; // in an issue's 'This moon so far', per site
 
   var source = {};
   SOURCES.forEach(function (s) { source[s.key] = s; });
@@ -49,7 +50,7 @@
     var meta = el("span", "piece-meta");
     meta.appendChild(el("span", "k", s.kanji)).setAttribute("aria-hidden", "true");
     meta.appendChild(el("span", null, s.name));
-    var d = date(it.date);
+    var d = it.note || date(it.date);
     if (d) meta.appendChild(el("span", null, "· " + d));
     a.appendChild(meta);
     if (it.image) {
@@ -81,16 +82,29 @@
   // A piece written straight into the issue (an object in issues.js, not a link):
   // the full text lives in the edition, with an optional link for readers who want more.
   function inlinePiece(p, i) {
-    var li = el("li", "piece text feature");
+    var li = el("li", "piece inline" + (p.image ? "" : " text") + (p.wide ? " feature" : ""));
     li.dataset.uid = "issue:" + i;
     var box = el("div", "piece-body");
     var meta = el("span", "piece-meta");
-    meta.appendChild(el("span", null, "In this issue"));
-    var d = date(p.date);
+    meta.appendChild(el("span", null, p.label || "In this issue"));
+    var d = p.when || date(p.date);
     if (d) meta.appendChild(el("span", null, "· " + d));
     box.appendChild(meta);
+    if (p.image) {
+      var f = el(p.link ? "a" : "span", "piece-img");
+      if (p.link) f.href = p.link;
+      var img = el("img");
+      img.src = p.image;
+      img.alt = p.alt || p.title;
+      img.loading = "lazy";
+      img.decoding = "async";
+      f.appendChild(img);
+      box.appendChild(f);
+    }
     box.appendChild(el("h3", "feature-title", p.title));
-    box.appendChild(el("p", "piece-summary", p.text));
+    if (p.original) box.appendChild(el("p", "piece-original", p.original));
+    if (p.text) box.appendChild(el("p", "piece-summary", p.text));
+    if (p.credit) box.appendChild(el("p", "piece-credit", p.credit));
     if (p.sign) box.appendChild(el("p", "piece-sign", p.sign));
     if (p.more && p.more.link) {
       var a = el("a", "piece-more", (p.more.label || "Read more") + " →");
@@ -101,9 +115,13 @@
     return li;
   }
 
-  function issuePieces(issue) {
-    return (issue.pieces || []).map(function (ref, i) {
-      if (ref && typeof ref === "object") return Object.assign({ inline: true, index: i }, ref);
+  function issuePieces(issue, key) {
+    return (issue[key || "pieces"] || []).map(function (ref, i) {
+      if (ref && typeof ref === "object" && ref.ref) {
+        var found = byLink[ref.ref] || byUid[ref.ref];
+        return found ? Object.assign({}, found, { note: ref.note, label: ref.label }) : { uid: ref.ref, source: "", title: ref.ref, link: ref.ref, summary: "", image: "", gone: true };
+      }
+      if (ref && typeof ref === "object") return Object.assign({ inline: true, index: (key || "pieces") + i }, ref);
       return byLink[ref] || byUid[ref] || {
         uid: ref, source: "", title: ref, link: ref, summary: "Not found in On's archive: check this link in issues.js.",
         image: "", alt: "", date: "", gone: true
@@ -220,12 +238,16 @@
   }
 
   /* ---------- one issue, with a copy for the newsletter ---------- */
-  function letter(is, pieces) {
+  function letter(is, pieces, past) {
     var md = ["# On, No. " + is.number + (is.title ? ": " + is.title : ""), ""];
     if (is.intro) md.push(is.intro, "");
-    pieces.forEach(function (it) {
+    function add(it) {
       if (it.inline) {
-        md.push("## " + it.title, "", it.text.split("\n").join("  \n"), "");
+        md.push("## " + it.title, "");
+        if (it.image) md.push("![" + (it.alt || it.title) + "](" + it.image + ")", "");
+        if (it.original) md.push(it.original.split("\n").join("  \n"), "");
+        if (it.text) md.push(it.text.split("\n").join("  \n"), "");
+        if (it.credit) md.push("*" + it.credit + "*", "");
         if (it.sign) md.push(it.sign.split("\n").join("  \n"), "");
         if (it.more && it.more.link) md.push("[" + (it.more.label || "Read more") + "](" + it.more.link + ")", "");
         return;
@@ -235,8 +257,13 @@
       md.push("## [" + it.title + "](" + it.link + ")", "");
       if (it.image) md.push("![" + (it.alt || it.title) + "](" + it.image + ")", "");
       if (it.summary && it.summary !== it.title) md.push(it.summary.split("\n").join("  \n"), "");
-      if (s) md.push("*From " + s.name + "*", "");
-    });
+      if (s) md.push("*From " + s.name + (it.note ? ", " + it.note : "") + "*", "");
+    }
+    pieces.forEach(add);
+    if (past && past.length) {
+      md.push("---", "", "# " + (is.pastTitle || "Moons ago"), "");
+      past.forEach(add);
+    }
     md.push("---", "", "Read this issue online: " + SITE + issueLink(is));
     return md.join("\n");
   }
@@ -244,8 +271,9 @@
   function issue() {
     var root = document.getElementById("issue");
     if (!root) return;
-    var n = Number(new URLSearchParams(location.search).get("n"));
-    var is = ISSUES.filter(function (x) { return x.number === n; })[0] || (!n && ISSUES[0]);
+    var param = new URLSearchParams(location.search).get("n");
+    var is = param === null || param === "" ? ISSUES[0]
+      : ISSUES.filter(function (x) { return x.number === Number(param); })[0];
     var head = document.getElementById("issue-head");
     var list = document.getElementById("issue-pieces");
     var tools = document.getElementById("letter");
@@ -260,12 +288,44 @@
       el("span", "issue-no", "No. " + is.number + (is.date ? " · " + date(is.date) : "")),
       el("h2", "issue-title", is.title || "Issue " + is.number));
     if (is.intro) head.appendChild(el("p", "issue-intro", is.intro));
+    function draw(ul, arr) {
+      ul.replaceChildren.apply(ul, arr.map(function (it) {
+        return it.inline ? inlinePiece(it, it.index) : piece(it);
+      }));
+    }
     var pieces = issuePieces(is);
-    list.replaceChildren.apply(list, pieces.map(function (it) {
-      return it.inline ? inlinePiece(it, it.index) : piece(it);
-    }));
+    draw(list, pieces);
 
-    var text = letter(is, pieces);
+    // This moon so far: everything the sites publish between this issue's new moon
+    // and the next one fills in by itself, a few per site, newest first.
+    var moonSec = document.getElementById("moon-section");
+    if (moonSec && is.opens) {
+      var shownLinks = {};
+      pieces.forEach(function (it) { if (it.link) shownLinks[it.link] = true; });
+      var from = new Date((is.since || is.opens) + "T00:00:00+09:00");
+      var to = is.closes ? new Date(is.closes + "T23:59:59+09:00") : null;
+      var count = {};
+      var fresh = live.filter(function (it) {
+        var t = new Date(it.date);
+        if (isNaN(t) || t < from || (to && t > to) || shownLinks[it.link]) return false;
+        count[it.source] = (count[it.source] || 0) + 1;
+        return count[it.source] <= MOON_PER_SOURCE;
+      });
+      if (fresh.length) {
+        moonSec.hidden = false;
+        draw(document.getElementById("moon-pieces"), fresh);
+      }
+    }
+
+    var past = issuePieces(is, "past");
+    var pastSec = document.getElementById("past-section");
+    if (pastSec && past.length) {
+      pastSec.hidden = false;
+      if (is.pastTitle) document.getElementById("past-h").textContent = is.pastTitle;
+      draw(document.getElementById("past-pieces"), past);
+    }
+
+    var text = letter(is, pieces, past);
     var area = document.getElementById("letter-text");
     var status = document.getElementById("letter-status");
     area.value = text;
@@ -391,7 +451,7 @@
   })();
 
   var page = document.documentElement.getAttribute("data-page");
-  if (page === "home") home();
+  if (page === "home" || page === "stream") home();
   if (page === "issues") issues();
-  if (page === "issue") issue();
+  if (page === "issue" || page === "current") issue();
 })();

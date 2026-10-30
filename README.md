@@ -32,8 +32,10 @@ Sites it reads (set at the top of `build.py`):
 
 ## Files
 
-- `index.html`: the front page (latest issue and the stream)
+- `index.html`: the front page, always the latest issue. Its 'This moon so far' section fills itself with new work dated between the issue's `opens` and `closes`; 'Moons ago' holds work from the same moon in earlier years
+- `stream.html`: the whole stream, by site
 - `issues.html`, `issue.html`: the list of issues and a single issue (`issue.html?n=1`)
+- Texts chosen for an issue are kept in the vault, one folder per issue: `Writings/On/` (see `_ On Issues.md` there)
 - `assets/issues.js`: **your list of issues**, the one file you edit
 - `assets/items.js`, `feed.xml`, `data/archive.json`: made by `build.py`; do not edit by hand
 - `assets/on.js`, `assets/site.css`: how the pages are drawn and styled
