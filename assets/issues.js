@@ -43,7 +43,7 @@ window.ON_ISSUES = [
     number: 0,
     title: "長月 Nagatsuki · Beta",
     date: "2026-10-30",
-    intro: "A beta issue. From now on, On follows the moon: each issue opens at a new moon and takes the old name of its month. This is 長月 Nagatsuki, the ninth month, which opened at the new moon on 11 October. Frost descended with 霜降 Sōkō on 23 October, and the almanac says brief light rain falls now and then. In Miyazaki, the ants are still at work. No. 1, 神無月 Kannazuki, opens at the new moon on 9 November.",
+    intro: "A beta issue. From now on, On follows the moon: each issue opens at a new moon and takes the old name of its month. This is 長月 Nagatsuki, the ninth month, which opened at the new moon on 11 October. The almanac calls this season 霜降 Sōkō, frost descends, and says brief light rain falls now and then. In Miyazaki there is no frost, and the ants are still at work. No. 1, 神無月 Kannazuki, opens at the new moon on 9 November.",
     pieces: [
       {
         title: "Touching You With My Eyes",
