@@ -313,6 +313,27 @@
     }
     box.replaceChildren(w);
   }
+  /* The O of On's title follows the moon: the lit part solid, the rest a faint ghost */
+  function moonO(span) {
+    var today = todayJST(), mi = monthOf(today);
+    if (mi < 0 || today >= MONTHS[MONTHS.length - 1].next.slice(0, 10)) return;
+    var m = MONTHS[mi], idx = Math.round((Date.parse(today) - Date.parse(m.start)) / 864e5);
+    var e = m.el[idx], k = lit(e), r = 12, c = 12, d = "";
+    if (k > 0.985) d = "M0 0H24V24H0Z";
+    else if (k > 0.015) {
+      var cos = Math.cos(e * Math.PI / 180), rx = Math.abs(cos) * r, waxing = e < 180;
+      // the lit limb runs past the circle, so the letter's outer edge is never clipped
+      var side = waxing ? 24 : 0;
+      d = "M" + c + " " + (c - r) + "L" + side + " 0L" + side + " 24L" + c + " " + (c + r) +
+        "A" + rx.toFixed(2) + " " + r + " 0 0 " + ((cos > 0) === waxing ? 0 : 1) + " " + c + " " + (c - r) + "Z";
+    }
+    var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="none"><path fill="#fff" d="' + d + '"/></svg>';
+    span.style.setProperty("--o-mask", 'url("data:image/svg+xml,' + encodeURIComponent(svg) + '")');
+    span.classList.add("is-moon");
+    span.title = monthName(m).k + " " + kanjiNum(idx + 1) + "日 · " + phaseName(e) + ", " + Math.round(k * 100) + "% lit";
+  }
+  document.querySelectorAll("[data-moon-o]").forEach(moonO);
+
   window.OnMoon = { widget: widget };
 
   /* ---------- the year of moons ---------- */

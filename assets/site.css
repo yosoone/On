@@ -397,3 +397,14 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
 .mw-night.today { box-shadow: 0 0 0 1px var(--w-ai); border-radius: 4px; }
 @media (max-width: 26rem) { .mw-body .moon { width: 84px; height: 84px; } .mw-body { gap: 0.9rem; } }
 @media (prefers-reduced-motion: reduce) { .moon-widget:hover { transform: none; } }
+
+/* The O of On follows the moon (set by moon.js; without it the O stays whole) */
+.o-moon { position: relative; display: inline-block; }
+.o-moon.is-moon { color: color-mix(in srgb, currentColor 14%, transparent); }
+.o-moon.is-moon::after {
+  content: "O"; position: absolute; left: 0; right: 0; top: -0.25em; bottom: -0.25em; padding-top: 0.25em;
+  color: var(--ink);
+  -webkit-mask-image: var(--o-mask); mask-image: var(--o-mask);
+  -webkit-mask-size: 100% 100%; mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+}
