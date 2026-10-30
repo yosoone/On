@@ -334,7 +334,41 @@
   }
   document.querySelectorAll("[data-moon-o]").forEach(moonO);
 
-  window.OnMoon = { widget: widget };
+  /* The moon's angle from the sun at any moment (degrees), from the main terms of
+     the sun's and moon's motion: good to about a degree, for dates outside moons.js. */
+  function elongation(ms) {
+    var d = ms / 864e5 + 2440587.5 - 2451545.0, rad = Math.PI / 180;
+    var g = (357.529 + 0.98560028 * d) * rad;
+    var ls = 280.459 + 0.98564736 * d + 1.915 * Math.sin(g) + 0.020 * Math.sin(2 * g);
+    var mm = (134.963 + 13.064993 * d) * rad, D = (297.850 + 12.190749 * d) * rad;
+    var lm = 218.316 + 13.176396 * d + 6.289 * Math.sin(mm) + 1.274 * Math.sin(2 * D - mm) +
+      0.658 * Math.sin(2 * D) - 0.186 * Math.sin(g) - 0.114 * Math.sin(2 * ((93.272 + 13.229350 * d) * rad));
+    return ((lm - ls) % 360 + 360) % 360;
+  }
+
+  /* A small moon for an entry's date: the moon that night (21:00 in Japan) */
+  function badge(stamp) {
+    if (!stamp || !/^\d{4}-\d{2}-\d{2}/.test(stamp) || stamp.slice(0, 4) < "1900") return null;
+    var t = Date.parse(stamp.length > 10 ? stamp : stamp + "T12:00:00+09:00");
+    if (isNaN(t)) return null;
+    var day = iso(new Date(t + 9 * 3600e3));
+    var e, words, mi = monthOf(day), m = MONTHS[mi];
+    if (m && day < dateOf(m.next)) {
+      var idx = Math.round((Date.parse(day) - Date.parse(m.start)) / 864e5);
+      e = m.el[idx];
+      words = monthName(m).k + " " + kanjiNum(idx + 1) + "日 · " + phaseName(e);
+    } else {
+      e = elongation(Date.parse(day + "T21:00:00+09:00"));
+      words = phaseName(e);
+    }
+    var s = moon(e, 12);
+    var span = el("span", "piece-moon");
+    span.title = "The moon that night: " + words + ", " + Math.round(lit(e) * 100) + "% lit";
+    span.appendChild(s);
+    return span;
+  }
+
+  window.OnMoon = { widget: widget, badge: badge, elongation: elongation };
 
   /* ---------- the year of moons ---------- */
   function year(box) {

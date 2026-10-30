@@ -408,3 +408,11 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
   -webkit-mask-size: 100% 100%; mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
 }
+
+/* A small moon after each entry's date: the moon that night */
+.piece-moon {
+  display: inline-flex; align-self: center; line-height: 0;
+  /* like the O of On: the lit part in ink, the shadow faint */
+  --moon-lit: var(--ink-soft); --moon-dark: color-mix(in srgb, var(--ink) 13%, transparent); --moon-rim: transparent;
+}
+.piece-moon .moon { width: 13px; height: 13px; }

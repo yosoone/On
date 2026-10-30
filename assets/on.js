@@ -32,6 +32,12 @@
     return d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Tokyo" });
   }
 
+  // The moon on the night of a piece's date (moon.js), at the end of its date line
+  function moonOf(meta, stamp) {
+    var b = window.OnMoon && window.OnMoon.badge(stamp);
+    if (b) meta.appendChild(b);
+  }
+
   function piece(it) {
     var s = source[it.source] || { name: it.source, kanji: "" };
     var li = el("li", "piece" + (it.image ? "" : " text") + (it.gone ? " gone" : ""));
@@ -52,6 +58,7 @@
     meta.appendChild(el("span", null, s.name));
     var d = it.note || date(it.date);
     if (d) meta.appendChild(el("span", null, "· " + d));
+    moonOf(meta, it.date);
     a.appendChild(meta);
     if (it.image) {
       var f = el("span", "piece-img");
@@ -89,6 +96,7 @@
     meta.appendChild(el("span", null, p.label || "In this issue"));
     var d = p.when || date(p.date);
     if (d) meta.appendChild(el("span", null, "· " + d));
+    moonOf(meta, p.date);
     box.appendChild(meta);
     if (p.image) {
       var f = el(p.link ? "a" : "span", "piece-img");
