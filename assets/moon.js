@@ -313,23 +313,18 @@
     }
     box.replaceChildren(w);
   }
-  /* The O of On's title follows the moon: the lit part solid, the rest a faint ghost */
+  /* The O of On's title is tonight's moon, drawn like the widget's in the title's ink:
+     the shadow solid, the lit part open, so at full moon it is an outlined circle, an O.
+     The letter stays in the page for screen readers and search. */
   function moonO(span) {
     var today = todayJST(), mi = monthOf(today);
     if (mi < 0 || today >= MONTHS[MONTHS.length - 1].next.slice(0, 10)) return;
     var m = MONTHS[mi], idx = Math.round((Date.parse(today) - Date.parse(m.start)) / 864e5);
-    var e = m.el[idx], k = lit(e), r = 12, c = 12, d = "";
-    if (k > 0.985) d = "M0 0H24V24H0Z";
-    else if (k > 0.015) {
-      var cos = Math.cos(e * Math.PI / 180), rx = Math.abs(cos) * r, waxing = e < 180;
-      // the lit limb runs past the circle, so the letter's outer edge is never clipped
-      var side = waxing ? 24 : 0;
-      d = "M" + c + " " + (c - r) + "L" + side + " 0L" + side + " 24L" + c + " " + (c + r) +
-        "A" + rx.toFixed(2) + " " + r + " 0 0 " + ((cos > 0) === waxing ? 0 : 1) + " " + c + " " + (c - r) + "Z";
-    }
-    var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="none"><path fill="#fff" d="' + d + '"/></svg>';
-    span.style.setProperty("--o-mask", 'url("data:image/svg+xml,' + encodeURIComponent(svg) + '")');
+    var e = m.el[idx], k = lit(e);
+    var letter = el("span", "visually-hidden", "O");
+    span.replaceChildren(letter, moon(e, 24));
     span.classList.add("is-moon");
+    if (k > 0.985) span.classList.add("is-full");
     span.title = monthName(m).k + " " + kanjiNum(idx + 1) + "日 · " + phaseName(e) + ", " + Math.round(k * 100) + "% lit";
   }
   document.querySelectorAll("[data-moon-o]").forEach(moonO);
