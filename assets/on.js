@@ -309,9 +309,33 @@
     var nm = window.OnMoon && window.OnMoon.issueName(is.opens);
     var tag = "No. " + is.number + (nm ? " · " + nm.k + " " + nm.r : "");
     var lab = document.querySelector("#issue-head") && document.querySelector("#issue-head").closest("section").querySelector(".section-head .label");
-    if (lab) lab.textContent = (document.documentElement.getAttribute("data-page") === "current" ? "This moon\u2019s issue · " : "") + (nm ? (document.documentElement.getAttribute("data-page") === "current" ? nm.k + " " + nm.r : tag) : lab.textContent);
+    if (lab && document.documentElement.getAttribute("data-page") === "current") lab.textContent = "This moon\u2019s issue" + (nm ? " · " + nm.k + " " + nm.r : "");
+    // On the issue page the top line already names it, so the label under 'On' stays empty
+    if (lab && document.documentElement.getAttribute("data-page") === "issue") { lab.textContent = tag; lab.classList.add("visually-hidden"); }
     var kick = document.querySelector(".kicker > span:last-child");
-    if (kick && document.documentElement.getAttribute("data-page") === "issue") kick.textContent = tag.toUpperCase();
+    if (kick && document.documentElement.getAttribute("data-page") === "issue") {
+      // the top line carries the issue's name and the way back to all issues
+      // a drop-down on the top line: this issue's name opens the list of all issues
+      var menu = el("details", "issue-menu");
+      var sum = el("summary", null, tag.toUpperCase());
+      sum.setAttribute("aria-label", tag + ", choose another issue");
+      menu.appendChild(sum);
+      var ul = el("ul");
+      ISSUES.forEach(function (x) {
+        var n2 = window.OnMoon && window.OnMoon.issueName(x.opens);
+        var li = el("li"), a2 = el("a", null, "No. " + x.number + " · " + (n2 ? n2.k + " " + n2.r : (x.title || "")));
+        a2.href = issueLink(x);
+        if (x === is) a2.setAttribute("aria-current", "page");
+        li.appendChild(a2); ul.appendChild(li);
+      });
+      var lia = el("li", "im-all"), all = el("a", null, "All issues →");
+      all.href = "issues.html"; lia.appendChild(all); ul.appendChild(lia);
+      menu.appendChild(ul);
+      document.addEventListener("click", function (e) { if (!menu.contains(e.target)) menu.open = false; });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape" && menu.open) { menu.open = false; sum.focus(); } });
+      kick.replaceChildren(menu);
+      if (lab) lab.closest(".section-head").style.display = "none";
+    }
     // The label above already names the issue (No. and month), so the head is just the title
     head.replaceChildren(el("h2", "issue-title", is.title || "Issue " + is.number));
     if (is.intro) head.appendChild(el("p", "issue-intro", is.intro));

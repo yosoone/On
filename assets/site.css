@@ -519,3 +519,25 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
 .o-moon.is-moon { --moon-rim: #A9ABAA; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .o-moon.is-moon { --moon-rim: #8A8D8E; } }
 :root[data-theme="dark"] .o-moon.is-moon { --moon-rim: #8A8D8E; }
+html[data-page="issue"] #issue-head { margin-top: 0; }
+.kick-all { color: var(--ink-soft); text-underline-offset: 3px; }
+.kick-all:hover { color: var(--ai); }
+
+/* Issue page: the issue's name on the top line opens a list of all issues */
+.issue-menu { position: relative; }
+.issue-menu summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem; min-height: 24px; }
+.issue-menu summary::-webkit-details-marker { display: none; }
+.issue-menu summary::after { content: "▾"; font-size: 0.8em; color: var(--ink-soft); transition: transform .2s ease; }
+.issue-menu[open] summary::after { transform: rotate(180deg); }
+.issue-menu summary:hover { color: var(--ai); }
+.issue-menu ul {
+  position: absolute; right: 0; top: calc(100% + 0.5rem); z-index: 15; margin: 0; padding: 0.4rem 0; list-style: none;
+  min-width: 15rem; background: var(--paper); border: 1px solid var(--rule); box-shadow: 0 10px 24px -16px rgba(0,0,0,0.35);
+  text-transform: none; letter-spacing: 0.04em;
+}
+.issue-menu li a { display: block; padding: 0.5rem 0.9rem; color: var(--ink); text-decoration: none; min-height: 24px; }
+.issue-menu li a:hover { background: var(--wash); color: var(--ai); }
+.issue-menu li a[aria-current="page"] { color: var(--ai); }
+.issue-menu li.im-all { border-top: 1px solid var(--rule); margin-top: 0.3rem; padding-top: 0.3rem; }
+.issue-menu li.im-all a { color: var(--ink-soft); }
+@media (max-width: 40rem) { .issue-menu ul { right: auto; left: 0; } }
