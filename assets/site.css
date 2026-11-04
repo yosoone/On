@@ -541,3 +541,5 @@ html[data-page="issue"] #issue-head { margin-top: 0; }
 .issue-menu li.im-all { border-top: 1px solid var(--rule); margin-top: 0.3rem; padding-top: 0.3rem; }
 .issue-menu li.im-all a { color: var(--ink-soft); }
 @media (max-width: 40rem) { .issue-menu ul { right: auto; left: 0; } }
+/* Entry moons: centred on the date's figures in every kind of entry, lit part medium grey */
+.piece-moon { align-self: baseline; position: relative; top: 2px; --moon-lit: #8B8E8F; }
