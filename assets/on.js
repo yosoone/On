@@ -101,9 +101,9 @@
     li.dataset.uid = "issue:" + i;
     var box = el("div", "piece-body");
     var meta = el("span", "piece-meta");
-    meta.appendChild(el("span", null, p.label || "In this issue"));
+    if (p.label) meta.appendChild(el("span", null, p.label));
     var d = p.when || date(p.date);
-    if (d) meta.appendChild(el("span", null, "· " + d));
+    if (d) meta.appendChild(el("span", null, (p.label ? "· " : "") + d));
     moonOf(meta, p.date);
     box.appendChild(meta);
     if (p.image) {
@@ -312,9 +312,8 @@
     if (lab) lab.textContent = (document.documentElement.getAttribute("data-page") === "current" ? "This moon\u2019s issue · " : "") + (nm ? (document.documentElement.getAttribute("data-page") === "current" ? nm.k + " " + nm.r : tag) : lab.textContent);
     var kick = document.querySelector(".kicker > span:last-child");
     if (kick && document.documentElement.getAttribute("data-page") === "issue") kick.textContent = tag.toUpperCase();
-    head.replaceChildren(
-      el("span", "issue-no", "No. " + is.number + (is.date ? " · " + date(is.date) : "")),
-      el("h2", "issue-title", is.title || "Issue " + is.number));
+    // The label above already names the issue (No. and month), so the head is just the title
+    head.replaceChildren(el("h2", "issue-title", is.title || "Issue " + is.number));
     if (is.intro) head.appendChild(el("p", "issue-intro", is.intro));
     // The printed issue: a PDF made by make-pdf.py, linked once it exists
     if (is.pdf) {

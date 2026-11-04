@@ -511,9 +511,10 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
 
 /* No rule under the masthead, and none under the front page's issue opening */
 .masthead { border-bottom: 0; padding-bottom: 0; }
-html[data-page="current"] .issue-feature { border-bottom: 0; }
-html[data-page="current"] #issue-pieces > .piece:first-child .piece-body,
-html[data-page="current"] #issue-pieces > .piece:first-child > a { border-top: 0; padding-top: 0; }
+/* The issue head: the rule sits under the title, not above it */
+#issue-head.issue-feature { border-top: 0; border-bottom: 1px solid var(--rule); padding-top: 0.4rem; }
+#issue-pieces > .piece:first-child .piece-body,
+#issue-pieces > .piece:first-child > a { border-top: 0; padding-top: 0; }
 /* The moon O's hairline: a lighter grey than the text greys */
 .o-moon.is-moon { --moon-rim: #A9ABAA; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .o-moon.is-moon { --moon-rim: #8A8D8E; } }
