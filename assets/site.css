@@ -402,10 +402,11 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
 .o-moon { display: inline-block; }
 .o-moon.is-moon {
   --moon-dark: var(--ink); --moon-lit: var(--paper); --moon-rim: var(--ink);
-  width: 0.8em; height: 0.8em; margin: 0 0.02em 0 -0.03em; vertical-align: -0.03em; line-height: 0;
+  /* the disc fills 20.4 of the drawing's 24 units: sized so it stands as tall as a capital O */
+  width: 0.87em; height: 0.87em; margin: 0 0 0 -0.06em; vertical-align: -0.06em; line-height: 0;
 }
 .o-moon.is-moon .moon { width: 100%; height: 100%; }
-.o-moon.is-moon .moon-rim { stroke-width: 2.2; }
+.o-moon.is-moon .moon-rim { stroke-width: 0.4; }   /* the same fine rim as the widget's moon */
 
 /* A small moon after each entry's date: the moon that night */
 .piece-moon {
