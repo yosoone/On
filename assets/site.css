@@ -508,3 +508,9 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
 .corner-links a:hover { color: var(--ai); text-decoration-color: currentColor; }
 .viewer-open .corner-links { display: none; }
 @media print { .corner-links { display: none; } }
+
+/* No rule under the masthead, and none under the front page's issue opening */
+.masthead { border-bottom: 0; padding-bottom: 0; }
+html[data-page="current"] .issue-feature { border-bottom: 0; }
+html[data-page="current"] #issue-pieces > .piece:first-child .piece-body,
+html[data-page="current"] #issue-pieces > .piece:first-child > a { border-top: 0; padding-top: 0; }
