@@ -406,7 +406,7 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
   width: 0.87em; height: 0.87em; margin: 0 0 0 -0.06em; vertical-align: -0.06em; line-height: 0;
 }
 .o-moon.is-moon .moon { width: 100%; height: 100%; }
-.o-moon.is-moon .moon-rim { stroke-width: 0.4; }   /* the same fine rim as the widget's moon */
+.o-moon.is-moon .moon-rim { stroke-width: 1px; vector-effect: non-scaling-stroke; }   /* a one-pixel grey hairline at any size */
 
 /* A small moon after each entry's date: the moon that night */
 .piece-moon {
@@ -483,3 +483,28 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
   html:is([data-page="issue"], [data-page="current"]) .colophon-t { font-family: var(--f-display); font-weight: 700; font-size: 11pt; color: var(--ink); }
   html:is([data-page="issue"], [data-page="current"]) #issue { margin-top: 0; }
 }
+
+/* Masthead: tonight's moon as text beside the title (the title's O is the moon), no card */
+.mast-moon .moon-widget {
+  background: none; border: 0; box-shadow: none; padding: 0; width: auto; max-width: 21rem;
+  --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-ai: var(--ai); --w-rule: var(--rule);
+}
+.mast-moon .moon-widget:hover { transform: none; box-shadow: none; }
+.mast-moon .moon-widget:hover .mw-date { color: var(--ai); }
+.mast-moon .mw-body > .moon { display: none; }
+.mast-moon .mw-kicker > span + span { display: none; }
+@media (min-width: 52rem) { .mast-moon { padding-bottom: 0.4rem; border-left: 1px solid var(--rule); padding-left: 1.6rem; } }
+.mw-more { font-family: var(--f-mono); font-size: 0.75rem; color: var(--w-ai); margin-top: 0.35rem; text-decoration: underline; text-underline-offset: 3px; }
+.moon-widget:hover .mw-more { color: var(--w-ink); }
+
+/* RSS and Fediverse, pinned to the top-right corner of the window */
+.corner-links {
+  position: fixed; top: max(12px, env(safe-area-inset-top, 0px)); right: max(14px, env(safe-area-inset-right, 0px)); z-index: 20;
+  display: flex; gap: 0.9rem; padding: 0.35rem 0.7rem; border-radius: 999px;
+  font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.06em;
+  background: color-mix(in srgb, var(--paper) 88%, transparent); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+}
+.corner-links a { color: var(--ink-soft); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--rule); min-height: 24px; display: inline-flex; align-items: center; }
+.corner-links a:hover { color: var(--ai); text-decoration-color: currentColor; }
+.viewer-open .corner-links { display: none; }
+@media print { .corner-links { display: none; } }

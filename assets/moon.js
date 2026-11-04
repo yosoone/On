@@ -298,6 +298,7 @@
         txt.appendChild(sl);
       }
       txt.appendChild(el("span", "mw-next", "New moon in " + toNew + (toNew === 1 ? " day" : " days") + " · " + parseInt(m.next.slice(8, 10), 10) + " " + shortMonth(m.next)));
+      txt.appendChild(el("span", "mw-more", "The year of moons →"));
       var body = el("span", "mw-body");
       body.append(mn, txt);
       w.append(top, body);
