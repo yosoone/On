@@ -248,7 +248,8 @@
     ISSUES.forEach(function (is) {
       var li = el("li"), a = el("a");
       a.href = issueLink(is);
-      a.appendChild(el("span", "no", "No. " + is.number));
+      var nm = window.OnMoon && window.OnMoon.issueName(is.opens);
+      a.appendChild(el("span", "no", "No. " + is.number + (nm ? " · " + nm.k : "")));
       a.appendChild(el("span", "t", is.title || "Issue " + is.number));
       a.appendChild(el("span", "d", [date(is.date), (is.pieces || []).length + " pieces"].filter(Boolean).join(" · ")));
       li.appendChild(a);
@@ -304,6 +305,13 @@
       return;
     }
     document.title = "On, No. " + is.number + (is.title ? ": " + is.title : "");
+    // Name the issue in its labels: its number and the old month it belongs to
+    var nm = window.OnMoon && window.OnMoon.issueName(is.opens);
+    var tag = "No. " + is.number + (nm ? " · " + nm.k + " " + nm.r : "");
+    var lab = document.querySelector("#issue-head") && document.querySelector("#issue-head").closest("section").querySelector(".section-head .label");
+    if (lab) lab.textContent = (document.documentElement.getAttribute("data-page") === "current" ? "This moon\u2019s issue · " : "") + (nm ? (document.documentElement.getAttribute("data-page") === "current" ? nm.k + " " + nm.r : tag) : lab.textContent);
+    var kick = document.querySelector(".kicker > span:last-child");
+    if (kick && document.documentElement.getAttribute("data-page") === "issue") kick.textContent = tag.toUpperCase();
     head.replaceChildren(
       el("span", "issue-no", "No. " + is.number + (is.date ? " · " + date(is.date) : "")),
       el("h2", "issue-title", is.title || "Issue " + is.number));

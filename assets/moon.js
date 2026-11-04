@@ -364,7 +364,13 @@
     return span;
   }
 
-  window.OnMoon = { widget: widget, badge: badge, elongation: elongation };
+  /* The old month an issue belongs to, from its new moon (opens): { k: "長月", r: "Nagatsuki" } */
+  function issueName(opens) {
+    for (var i = 0; i < MONTHS.length; i++) if (MONTHS[i].start === opens) return monthName(MONTHS[i]);
+    return null;
+  }
+
+  window.OnMoon = { widget: widget, badge: badge, elongation: elongation, issueName: issueName };
 
   /* ---------- the year of moons ---------- */
   function year(box) {
