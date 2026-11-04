@@ -514,3 +514,7 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
 html[data-page="current"] .issue-feature { border-bottom: 0; }
 html[data-page="current"] #issue-pieces > .piece:first-child .piece-body,
 html[data-page="current"] #issue-pieces > .piece:first-child > a { border-top: 0; padding-top: 0; }
+/* The moon O's hairline: a lighter grey than the text greys */
+.o-moon.is-moon { --moon-rim: #A9ABAA; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .o-moon.is-moon { --moon-rim: #8A8D8E; } }
+:root[data-theme="dark"] .o-moon.is-moon { --moon-rim: #8A8D8E; }
