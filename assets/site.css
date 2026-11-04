@@ -543,3 +543,5 @@ html[data-page="issue"] #issue-head { margin-top: 0; }
 @media (max-width: 40rem) { .issue-menu ul { right: auto; left: 0; } }
 /* Entry moons: centred on the date's figures in every kind of entry, lit part medium grey */
 .piece-moon { align-self: baseline; position: relative; top: 2px; --moon-lit: #8B8E8F; }
+/* Year of moons: no night numbers for now (each moon keeps its date; the night shows on hover) */
+.n-lunar, .year-head, html[data-page="moons"] .year-head { display: none !important; }
