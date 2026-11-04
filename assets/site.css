@@ -401,7 +401,7 @@ a.ym-name .ym-r { color: var(--ai); text-decoration: underline; text-underline-o
 /* The O of On is tonight's moon (set by moon.js; without it the letter stays) */
 .o-moon { display: inline-block; }
 .o-moon.is-moon {
-  --moon-dark: var(--ink); --moon-lit: var(--paper); --moon-rim: var(--ink);
+  --moon-dark: var(--ink); --moon-lit: var(--paper); --moon-rim: var(--ink-soft);
   /* the disc fills 20.4 of the drawing's 24 units: sized so it stands as tall as a capital O */
   width: 0.87em; height: 0.87em; margin: 0 0 0 -0.06em; vertical-align: -0.06em; line-height: 0;
 }
