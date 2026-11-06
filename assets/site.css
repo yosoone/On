@@ -545,3 +545,8 @@ html[data-page="issue"] #issue-head { margin-top: 0; }
 .piece-moon { align-self: baseline; position: relative; top: 2px; --moon-lit: #8B8E8F; }
 /* Year of moons: no night numbers for now (each moon keeps its date; the night shows on hover) */
 .n-lunar, .year-head, html[data-page="moons"] .year-head { display: none !important; }
+/* Dark mode: the moon O shows what we see of the moon in white, the shadow dark, as in the calendar */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .o-moon.is-moon { --moon-lit: #E4E2DB; --moon-dark: #2A2D30; }
+}
+:root[data-theme="dark"] .o-moon.is-moon { --moon-lit: #E4E2DB; --moon-dark: #2A2D30; }
