@@ -2518,7 +2518,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t111",
   "source": "river",
-  "summary": "The space between thoughts,\nthe gap between each breath.\nCloser to death.\nYoso",
+  "summary": "The space between thoughts,\nthe gap between each breath.\nEver closer to death.\nYoso",
   "title": "Mind the gap"
  },
  "river:river-t112": {
@@ -2531,7 +2531,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t112",
   "source": "river",
-  "summary": "The gift of essence,\nthat honours your presence.\nYoso",
+  "summary": "The gift of presence,\nthat honours your essence.\nYoso",
   "title": "The bow"
  },
  "river:river-t113": {
@@ -2674,7 +2674,7 @@
   "image": "",
   "link": "https://river.yoso.one/#t24",
   "source": "river",
-  "summary": "Existence itself…\nFlirting with death…\nThere is no presence without breath.\nYoso",
+  "summary": "Flirting with death…\nThere is no presence without breath.\nYoso",
   "title": "Flirt"
  },
  "river:river-t25": {
@@ -2742,6 +2742,19 @@
   "summary": "Like a petal in the wind,\nI surrender to the flow...",
   "title": "Like a petal in the wind"
  },
+ "river:river-t294": {
+  "alt": "Dragon Chest",
+  "date": "2026-11-09T15:46:28+09:00",
+  "first_seen": "2026-11-09T15:51:13+09:00",
+  "full": "",
+  "gone": false,
+  "id": "river-t294",
+  "image": "",
+  "link": "https://river.yoso.one/#t294",
+  "source": "river",
+  "summary": "New moon rising —\nthe dragon they came to slay,\nasleep in his chest\nYoso",
+  "title": "Dragon Chest"
+ },
  "river:river-t3": {
   "alt": "Breathe in",
   "date": "2026-10-20T13:24:47+09:00",
@@ -2781,6 +2794,19 @@
   "summary": "The spring awakens,\ngolden heart,\npure Consciousness.\nYoso",
   "title": "The spring awakes"
  },
+ "river:river-t318": {
+  "alt": "Listen",
+  "date": "2026-11-09T15:46:27+09:00",
+  "first_seen": "2026-11-09T15:51:13+09:00",
+  "full": "",
+  "gone": false,
+  "id": "river-t318",
+  "image": "",
+  "link": "https://river.yoso.one/#t318",
+  "source": "river",
+  "summary": "At the gates of consciousness,\nlisten.\nYoso",
+  "title": "Listen"
+ },
  "river:river-t32": {
   "alt": "Your mind is your home",
   "date": "2026-10-20T13:24:27+09:00",
@@ -2793,6 +2819,32 @@
   "source": "river",
   "summary": "Your mind is your home.\nBring it light,\nbring it air,\nbring it love,\nbring it you.\nYoso",
   "title": "Your mind is your home"
+ },
+ "river:river-t320": {
+  "alt": "Open my chest",
+  "date": "2026-11-09T15:46:20+09:00",
+  "first_seen": "2026-11-09T15:51:13+09:00",
+  "full": "",
+  "gone": false,
+  "id": "river-t320",
+  "image": "",
+  "link": "https://river.yoso.one/#t320",
+  "source": "river",
+  "summary": "Open my chest,\nsutures of a past reality.\nReveal the mask\nand set me free.\nYoso",
+  "title": "Open my chest"
+ },
+ "river:river-t321": {
+  "alt": "Swallow the flesh",
+  "date": "2026-11-09T15:46:26+09:00",
+  "first_seen": "2026-11-09T15:51:13+09:00",
+  "full": "",
+  "gone": false,
+  "id": "river-t321",
+  "image": "",
+  "link": "https://river.yoso.one/#t321",
+  "source": "river",
+  "summary": "To recognise the desires\nthat feed our needs.\nTo bite the apple,\nto swallow the flesh.\nYoso",
+  "title": "Swallow the flesh"
  },
  "river:river-t33": {
   "alt": "Fragments",
@@ -2847,7 +2899,7 @@
   "title": "Submissiveness"
  },
  "river:river-t50": {
-  "alt": "Enduring wisdom",
+  "alt": "Intrinsic wisdom",
   "date": "2026-10-21T17:26:48+09:00",
   "first_seen": "2026-10-21T20:54:55+09:00",
   "full": "",
@@ -2856,8 +2908,8 @@
   "image": "",
   "link": "https://river.yoso.one/#t50",
   "source": "river",
-  "summary": "Life itself is the knowledge!\nEternal wisdom,\nif only we listened.\nYoso",
-  "title": "Enduring wisdom"
+  "summary": "Intrinsic wisdom,\nif only we listened.\nYoso",
+  "title": "Intrinsic wisdom"
  },
  "river:river-t54": {
   "alt": "A voice",

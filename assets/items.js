@@ -1,7 +1,55 @@
 /* Made by build.py: do not edit by hand. */
 window.ON_SOURCES = [{"key": "vault", "name": "One", "kanji": "一", "site": "https://one.yoso.one/"}, {"key": "kuro", "name": "Kuro", "kanji": "黒", "site": "https://kuro.yoso.one/"}, {"key": "shinsei", "name": "Shinsei", "kanji": "心", "site": "https://shinsei.yoso.one/"}, {"key": "river", "name": "River", "kanji": "川", "site": "https://river.yoso.one/"}];
-window.ON_UPDATED = "2026-10-28T21:59:59+09:00";
+window.ON_UPDATED = "2026-11-09T15:51:13+09:00";
 window.ON_ITEMS = [
+{
+"uid": "river:river-t294",
+"source": "river",
+"title": "Dragon Chest",
+"link": "https://river.yoso.one/#t294",
+"summary": "New moon rising —\nthe dragon they came to slay,\nasleep in his chest\nYoso",
+"image": "",
+"full": "",
+"alt": "Dragon Chest",
+"date": "2026-11-09T15:46:28+09:00",
+"gone": false
+},
+{
+"uid": "river:river-t318",
+"source": "river",
+"title": "Listen",
+"link": "https://river.yoso.one/#t318",
+"summary": "At the gates of consciousness,\nlisten.\nYoso",
+"image": "",
+"full": "",
+"alt": "Listen",
+"date": "2026-11-09T15:46:27+09:00",
+"gone": false
+},
+{
+"uid": "river:river-t321",
+"source": "river",
+"title": "Swallow the flesh",
+"link": "https://river.yoso.one/#t321",
+"summary": "To recognise the desires\nthat feed our needs.\nTo bite the apple,\nto swallow the flesh.\nYoso",
+"image": "",
+"full": "",
+"alt": "Swallow the flesh",
+"date": "2026-11-09T15:46:26+09:00",
+"gone": false
+},
+{
+"uid": "river:river-t320",
+"source": "river",
+"title": "Open my chest",
+"link": "https://river.yoso.one/#t320",
+"summary": "Open my chest,\nsutures of a past reality.\nReveal the mask\nand set me free.\nYoso",
+"image": "",
+"full": "",
+"alt": "Open my chest",
+"date": "2026-11-09T15:46:20+09:00",
+"gone": false
+},
 {
 "uid": "kuro:yosokuro-r0000725",
 "source": "kuro",
@@ -271,7 +319,7 @@ window.ON_ITEMS = [
 "source": "river",
 "title": "Mind the gap",
 "link": "https://river.yoso.one/#t111",
-"summary": "The space between thoughts,\nthe gap between each breath.\nCloser to death.\nYoso",
+"summary": "The space between thoughts,\nthe gap between each breath.\nEver closer to death.\nYoso",
 "image": "",
 "full": "",
 "alt": "Mind the gap",
@@ -283,7 +331,7 @@ window.ON_ITEMS = [
 "source": "river",
 "title": "The bow",
 "link": "https://river.yoso.one/#t112",
-"summary": "The gift of essence,\nthat honours your presence.\nYoso",
+"summary": "The gift of presence,\nthat honours your essence.\nYoso",
 "image": "",
 "full": "",
 "alt": "The bow",
@@ -401,12 +449,12 @@ window.ON_ITEMS = [
 {
 "uid": "river:river-t50",
 "source": "river",
-"title": "Enduring wisdom",
+"title": "Intrinsic wisdom",
 "link": "https://river.yoso.one/#t50",
-"summary": "Life itself is the knowledge!\nEternal wisdom,\nif only we listened.\nYoso",
+"summary": "Intrinsic wisdom,\nif only we listened.\nYoso",
 "image": "",
 "full": "",
-"alt": "Enduring wisdom",
+"alt": "Intrinsic wisdom",
 "date": "2026-10-21T17:26:48+09:00",
 "gone": false
 },
@@ -1963,7 +2011,7 @@ window.ON_ITEMS = [
 "source": "river",
 "title": "Flirt",
 "link": "https://river.yoso.one/#t24",
-"summary": "Existence itself…\nFlirting with death…\nThere is no presence without breath.\nYoso",
+"summary": "Flirting with death…\nThere is no presence without breath.\nYoso",
 "image": "",
 "full": "",
 "alt": "Flirt",
