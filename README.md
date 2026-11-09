@@ -13,7 +13,7 @@
 | **Issues** | You choose. List the pieces for an issue in `assets/issues.js`; the issue page fills in the pictures and summaries. |
 | **The letter** | Each issue page has a 'Copy the letter' button that copies the issue as text for a new Buttondown email. |
 
-On's feed is also what reaches the Fediverse: [Bridgy Fed](https://fed.brid.gy/web/on.yoso.one) reads `feed.xml` on its own schedule and posts each new piece, so a new piece can take a while to appear there. Each piece carries hashtags, set per site in `TAGS` at the top of `build.py` (for example River's pieces get #Yoso #River #Poetry #Mindfulness).
+On's feed is also what reaches the Fediverse: [Bridgy Fed](https://fed.brid.gy/web/on.yoso.one) reads `feed.xml` on its own schedule and posts each new piece, so a new piece can take a while to appear there. Each post ends with one line of hashtags, set per site in `TAGS` at the top of `build.py` (for example River's pieces end with #Yoso #River #Poetry #Mindfulness).
 
 Sites it reads (set at the top of `build.py`):
 

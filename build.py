@@ -45,8 +45,8 @@ SOURCES = [
      "feed": "https://river.yoso.one/feed.xml"},
 ]
 # Hashtags for each site's pieces in On's feed (the Fediverse posts made from it).
-# Each becomes a <category>, which Bridgy Fed turns into a hashtag; they are not
-# repeated in the text, so readers see each tag once. Edit freely.
+# They are written once, as a line of #tags at the bottom of each post. There are
+# no <category> elements, so Bridgy Fed cannot add them a second time. Edit freely.
 TAGS = {
     "vault":   ["Yoso", "One", "Writing"],
     "kuro":    ["Yoso", "Kuro", "Photography", "BlackAndWhite", "Japan"],
@@ -257,12 +257,14 @@ def write(archive):
         if p["summary"]:
             body += "<p>" + "<br>".join(html.escape(l) for l in p["summary"].split("\n")) + "</p>"
         body += f'<p>From {html.escape(names[p["source"]])}.</p>'
+        tags = TAGS.get(p["source"], [])
+        if tags:   # the hashtags, once, at the bottom of the post
+            body += "<p>" + " ".join("#" + t for t in tags) + "</p>"
         out += ["  <item>",
                 f"    <title>{xml_escape(p['title'])}</title>",
                 f"    <link>{xml_escape(p['link'])}</link>",
                 f'    <guid isPermaLink="false">on-{xml_escape(p["uid"])}</guid>',
                 f"    <pubDate>{format_datetime(datetime.fromisoformat(p['date']))}</pubDate>",
-                *[f"    <category>{xml_escape(t)}</category>" for t in (TAGS.get(p['source']) or [names[p['source']]])],
                 f"    <description>{xml_escape(body)}</description>",
                 "  </item>"]
     out += ["</channel>", "</rss>", ""]
