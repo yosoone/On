@@ -25,6 +25,15 @@
     if (text != null) e.textContent = text;
     return e;
   }
+  // Text written into an issue may mark italics as _word_, as in the vault notes.
+  function rich(tag, cls, text) {
+    var e = el(tag, cls);
+    String(text).split(/(_[^_\n]+_)/).forEach(function (part) {
+      if (/^_[^_\n]+_$/.test(part)) e.appendChild(el("em", null, part.slice(1, -1)));
+      else if (part) e.appendChild(document.createTextNode(part));
+    });
+    return e;
+  }
   function date(iso) {
     if (!iso) return "";
     var d = new Date(iso.length === 10 ? iso + "T12:00:00+09:00" : iso);
@@ -118,9 +127,9 @@
       box.appendChild(f);
     }
     box.appendChild(el("h3", "feature-title", p.title));
-    if (p.quote) box.appendChild(el("blockquote", "piece-quote", p.quote));
+    if (p.quote) box.appendChild(rich("blockquote", "piece-quote", p.quote));
     if (p.original) box.appendChild(el("p", "piece-original", p.original));
-    if (p.text) box.appendChild(el("p", "piece-summary", p.text));
+    if (p.text) box.appendChild(rich("p", "piece-summary", p.text));
     if (p.credit) box.appendChild(el("p", "piece-credit", p.credit));
     if (p.sign) box.appendChild(el("p", "piece-sign", p.sign));
     if (p.more && p.more.link) {
