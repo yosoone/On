@@ -642,3 +642,4 @@ footer nav{display:block}
 .piece-summary em,.piece-quote em{font-style:italic}
 .piece.inline .piece-sign{font-size:1.15rem;line-height:1.75;letter-spacing:normal}
 @media print{html:is([data-page="issue"],[data-page="current"]) .piece.inline .piece-sign{font-size:10.5pt;line-height:1.8}}
+.piece-summary .piece-sig{color:var(--ink-soft)}

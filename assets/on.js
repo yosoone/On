@@ -89,7 +89,16 @@
     // River's texts show only the verse; their title is kept for screen readers.
     var river = it.source === "river";
     a.appendChild(el("h3", river ? "visually-hidden" : null, it.title));
-    if (it.summary && (river || it.summary !== it.title)) a.appendChild(el("p", "piece-summary", it.summary));
+    if (it.summary && (river || it.summary !== it.title)) {
+      var sum = el("p", "piece-summary", it.summary);
+      // River's closing 'Yoso' takes the soft grey of the signature under written pieces
+      var m = river && /^([\s\S]*\n)(Yoso)\s*$/.exec(it.summary);
+      if (m) {
+        sum.textContent = m[1];
+        sum.appendChild(el("span", "piece-sig", m[2]));
+      }
+      a.appendChild(sum);
+    }
     a.appendChild(el("span", "piece-more", !it.source ? "Open the link"
       : it.gone ? "No longer on " + s.name
       : it.image ? "View larger"
