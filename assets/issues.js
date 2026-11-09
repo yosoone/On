@@ -48,6 +48,16 @@
 */
 window.ON_ISSUES = [
   {
+    number: 1,
+    title: "神無月 Kannazuki",
+    date: "2026-11-09",
+    opens: "2026-11-09",
+    closes: "2026-12-08",
+    intro: "",
+    pieces: [],
+    past: []
+  },
+  {
     number: 0,
     title: "長月 Nagatsuki",
     date: "2026-10-30",
