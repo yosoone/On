@@ -118,6 +118,7 @@
       box.appendChild(f);
     }
     box.appendChild(el("h3", "feature-title", p.title));
+    if (p.quote) box.appendChild(el("blockquote", "piece-quote", p.quote));
     if (p.original) box.appendChild(el("p", "piece-original", p.original));
     if (p.text) box.appendChild(el("p", "piece-summary", p.text));
     if (p.credit) box.appendChild(el("p", "piece-credit", p.credit));
@@ -264,6 +265,7 @@
     function add(it) {
       if (it.inline) {
         md.push("## " + it.title, "");
+        if (it.quote) md.push("> " + it.quote.split("\n").join("  \n> "), "");
         if (it.image) md.push("![" + (it.alt || it.title) + "](" + it.image + ")", "");
         if (it.original) md.push(it.original.split("\n").join("  \n"), "");
         if (it.text) md.push(it.text.split("\n").join("  \n"), "");
