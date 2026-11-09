@@ -54,7 +54,12 @@ window.ON_ISSUES = [
     opens: "2026-11-09",
     closes: "2026-12-08",
     intro: "",
-    pieces: [],
+    pieces: [
+      "https://river.yoso.one/#t294",
+      "https://river.yoso.one/#t318",
+      "https://river.yoso.one/#t321",
+      "https://river.yoso.one/#t320"
+    ],
     past: []
   },
   {
