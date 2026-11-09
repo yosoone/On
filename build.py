@@ -44,6 +44,14 @@ SOURCES = [
     {"key": "river", "name": "River", "kanji": "川", "site": "https://river.yoso.one/",
      "feed": "https://river.yoso.one/feed.xml"},
 ]
+# Hashtags for each site's pieces in On's feed (the Fediverse posts made from it).
+# Each becomes a <category> and a visible #tag under the piece. Edit freely.
+TAGS = {
+    "vault":   ["Yoso", "One", "Writing"],
+    "kuro":    ["Yoso", "Kuro", "Photography", "BlackAndWhite", "Japan"],
+    "shinsei": ["Yoso", "Shinsei", "Painting", "AbstractArt"],
+    "river":   ["Yoso", "River", "Poetry", "Mindfulness"],
+}
 FEED_ITEMS = 40          # pieces in On's own feed.xml
 FEED_PER_SOURCE = 12     # so one busy site cannot fill the feed
 SUMMARY_CHARS = 220
@@ -246,14 +254,17 @@ def write(archive):
         if p["image"]:
             body += f'<p><img src="{html.escape(p["image"])}" alt="{html.escape(p["alt"])}"></p>'
         if p["summary"]:
-            body += f"<p>{html.escape(p['summary'])}</p>"
+            body += "<p>" + "<br>".join(html.escape(l) for l in p["summary"].split("\n")) + "</p>"
         body += f'<p>From {html.escape(names[p["source"]])}.</p>'
+        tags = TAGS.get(p["source"], [])
+        if tags:
+            body += "<p>" + " ".join("#" + t for t in tags) + "</p>"
         out += ["  <item>",
                 f"    <title>{xml_escape(p['title'])}</title>",
                 f"    <link>{xml_escape(p['link'])}</link>",
                 f'    <guid isPermaLink="false">on-{xml_escape(p["uid"])}</guid>',
                 f"    <pubDate>{format_datetime(datetime.fromisoformat(p['date']))}</pubDate>",
-                f"    <category>{xml_escape(names[p['source']])}</category>",
+                *[f"    <category>{xml_escape(t)}</category>" for t in (TAGS.get(p['source']) or [names[p['source']]])],
                 f"    <description>{xml_escape(body)}</description>",
                 "  </item>"]
     out += ["</channel>", "</rss>", ""]
